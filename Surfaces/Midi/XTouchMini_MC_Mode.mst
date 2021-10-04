@@ -1,0 +1,190 @@
+/
+/ Behringer X-Touch Mini
+/ v1.00
+/
+
+/ Rotary controllers
+/
+Widget Rotary1
+	Encoder b0 10 7f [ > 01-0a < 41-4a ]
+	FB_Encoder b0 10 7f
+	Toggle 90 20 7f
+WidgetEnd
+
+Widget Rotary2
+	Encoder b0 11 7f [ > 01-0a < 41-4a ]
+	FB_Encoder b0 11 7f
+	Toggle 90 21 7f
+WidgetEnd
+
+Widget Rotary3
+	Encoder b0 12 7f [ > 01-0a < 41-4a ]
+	FB_Encoder b0 12 7f
+	Toggle 90 22 7f
+WidgetEnd
+
+Widget Rotary4
+	Encoder b0 13 7f [ > 01-0a < 41-4a ]
+	FB_Encoder b0 13 7f
+	Toggle 90 23 7f
+WidgetEnd
+
+Widget Rotary5
+	Encoder b0 14 7f [ > 01-0a < 41-4a ]
+	FB_Encoder b0 14 7f
+	Toggle 90 24 7f4
+WidgetEnd
+
+Widget Rotary6
+	Encoder b0 15 7f [ > 01-0a < 41-4a ]
+	FB_Encoder b0 15 7f
+	Toggle 90 25 7f
+WidgetEnd
+
+Widget Rotary7
+	Encoder b0 16 7f [ > 01-0a < 41-4a ]
+	FB_Encoder b0 16 7f
+	Toggle 90 26 7f
+WidgetEnd
+
+Widget Rotary8
+	Encoder b0 17 7f [ > 01-0a < 41-4a ]
+	FB_Encoder b0 17 7f
+	Toggle 90 27 7f
+WidgetEnd
+
+/Rotary controller push buttons
+/
+Widget RotaryPush1
+	Press 90 20 7f 90 20 00
+WidgetEnd
+
+Widget RotaryPush2
+	Press 90 21 7f 90 21 00
+WidgetEnd
+
+Widget RotaryPush3
+	Press 90 22 7f 90 22 00 
+WidgetEnd
+
+Widget RotaryPush4
+	Press 90 23 7f 90 23 00
+WidgetEnd
+
+Widget RotaryPush5
+	Press 90 24 7f 90 24 00
+WidgetEnd
+
+Widget RotaryPush6
+	Press 90 25 7f 90 25 00
+WidgetEnd
+
+Widget RotaryPush7
+	Press 90 26 7f 90 26 00
+WidgetEnd
+
+Widget RotaryPush8
+	Press 90 27 7f 90 27 00
+WidgetEnd
+
+/ Buttons upper row
+/
+Widget ButtonUpper1
+	Press 90 59 7f 90 59 00
+	FB_TwoState 90 59 7f 90 59 00
+WidgetEnd
+
+Widget ButtonUpper2
+	Press 90 5a 7f 90 5a 00
+	FB_TwoState 90 5a 7f 90 5a 00
+WidgetEnd
+
+Widget ButtonUpper3
+	Press 90 28 7f 90 28 00
+	FB_TwoState 90 28 7f 90 28 00
+WidgetEnd
+
+Widget ButtonUpper4
+	Press 90 29 7f 90 29 00
+	FB_TwoState 90 29 7f 90 29 00
+WidgetEnd
+
+Widget ButtonUpper5
+	Press 90 2a 7f  90 2a 00
+	FB_TwoState 90 2a 7f 90 2a 00
+WidgetEnd
+
+Widget ButtonUpper6
+	Press 90 2b 7f 90 2b 00
+	FB_TwoState 90 2b 7f 90 2b 00
+WidgetEnd
+
+Widget ButtonUpper7
+	Press 90 2c 7f 90 2c 00
+	FB_TwoState 90 2c 7f 90 2c 00
+WidgetEnd
+
+Widget ButtonUpper8
+	Press 90 2d 7f 90 2d 00
+	FB_TwoState 90 2d 7f 90 2d 00
+WidgetEnd
+
+/ Buttons bottom row
+/
+Widget ButtonLower1
+	Press 90 57 7f 90 57 00
+	FB_TwoState 90 57 7f 90 57 00
+WidgetEnd
+
+Widget ButtonLower2
+	Press 90 58 7f 90 58 00
+	FB_TwoState 90 58 7f 90 58 00
+WidgetEnd
+
+Widget ButtonLower3
+	Press 90 5b 7f 90 5b 00
+	FB_TwoState 90 5b 00 90 5b 00
+WidgetEnd
+
+Widget ButtonLower4
+	Press 90 5c 7f 90 5c 00
+	FB_TwoState 90 5c 00 90 5c 00
+WidgetEnd
+
+Widget ButtonLower5
+	Press 90 56 7f 90 56 00
+	FB_TwoState 90 56 7f 90 56 00
+WidgetEnd
+
+Widget ButtonLower6
+	Press 90 5d 7f 90 5d 00
+	FB_TwoState 90 5d 7f 90 5d 00
+WidgetEnd
+
+Widget ButtonLower7
+	Press 90 5e 7f 90 5e 00
+	FB_TwoState 90 5e 7f 90 5e 00
+WidgetEnd
+
+Widget ButtonLower8
+	Press 90 5f 7f 90 5f 00
+	FB_TwoState 90 5f 7f 90 5f 00
+WidgetEnd
+
+/ "LAYER" Buttons
+/
+Widget LayerA
+	Press 90 54 7f 90 54 00
+	FB_TwoState 90 54 7f 90 54 00
+WidgetEnd
+
+Widget LayerB
+	Press 90 55 7f 90 55 00
+	FB_TwoState 90 55 7f 90 55 00
+WidgetEnd
+
+/ Fader
+/
+Widget Fader
+	Fader14Bit e8 7f 7f
+WidgetEnd
