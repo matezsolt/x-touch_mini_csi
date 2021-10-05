@@ -1,0 +1,115 @@
+Zone "VST: TR5 Classic EQ (IK Multimedia)"
+
+	FocusedFXNavigator
+	
+	LayerA						GoZone "Home"
+
+	Rotary1						FXParam 0 "Band 1 Freq"
+	Rotary2						FXParam 2 "Band 2 Gain"
+	Rotary3						FXParam 5 "Band 3 Gain"
+	Rotary4 					FXParam 9 "Band 4 Gain"
+	Rotary5						FXParam 13 "Band 5 Gain"
+	Rotary6						FXParam 16 "Band 6 Freq"
+	Rotary7						FXParam 18 "Output Level"
+	Rotary8						NoAction
+
+	ButtonUpper1 				FXParam 19 "Bypass" [ 0.0 1.0 ]
+	ButtonUpper2 				FXParam 1 "Band 1 Active" [ 0.0 1.0 ]
+	ButtonUpper3 				FXParam 3 "Band 2 Active" [ 0.0 1.0 ]
+	ButtonUpper4 				FXParam 6 "Band 3 Active" [ 0.0 1.0 ]
+	ButtonUpper5 				FXParam 10 "Band 4 Active" [ 0.0 1.0 ]
+	ButtonUpper6 				FXParam 14 "Band 5 Active" [ 0.0 1.0 ]
+	ButtonUpper7 				FXParam 17 "Band 6 Active" [ 0.0 1.0 ]
+	ButtonUpper8 				NoAction
+
+	RotaryPush1 				NoAction
+	RotaryPush2 				NoAction
+	RotaryPush3 				NoAction
+	RotaryPush4 				NoAction
+	RotaryPush5 				NoAction
+	RotaryPush6 				NoAction
+	RotaryPush7 				NoAction
+	RotaryPush8 				NoAction
+
+	Shift+Rotary1				FXParam 4 "Band 2 Freq"
+	Shift+Rotary2				FXParam 7 "Band 3 Freq"
+	Shift+Rotary3				FXParam 8 "Band 3 Q"
+	Shift+Rotary4				FXParam 11 "Band 4 Freq"
+	Shift+Rotary5				FXParam 12 "Band 4 Q"
+	Shift+Rotary6				FXParam 15 "Band 5 Freq"
+	Shift+Rotary7				NoAction
+	Shift+Rotary8				NoAction
+	
+	Shift+ButtonUpper1 			NoAction
+	Shift+ButtonUpper2 			NoAction
+	Shift+ButtonUpper3 			NoAction
+	Shift+ButtonUpper4 			NoAction
+	Shift+ButtonUpper5 			NoAction
+	Shift+ButtonUpper6 			NoAction
+	Shift+ButtonUpper7 			NoAction
+	Shift+ButtonUpper8 			NoAction
+
+	Shift+RotaryPush1 			NoAction
+	Shift+RotaryPush2 			NoAction
+	Shift+RotaryPush3 			NoAction
+	Shift+RotaryPush4 			NoAction
+	Shift+RotaryPush5 			NoAction
+	Shift+RotaryPush6 			NoAction
+	Shift+RotaryPush7 			NoAction
+	Shift+RotaryPush8 			NoAction
+
+	Control+Rotary1		 		FXParam 0 "Band 1 Freq"
+	Control+Rotary2		 		FXParam 2 "Band 2 Gain"
+	Control+Rotary3		 		FXParam 5 "Band 3 Gain"
+	Control+Rotary4		 		FXParam 9 "Band 4 Gain"
+	Control+Rotary5		 		FXParam 13 "Band 5 Gain"
+	Control+Rotary6		 		FXParam 16 "Band 6 Freq"
+	Control+Rotary7		 		FXParam 18 "Output Level"
+	Control+Rotary8		 		NoAction
+                                
+	Control+ButtonUpper1 		FXParam 19 "Bypass" [ 0.0 1.0 ]
+	Control+ButtonUpper2 		FXParam 1 "Band 1 Active" [ 0.0 1.0 ]
+	Control+ButtonUpper3 		FXParam 3 "Band 2 Active" [ 0.0 1.0 ]
+	Control+ButtonUpper4 		FXParam 6 "Band 3 Active" [ 0.0 1.0 ]
+	Control+ButtonUpper5 		FXParam 10 "Band 4 Active" [ 0.0 1.0 ]
+	Control+ButtonUpper6 		FXParam 14 "Band 5 Active" [ 0.0 1.0 ]
+	Control+ButtonUpper7 		FXParam 17 "Band 6 Active" [ 0.0 1.0 ]
+	Control+ButtonUpper8 		NoAction
+	
+	Control+RotaryPush1 		NoAction
+	Control+RotaryPush2 		NoAction
+	Control+RotaryPush3 		NoAction
+	Control+RotaryPush4 		NoAction
+	Control+RotaryPush5 		NoAction
+	Control+RotaryPush6 		NoAction
+	Control+RotaryPush7 		NoAction
+	Control+RotaryPush8 		NoAction
+	
+	Control+Shift+Rotary1		FXParam 4 "Band 2 Freq"
+	Control+Shift+Rotary2		FXParam 7 "Band 3 Freq"
+	Control+Shift+Rotary3		FXParam 8 "Band 3 Q"
+	Control+Shift+Rotary4		FXParam 11 "Band 4 Freq"
+	Control+Shift+Rotary5		FXParam 12 "Band 4 Q"
+	Control+Shift+Rotary6		FXParam 15 "Band 5 Freq"
+	Control+Shift+Rotary7		NoAction
+	Control+Shift+Rotary8		NoAction
+
+	Control+Shift+ButtonUpper1 	NoAction
+	Control+Shift+ButtonUpper2 	NoAction
+	Control+Shift+ButtonUpper3 	NoAction
+	Control+Shift+ButtonUpper4 	NoAction
+	Control+Shift+ButtonUpper5 	NoAction
+	Control+Shift+ButtonUpper6 	NoAction
+	Control+Shift+ButtonUpper7 	NoAction
+	Control+Shift+ButtonUpper8 	NoAction
+
+	Control+Shift+RotaryPush1 	NoAction
+	Control+Shift+RotaryPush2 	NoAction
+	Control+Shift+RotaryPush3 	NoAction
+	Control+Shift+RotaryPush4 	NoAction
+	Control+Shift+RotaryPush5 	NoAction
+	Control+Shift+RotaryPush6 	NoAction
+	Control+Shift+RotaryPush7 	NoAction
+	Control+Shift+RotaryPush8 	NoAction
+
+ZoneEnd

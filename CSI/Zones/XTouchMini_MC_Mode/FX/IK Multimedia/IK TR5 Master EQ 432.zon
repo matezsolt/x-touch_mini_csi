@@ -1,0 +1,115 @@
+Zone "VST: TR5 Master EQ-432 (IK Multimedia)"
+
+	FocusedFXNavigator
+	
+	LayerA						GoZone "Home"
+
+	Rotary1						FXParam 3 "High Shelf Gain"
+	Rotary2						FXParam 4 "Low Shelf Gain"
+	Rotary3						FXParam 7 "Low Peak Q" [ 0.0 0.25 0.5 0.75 1.0 ]
+	Rotary4 					FXParam 6 "Low Peak Freq"
+	Rotary5						FXParam 10 "Mid Peak Q" [ 0.0 0.25 0.5 0.75 1.0 ]
+	Rotary6						FXParam 9 "Mid Peak Freq"
+	Rotary7						FXParam 13 "High Peak Q" [ 0.0 0.25 0.5 0.75 1.0 ]
+	Rotary8						FXParam 12 "High Peak Freq"
+
+	ButtonUpper1 				FXParam 14 "Bypass" [ 0.0 1.0 ]
+	ButtonUpper2 				FXParam 2 "Low Shelf Shift" [ 0.0 1.0 ]
+	ButtonUpper3 				FXParam 0 "Range" [ 0.0 ]
+	ButtonUpper4 				FXParam 0 "Range" [ 0.5 ]
+	ButtonUpper5 				FXParam 0 "Range" [ 1.0 ]
+	ButtonUpper6 				NoAction
+	ButtonUpper7 				NoAction
+	ButtonUpper8 				NoAction
+
+	RotaryPush1 				NoAction
+	RotaryPush2 				NoAction
+	RotaryPush3 				NoAction
+	RotaryPush4 				NoAction
+	RotaryPush5 				NoAction
+	RotaryPush6 				NoAction
+	RotaryPush7 				NoAction
+	RotaryPush8 				NoAction
+
+	Shift+Rotary1				FXParam 1 "Output"
+	Shift+Rotary2				FXParam 5 "Low Peak Gain"
+	Shift+Rotary3				NoAction
+	Shift+Rotary4				FXParam 8 "Mid Peak Gain"
+	Shift+Rotary5				NoAction
+	Shift+Rotary6				FXParam 11 "High Peak Gain"
+	Shift+Rotary7				NoAction
+	Shift+Rotary8				NoAction
+	
+	Shift+ButtonUpper1 			NoAction
+	Shift+ButtonUpper2 			NoAction
+	Shift+ButtonUpper3 			NoAction
+	Shift+ButtonUpper4 			NoAction
+	Shift+ButtonUpper5 			NoAction
+	Shift+ButtonUpper6 			NoAction
+	Shift+ButtonUpper7 			NoAction
+	Shift+ButtonUpper8 			NoAction
+
+	Shift+RotaryPush1 			NoAction
+	Shift+RotaryPush2 			NoAction
+	Shift+RotaryPush3 			NoAction
+	Shift+RotaryPush4 			NoAction
+	Shift+RotaryPush5 			NoAction
+	Shift+RotaryPush6 			NoAction
+	Shift+RotaryPush7 			NoAction
+	Shift+RotaryPush8 			NoAction
+
+	Control+Rotary1		 		FXParam 3 "High Shelf Gain"
+	Control+Rotary2		 		FXParam 4 "Low Shelf Gain"
+	Control+Rotary3		 		FXParam 7 "Low Peak Q" [ 0.0 0.25 0.5 0.75 1.0 ]
+	Control+Rotary4		 		FXParam 6 "Low Peak Freq"
+	Control+Rotary5		 		FXParam 10 "Mid Peak Q" [ 0.0 0.25 0.5 0.75 1.0 ]
+	Control+Rotary6		 		FXParam 9 "Mid Peak Freq"
+	Control+Rotary7		 		FXParam 13 "High Peak Q" [ 0.0 0.25 0.5 0.75 1.0 ]
+	Control+Rotary8		 		FXParam 12 "High Peak Freq"
+                                
+	Control+ButtonUpper1 		FXParam 14 "Bypass" [ 0.0 1.0 ]
+	Control+ButtonUpper2 		FXParam 2 "Low Shelf Shift" [ 0.0 1.0 ]
+	Control+ButtonUpper3 		FXParam 0 "Range" [ 0.0 ]
+	Control+ButtonUpper4 		FXParam 0 "Range" [ 0.5 ]
+	Control+ButtonUpper5 		FXParam 0 "Range" [ 1.0 ]
+	Control+ButtonUpper6 		NoAction
+	Control+ButtonUpper7 		NoAction
+	Control+ButtonUpper8 		NoAction
+	
+	Control+RotaryPush1 		NoAction
+	Control+RotaryPush2 		NoAction
+	Control+RotaryPush3 		NoAction
+	Control+RotaryPush4 		NoAction
+	Control+RotaryPush5 		NoAction
+	Control+RotaryPush6 		NoAction
+	Control+RotaryPush7 		NoAction
+	Control+RotaryPush8 		NoAction
+	
+	Control+Shift+Rotary1		FXParam 1 "Output"
+	Control+Shift+Rotary2		FXParam 5 "Low Peak Gain"
+	Control+Shift+Rotary3		NoAction
+	Control+Shift+Rotary4		FXParam 8 "Mid Peak Gain"
+	Control+Shift+Rotary5		NoAction
+	Control+Shift+Rotary6		FXParam 11 "High Peak Gain"
+	Control+Shift+Rotary7		NoAction
+	Control+Shift+Rotary8		NoAction
+
+	Control+Shift+ButtonUpper1 	NoAction
+	Control+Shift+ButtonUpper2 	NoAction
+	Control+Shift+ButtonUpper3 	NoAction
+	Control+Shift+ButtonUpper4 	NoAction
+	Control+Shift+ButtonUpper5 	NoAction
+	Control+Shift+ButtonUpper6 	NoAction
+	Control+Shift+ButtonUpper7 	NoAction
+	Control+Shift+ButtonUpper8 	NoAction
+
+	Control+Shift+RotaryPush1 	NoAction
+	Control+Shift+RotaryPush2 	NoAction
+	Control+Shift+RotaryPush3 	NoAction
+	Control+Shift+RotaryPush4 	NoAction
+	Control+Shift+RotaryPush5 	NoAction
+	Control+Shift+RotaryPush6 	NoAction
+	Control+Shift+RotaryPush7 	NoAction
+	Control+Shift+RotaryPush8 	NoAction
+
+ZoneEnd
