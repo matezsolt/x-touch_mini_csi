@@ -1,19 +1,19 @@
-Zone "VST: TR5 Classic Clipper (IK Multimedia)"
-	
+Zone "Dummy"
+
 	FocusedFXNavigator
 	
 	LayerA						GoZone "Home"
 
-	Rotary1						FXParam 0 "Gain"
-	Rotary2						FXParam 1 "Slope"
-	Rotary3						FXParam 2 "Output"
+	Rotary1						NoAction
+	Rotary2						NoAction
+	Rotary3						NoAction
 	Rotary4 					NoAction
 	Rotary5						NoAction
 	Rotary6						NoAction
 	Rotary7						NoAction
 	Rotary8						NoAction
 
-	ButtonUpper1 				FXParam 3 "Bypass" [ 0.0 1.0 ]
+	ButtonUpper1 				NoAction
 	ButtonUpper2 				NoAction
 	ButtonUpper3 				NoAction
 	ButtonUpper4 				NoAction
@@ -38,7 +38,7 @@ Zone "VST: TR5 Classic Clipper (IK Multimedia)"
 	Shift+Rotary5				NoAction
 	Shift+Rotary6				NoAction
 	Shift+Rotary7				NoAction
-	Shift+Rotary8				FXParam 4 "Wet"
+	Shift+Rotary8				NoAction
 	
 	Shift+ButtonUpper1 			NoAction
 	Shift+ButtonUpper2 			NoAction
@@ -58,16 +58,16 @@ Zone "VST: TR5 Classic Clipper (IK Multimedia)"
 	Shift+RotaryPush7 			NoAction
 	Shift+RotaryPush8 			NoAction
 
-	Control+Rotary1		 		FXParam 0 "Gain"
-	Control+Rotary2		 		FXParam 1 "Slope"
-	Control+Rotary3		 		FXParam 2 "Output"
+	Control+Rotary1		 		NoAction
+	Control+Rotary2		 		NoAction
+	Control+Rotary3		 		NoAction
 	Control+Rotary4		 		NoAction
 	Control+Rotary5		 		NoAction
 	Control+Rotary6		 		NoAction
 	Control+Rotary7		 		NoAction
 	Control+Rotary8		 		NoAction
 
-	Control+ButtonUpper1 		FXParam 3 "Bypass" [ 0.0 1.0 ]
+	Control+ButtonUpper1 		NoAction
 	Control+ButtonUpper2 		NoAction
 	Control+ButtonUpper3 		NoAction
 	Control+ButtonUpper4 		NoAction
@@ -92,7 +92,7 @@ Zone "VST: TR5 Classic Clipper (IK Multimedia)"
 	Control+Shift+Rotary5		NoAction
 	Control+Shift+Rotary6		NoAction
 	Control+Shift+Rotary7		NoAction
-	Control+Shift+Rotary8		FXParam 4 "Wet"
+	Control+Shift+Rotary8		NoAction
 
 	Control+Shift+ButtonUpper1 	NoAction
 	Control+Shift+ButtonUpper2 	NoAction
@@ -111,5 +111,5 @@ Zone "VST: TR5 Classic Clipper (IK Multimedia)"
 	Control+Shift+RotaryPush6 	NoAction
 	Control+Shift+RotaryPush7 	NoAction
 	Control+Shift+RotaryPush8 	NoAction
-	
+
 ZoneEnd
