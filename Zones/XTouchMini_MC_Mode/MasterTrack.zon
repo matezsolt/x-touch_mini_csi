@@ -1,7 +1,0 @@
-Zone "MasterTrack"
-
-    MasterTrackNavigator
-    
-	Fader                 TrackVolume
-	
-ZoneEnd
