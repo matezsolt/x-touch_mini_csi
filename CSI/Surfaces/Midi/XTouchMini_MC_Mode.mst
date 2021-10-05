@@ -6,49 +6,49 @@
 / Rotary controllers
 /
 Widget Rotary1
-	Encoder b0 10 7f [ > 01-0a < 41-4a ]
+	Encoder b0 10 7f [ > 01-07 < 41-47 ]
 	FB_Encoder b0 10 7f
 	Toggle 90 20 7f
 WidgetEnd
 
 Widget Rotary2
-	Encoder b0 11 7f [ > 01-0a < 41-4a ]
+	Encoder b0 11 7f [ > 01-07 < 41-47 ]
 	FB_Encoder b0 11 7f
 	Toggle 90 21 7f
 WidgetEnd
 
 Widget Rotary3
-	Encoder b0 12 7f [ > 01-0a < 41-4a ]
+	Encoder b0 12 7f [ > 01-07 < 41-47 ]
 	FB_Encoder b0 12 7f
 	Toggle 90 22 7f
 WidgetEnd
 
 Widget Rotary4
-	Encoder b0 13 7f [ > 01-0a < 41-4a ]
+	Encoder b0 13 7f [ > 01-07 < 41-47 ]
 	FB_Encoder b0 13 7f
 	Toggle 90 23 7f
 WidgetEnd
 
 Widget Rotary5
-	Encoder b0 14 7f [ > 01-0a < 41-4a ]
+	Encoder b0 14 7f [ > 01-07 < 41-47 ]
 	FB_Encoder b0 14 7f
 	Toggle 90 24 7f4
 WidgetEnd
 
 Widget Rotary6
-	Encoder b0 15 7f [ > 01-0a < 41-4a ]
+	Encoder b0 15 7f [ > 01-07 < 41-47 ]
 	FB_Encoder b0 15 7f
 	Toggle 90 25 7f
 WidgetEnd
 
 Widget Rotary7
-	Encoder b0 16 7f [ > 01-0a < 41-4a ]
+	Encoder b0 16 7f [ > 01-07 < 41-47 ]
 	FB_Encoder b0 16 7f
 	Toggle 90 26 7f
 WidgetEnd
 
 Widget Rotary8
-	Encoder b0 17 7f [ > 01-0a < 41-4a ]
+	Encoder b0 17 7f [ > 01-07 < 41-47 ]
 	FB_Encoder b0 17 7f
 	Toggle 90 27 7f
 WidgetEnd

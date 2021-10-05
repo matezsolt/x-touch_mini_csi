@@ -1,0 +1,115 @@
+Zone "VST: AmpliTube 5 (IK Multimedia)"
+
+	FocusedFXNavigator
+	
+	LayerA						GoZone "Home"
+
+	Rotary1						FXParam 0 "Param 1"
+	Rotary2						FXParam 1 "Param 2"
+	Rotary3						FXParam 2 "Param 3"
+	Rotary4 					FXParam 3 "Param 4"
+	Rotary5						FXParam 4 "Param 5"
+	Rotary6						FXParam 5 "Param 6"
+	Rotary7						FXParam 6 "Param 7"
+	Rotary8						FXParam 7 "Param 8"
+
+	ButtonUpper1 				FXParam 16 "Bypass"
+	ButtonUpper2 				NoAction
+	ButtonUpper3 				NoAction
+	ButtonUpper4 				NoAction
+	ButtonUpper5 				NoAction
+	ButtonUpper6 				NoAction
+	ButtonUpper7 				NoAction
+	ButtonUpper8 				NoAction
+
+	RotaryPush1 				NoAction
+	RotaryPush2 				NoAction
+	RotaryPush3 				NoAction
+	RotaryPush4 				NoAction
+	RotaryPush5 				NoAction
+	RotaryPush6 				NoAction
+	RotaryPush7 				NoAction
+	RotaryPush8 				NoAction
+
+	Shift+Rotary1				FXParam 8 "Param 9"
+	Shift+Rotary2				FXParam 9 "Param 10"
+	Shift+Rotary3				FXParam 10 "Param 11"
+	Shift+Rotary4				FXParam 11 "Param 12"
+	Shift+Rotary5				FXParam 12 "Param 13"
+	Shift+Rotary6				FXParam 13 "Param 14"
+	Shift+Rotary7				FXParam 14 "Param 15"
+	Shift+Rotary8				FXParam 15 "Param 16"
+	
+	Shift+ButtonUpper1 			NoAction
+	Shift+ButtonUpper2 			NoAction
+	Shift+ButtonUpper3 			NoAction
+	Shift+ButtonUpper4 			NoAction
+	Shift+ButtonUpper5 			NoAction
+	Shift+ButtonUpper6 			NoAction
+	Shift+ButtonUpper7 			NoAction
+	Shift+ButtonUpper8 			NoAction
+
+	Shift+RotaryPush1 			NoAction
+	Shift+RotaryPush2 			NoAction
+	Shift+RotaryPush3 			NoAction
+	Shift+RotaryPush4 			NoAction
+	Shift+RotaryPush5 			NoAction
+	Shift+RotaryPush6 			NoAction
+	Shift+RotaryPush7 			NoAction
+	Shift+RotaryPush8 			NoAction
+
+	Control+Rotary1		 		FXParam 0 "Param 1"
+	Control+Rotary2		 		FXParam 1 "Param 2"
+	Control+Rotary3		 		FXParam 2 "Param 3"
+	Control+Rotary4		 		FXParam 3 "Param 4"
+	Control+Rotary5		 		FXParam 4 "Param 5"
+	Control+Rotary6		 		FXParam 5 "Param 6"
+	Control+Rotary7		 		FXParam 6 "Param 7"
+	Control+Rotary8		 		FXParam 7 "Param 8"
+                                
+	Control+ButtonUpper1 		FXParam 16 "Bypass"
+	Control+ButtonUpper2 		NoAction
+	Control+ButtonUpper3 		NoAction
+	Control+ButtonUpper4 		NoAction
+	Control+ButtonUpper5 		NoAction
+	Control+ButtonUpper6 		NoAction
+	Control+ButtonUpper7 		NoAction
+	Control+ButtonUpper8 		NoAction
+	
+	Control+RotaryPush1 		NoAction
+	Control+RotaryPush2 		NoAction
+	Control+RotaryPush3 		NoAction
+	Control+RotaryPush4 		NoAction
+	Control+RotaryPush5 		NoAction
+	Control+RotaryPush6 		NoAction
+	Control+RotaryPush7 		NoAction
+	Control+RotaryPush8 		NoAction
+	
+	Control+Shift+Rotary1		FXParam 8 "Param 9"
+	Control+Shift+Rotary2		FXParam 9 "Param 10"
+	Control+Shift+Rotary3		FXParam 10 "Param 11"
+	Control+Shift+Rotary4		FXParam 11 "Param 12"
+	Control+Shift+Rotary5		FXParam 12 "Param 13"
+	Control+Shift+Rotary6		FXParam 13 "Param 14"
+	Control+Shift+Rotary7		FXParam 14 "Param 15"
+	Control+Shift+Rotary8		FXParam 15 "Param 16"
+
+	Control+Shift+ButtonUpper1 	NoAction
+	Control+Shift+ButtonUpper2 	NoAction
+	Control+Shift+ButtonUpper3 	NoAction
+	Control+Shift+ButtonUpper4 	NoAction
+	Control+Shift+ButtonUpper5 	NoAction
+	Control+Shift+ButtonUpper6 	NoAction
+	Control+Shift+ButtonUpper7 	NoAction
+	Control+Shift+ButtonUpper8 	NoAction
+
+	Control+Shift+RotaryPush1 	NoAction
+	Control+Shift+RotaryPush2 	NoAction
+	Control+Shift+RotaryPush3 	NoAction
+	Control+Shift+RotaryPush4 	NoAction
+	Control+Shift+RotaryPush5 	NoAction
+	Control+Shift+RotaryPush6 	NoAction
+	Control+Shift+RotaryPush7 	NoAction
+	Control+Shift+RotaryPush8 	NoAction
+
+ZoneEnd
