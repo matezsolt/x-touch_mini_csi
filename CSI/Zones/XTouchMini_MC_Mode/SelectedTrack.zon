@@ -1,0 +1,15 @@
+Zone "SelectedTrack"
+    SelectedTrackNavigator
+
+    Fader                              	TrackVolume
+
+    ButtonLower1                		SelectedTrackBank "-1"
+    ButtonLower2                		SelectedTrackBank "1"
+
+	LayerA								GoZone "Home"
+
+	IncludedZones
+		"SelectedTrackSend"
+	IncludedZonesEnd    	
+
+ZoneEnd
