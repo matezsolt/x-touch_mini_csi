@@ -9,5 +9,7 @@
 1. Install Reaper
 2. Install CSI
 3. Put CSI folder and it's files into the Reaper Resource Path\CSI folder keeping the structure.
+4. Do not forget to disable X-TOUCH MINI In/Out MIDI ports in Reaper > Option > Preferences > MIDI devices
+5. X-Touch Mini needs to be in MC mode (MC MODE LED is lit). You can change from normal mode with powering up and holding down MC button, until the LEDs flash.
 
 Enjoy!
