@@ -1,0 +1,33 @@
+Zone "VST: TR5 Classic Comp (IK Multimedia)"
+
+	FocusedFXNavigator
+	
+	IncludedZones
+		"Default FX Zone"
+	IncludedZonesEnd    	
+
+	Rotary1								FXParam 0 "Side Chain HPF"
+	Rotary2								FXParam 1 "Attack Time"
+	Rotary3								FXParam 2 "Release Time"
+	Rotary4 							FXParam 3 "Stereo Enhancement"
+	Rotary5								FXParam 4 "Ratio"
+	Rotary6								FXParam 5 "Input Drive"
+	Rotary7								FXParam 6 "Output"
+
+	InvertFB+ButtonUpper1 				FXParam 7 "Bypass" [ 0.0 1.0 ]
+
+	Shift+Rotary8						FXParam 8 "Wet"
+
+	Control+Rotary1		 				FXParam 0 "Side Chain HPF"
+	Control+Rotary2		 				FXParam 1 "Attack Time"
+	Control+Rotary3		 				FXParam 2 "Release Time"
+	Control+Rotary4		 				FXParam 3 "Stereo Enhancement"
+	Control+Rotary5		 				FXParam 4 "Ratio"
+	Control+Rotary6		 				FXParam 5 "Input Drive"
+	Control+Rotary7		 				FXParam 6 "Output"
+
+	Control+InvertFB+ButtonUpper1 		FXParam 7 "Bypass" [ 0.0 1.0 ]
+
+	Control+Shift+Rotary8				FXParam 8 "Wet"
+
+ZoneEnd

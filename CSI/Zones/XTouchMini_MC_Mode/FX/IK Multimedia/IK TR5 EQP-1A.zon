@@ -2,132 +2,38 @@ Zone "VST: TR5 EQP-1A (IK Multimedia)"
 
 	FocusedFXNavigator
 	
-	LayerA						GoZone "Home"
+	IncludedZones
+		"Default FX Zone"
+	IncludedZonesEnd    	
 		
-	Rotary1 					FXParam 0 "Boost Low"
-	Rotary2						FXParam 1 "Atten Low"
-	Rotary3						FXParam 2 "Boost High"
-	Rotary4						FXParam 3 "Atten High"
-	Rotary5						FXParam 5 "CPS" [ 0.0 0.34 0.67 1.0 ]
-	Rotary6						FXParam 6 "Bandwidth"
-	Rotary7						FXParam 7 "KCS" [ 0.0 0.17 0.34 0.51 0.68 0.85 1.0 ]
-	Rotary8						FXParam 8 "Output"
+	Rotary1 							FXParam 0 "Boost Low"
+	Rotary2								FXParam 1 "Atten Low"
+	Rotary3								FXParam 2 "Boost High"
+	Rotary4								FXParam 3 "Atten High"
+	Rotary5								FXParam 5 "CPS" [ 0.0 0.34 0.67 1.0 ]
+	Rotary6								FXParam 6 "Bandwidth"
+	Rotary7								FXParam 7 "KCS" [ 0.0 0.17 0.34 0.51 0.68 0.85 1.0 ]
+	Rotary8								FXParam 8 "Output"
 
-	ButtonUpper1 				FXParam 9 "Bypass" [ 0.0 1.0 ]
-	ButtonUpper2 				NoAction
-	ButtonUpper3				NoAction
-	ButtonUpper4				NoAction
-	ButtonUpper5 				NoAction
-	ButtonUpper6 				NoAction
-	ButtonUpper7 				NoAction
-	ButtonUpper8 				NoAction
+	InvertFB+ButtonUpper1 				FXParam 9 "Bypass" [ 0.0 1.0 ]
 
-	RotaryPush1 				NoAction
-	RotaryPush2 				NoAction
-	RotaryPush3 				NoAction
-	RotaryPush4 				NoAction
-	RotaryPush5 				NoAction
-	RotaryPush6 				NoAction
-	RotaryPush7 				NoAction
-	RotaryPush8					FXParam 8 "Output" [ 0.5 ]
+	RotaryPush8							FXParam 8 "Output" [ 0.5 ]
 
-	Shift+Rotary1				NoAction
-	Shift+Rotary2				NoAction
-	Shift+Rotary3				NoAction
-	Shift+Rotary4				FXParam 4 "Atten Sel" [ 0.0 0.51 1.0 ]
-	Shift+Rotary5				NoAction
-	Shift+Rotary6				NoAction
-	Shift+Rotary7				NoAction
-	Shift+Rotary8				NoAction
+	Shift+Rotary4						FXParam 4 "Atten Sel" [ 0.0 0.51 1.0 ]
 	
-	RotaryPush1 				NoAction
-	RotaryPush2 				NoAction
-	RotaryPush3 				NoAction
-	RotaryPush4 				NoAction
-	RotaryPush5 				NoAction
-	RotaryPush6 				NoAction
-	RotaryPush7 				NoAction
-	RotaryPush8 				NoAction
+	Control+Rotary1		 				FXParam 0 "Boost Low"
+	Control+Rotary2		 				FXParam 1 "Atten Low"
+	Control+Rotary3		 				FXParam 2 "Boost High"
+	Control+Rotary4		 				FXParam 3 "Atten High"
+	Control+Rotary5		 				FXParam 5 "CPS" [ 0.0 0.34 0.67 1.0 ]
+	Control+Rotary6		 				FXParam 6 "Bandwidth"
+	Control+Rotary7		 				FXParam 7 "KCS" [ 0.0 0.17 0.34 0.51 0.68 0.85 1.0 ]
+	Control+Rotary8		 				FXParam 8 "Output"
 
-	Shift+Rotary1				NoAction
-	Shift+Rotary2				NoAction
-	Shift+Rotary3				NoAction
-	Shift+Rotary4				NoAction
-	Shift+Rotary5				NoAction
-	Shift+Rotary6				NoAction
-	Shift+Rotary7				NoAction
-	Shift+Rotary8				NoAction
-	
-	Shift+ButtonUpper1 			NoAction
-	Shift+ButtonUpper2 			NoAction
-	Shift+ButtonUpper3 			NoAction
-	Shift+ButtonUpper4 			NoAction
-	Shift+ButtonUpper5 			NoAction
-	Shift+ButtonUpper6 			NoAction
-	Shift+ButtonUpper7 			NoAction
-	Shift+ButtonUpper8 			NoAction
+	Control+InvertFB+ButtonUpper1 		FXParam 9 "Bypass" [ 0.0 1.0 ]
 
-	Shift+RotaryPush1 			NoAction
-	Shift+RotaryPush2 			NoAction
-	Shift+RotaryPush3 			NoAction
-	Shift+RotaryPush4 			NoAction
-	Shift+RotaryPush5 			NoAction
-	Shift+RotaryPush6 			NoAction
-	Shift+RotaryPush7 			NoAction
-	Shift+RotaryPush8 			NoAction
+	Control+RotaryPush8 				FXParam 8 "Output" [ 0.5 ]
 
-	Control+Rotary1		 		FXParam 0 "Boost Low"
-	Control+Rotary2		 		FXParam 1 "Atten Low"
-	Control+Rotary3		 		FXParam 2 "Boost High"
-	Control+Rotary4		 		FXParam 3 "Atten High"
-	Control+Rotary5		 		FXParam 5 "CPS" [ 0.0 0.34 0.67 1.0 ]
-	Control+Rotary6		 		FXParam 6 "Bandwidth"
-	Control+Rotary7		 		FXParam 7 "KCS" [ 0.0 0.17 0.34 0.51 0.68 0.85 1.0 ]
-	Control+Rotary8		 		FXParam 8 "Output"
-
-	Control+ButtonUpper1 		FXParam 9 "Bypass" [ 0.0 1.0 ]
-	Control+ButtonUpper2 		NoAction
-	Control+ButtonUpper3 		NoAction
-	Control+ButtonUpper4 		NoAction
-	Control+ButtonUpper5 		NoAction
-	Control+ButtonUpper6 		NoAction
-	Control+ButtonUpper7 		NoAction
-	Control+ButtonUpper8 		NoAction
-	
-	Control+RotaryPush1 		NoAction
-	Control+RotaryPush2 		NoAction
-	Control+RotaryPush3 		NoAction
-	Control+RotaryPush4 		NoAction
-	Control+RotaryPush5 		NoAction
-	Control+RotaryPush6 		NoAction
-	Control+RotaryPush7 		NoAction
-	Control+RotaryPush8 		FXParam 8 "Output" [ 0.5 ]
-	
-	Control+Shift+Rotary1		NoAction
-	Control+Shift+Rotary2		NoAction
-	Control+Shift+Rotary3		NoAction
-	Control+Shift+Rotary4		FXParam 4 "Atten Sel" [ 0.0 0.51 1.0 ]
-	Control+Shift+Rotary5		NoAction
-	Control+Shift+Rotary6		NoAction
-	Control+Shift+Rotary7		NoAction
-	Control+Shift+Rotary8		NoAction
-
-	Control+Shift+ButtonUpper1 	NoAction
-	Control+Shift+ButtonUpper2 	NoAction
-	Control+Shift+ButtonUpper3 	NoAction
-	Control+Shift+ButtonUpper4 	NoAction
-	Control+Shift+ButtonUpper5 	NoAction
-	Control+Shift+ButtonUpper6 	NoAction
-	Control+Shift+ButtonUpper7 	NoAction
-	Control+Shift+ButtonUpper8 	NoAction
-
-	Control+Shift+RotaryPush1 	NoAction
-	Control+Shift+RotaryPush2 	NoAction
-	Control+Shift+RotaryPush3 	NoAction
-	Control+Shift+RotaryPush4 	NoAction
-	Control+Shift+RotaryPush5 	NoAction
-	Control+Shift+RotaryPush6 	NoAction
-	Control+Shift+RotaryPush7 	NoAction
-	Control+Shift+RotaryPush8 	NoAction
+	Control+Shift+Rotary4				FXParam 4 "Atten Sel" [ 0.0 0.51 1.0 ]
 	
 ZoneEnd

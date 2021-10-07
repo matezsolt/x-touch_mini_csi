@@ -11,114 +11,52 @@ Zone "VST: epicVerb (Variety Of Sound)"
 /	FXParam 17 "Gain2"
 /	FXParam 18 "Freq2"
 	
-	LayerA						GoZone "Home"
+	IncludedZones
+		"Default FX Zone"
+	IncludedZonesEnd    	
 
-	Rotary1						FXParam 21 "Predelay"
-	Rotary2						FXParam 3 "Time"
-	Rotary3						FXParam 13 "1stER"
-	Rotary4 					FXParam 23 "1stLEVEL"
-	Rotary5						FXParam 5 "Damp"
-	Rotary6						FXParam 12 "MS"
-	Rotary7						FXParam 2 "DryWet"
-	Rotary8						FXParam 1 "Output"
+	Rotary1								FXParam 21 "Predelay"
+	Rotary2								FXParam 3 "Time"
+	Rotary3								FXParam 13 "1stER"
+	Rotary4 							FXParam 23 "1stLEVEL"
+	Rotary5								FXParam 5 "Damp"
+	Rotary6								FXParam 12 "MS"
+	Rotary7								FXParam 2 "DryWet"
+	Rotary8								FXParam 1 "Output"
 
-	ButtonUpper1 				FXParam 25 "Bypass" [ 0.0 1.0 ]
-	ButtonUpper2 				FXParam 4 "10sec" [ 0.0 1.0 ]
-	ButtonUpper3 				FXParam 22 "AB" [ 0.0 1.0 ]
-	ButtonUpper4 				FXParam 15 "OnOff" [ 0.0 1.0 ]
-	ButtonUpper5 				NoAction
-	ButtonUpper6 				NoAction
-	ButtonUpper7 				NoAction
-	ButtonUpper8 				NoAction
+	InvertFB+ButtonUpper1 				FXParam 25 "Bypass" [ 0.0 1.0 ]
+	ButtonUpper2 						FXParam 4 "10sec" [ 0.0 1.0 ]
+	ButtonUpper3 						FXParam 22 "AB" [ 0.0 1.0 ]
+	ButtonUpper4 						FXParam 15 "OnOff" [ 0.0 1.0 ]
 
-	RotaryPush1 				NoAction
-	RotaryPush2 				NoAction
-	RotaryPush3 				NoAction
-	RotaryPush4 				NoAction
-	RotaryPush5 				NoAction
-	RotaryPush6 				NoAction
-	RotaryPush7 				NoAction
-	RotaryPush8 				NoAction
+	Shift+Rotary1						FXParam 6 "HP"
+	Shift+Rotary2						FXParam 7 "LP"
+	Shift+Rotary3						FXParam 14 "2ndER"	
+	Shift+Rotary4						FXParam 24 "2ndLEVEL"
+	Shift+Rotary5						FXParam 11 "Modulation"
+	Shift+Rotary6						FXParam 19 "RT-low" 
+	Shift+Rotary7						FXParam 20 "RT-Xover"
 
-	Shift+Rotary1				FXParam 6 "HP"
-	Shift+Rotary2				FXParam 7 "LP"
-	Shift+Rotary3				FXParam 14 "2ndER"	
-	Shift+Rotary4				FXParam 24 "2ndLEVEL"
-	Shift+Rotary5				FXParam 11 "Modulation"
-	Shift+Rotary6				FXParam 19 "RT-low" 
-	Shift+Rotary7				FXParam 20 "RT-Xover"
-	Shift+Rotary8				NoAction
-	
-	Shift+ButtonUpper1 			NoAction
-	Shift+ButtonUpper2 			NoAction
-	Shift+ButtonUpper3 			NoAction
-	Shift+ButtonUpper4 			NoAction
-	Shift+ButtonUpper5 			NoAction
-	Shift+ButtonUpper6 			NoAction
-	Shift+ButtonUpper7 			NoAction
-	Shift+ButtonUpper8 			NoAction
+	Control+Rotary1		 				FXParam 21 "Predelay"
+	Control+Rotary2		 				FXParam 3 "Time"
+	Control+Rotary3		 				FXParam 13 "1stER"
+	Control+Rotary4		 				FXParam 23 "1stLEVEL"
+	Control+Rotary5		 				FXParam 5 "Damp"
+	Control+Rotary6		 				FXParam 12 "MS"
+	Control+Rotary7		 				FXParam 2 "DryWet"
+	Control+Rotary8		 				FXParam 1 "Output"
 
-	Shift+RotaryPush1 			NoAction
-	Shift+RotaryPush2 			NoAction
-	Shift+RotaryPush3 			NoAction
-	Shift+RotaryPush4 			NoAction
-	Shift+RotaryPush5 			NoAction
-	Shift+RotaryPush6 			NoAction
-	Shift+RotaryPush7 			NoAction
-	Shift+RotaryPush8 			NoAction
+	Control+InvertFB+ButtonUpper1 		FXParam 25 "Bypass" [ 0.0 1.0 ]
+	Control+ButtonUpper2 				FXParam 4 "10sec" [ 0.0 1.0 ]
+	Control+ButtonUpper3 				FXParam 22 "AB" [ 0.0 1.0 ]
+	Control+ButtonUpper4 				FXParam 15 "OnOff" [ 0.0 1.0 ]
 
-	Control+Rotary1		 		FXParam 21 "Predelay"
-	Control+Rotary2		 		FXParam 3 "Time"
-	Control+Rotary3		 		FXParam 13 "1stER"
-	Control+Rotary4		 		FXParam 23 "1stLEVEL"
-	Control+Rotary5		 		FXParam 5 "Damp"
-	Control+Rotary6		 		FXParam 12 "MS"
-	Control+Rotary7		 		FXParam 2 "DryWet"
-	Control+Rotary8		 		FXParam 1 "Output"
-                                
-	Control+ButtonUpper1 		FXParam 25 "Bypass" [ 0.0 1.0 ]
-	Control+ButtonUpper2 		FXParam 4 "10sec" [ 0.0 1.0 ]
-	Control+ButtonUpper3 		FXParam 22 "AB" [ 0.0 1.0 ]
-	Control+ButtonUpper4 		FXParam 15 "OnOff" [ 0.0 1.0 ]
-	Control+ButtonUpper5 		NoAction
-	Control+ButtonUpper6 		NoAction
-	Control+ButtonUpper7 		NoAction
-	Control+ButtonUpper8 		NoAction
-	
-	Control+RotaryPush1 		NoAction
-	Control+RotaryPush2 		NoAction
-	Control+RotaryPush3 		NoAction
-	Control+RotaryPush4 		NoAction
-	Control+RotaryPush5 		NoAction
-	Control+RotaryPush6 		NoAction
-	Control+RotaryPush7 		NoAction
-	Control+RotaryPush8 		NoAction
-	
-	Control+Shift+Rotary1		FXParam 6 "HP"
-	Control+Shift+Rotary2		FXParam 7 "LP"
-	Control+Shift+Rotary3		FXParam 14 "2ndER"	
-	Control+Shift+Rotary4		FXParam 24 "2ndLEVEL"
-	Control+Shift+Rotary5		FXParam 11 "Modulation"
-	Control+Shift+Rotary6		FXParam 19 "RT-low" 
-	Control+Shift+Rotary7		FXParam 20 "RT-Xover"
-	Control+Shift+Rotary8		NoAction
-
-	Control+Shift+ButtonUpper1 	NoAction
-	Control+Shift+ButtonUpper2 	NoAction
-	Control+Shift+ButtonUpper3 	NoAction
-	Control+Shift+ButtonUpper4 	NoAction
-	Control+Shift+ButtonUpper5 	NoAction
-	Control+Shift+ButtonUpper6 	NoAction
-	Control+Shift+ButtonUpper7 	NoAction
-	Control+Shift+ButtonUpper8 	NoAction
-
-	Control+Shift+RotaryPush1 	NoAction
-	Control+Shift+RotaryPush2 	NoAction
-	Control+Shift+RotaryPush3 	NoAction
-	Control+Shift+RotaryPush4 	NoAction
-	Control+Shift+RotaryPush5 	NoAction
-	Control+Shift+RotaryPush6 	NoAction
-	Control+Shift+RotaryPush7 	NoAction
-	Control+Shift+RotaryPush8 	NoAction
+	Control+Shift+Rotary1				FXParam 6 "HP"
+	Control+Shift+Rotary2				FXParam 7 "LP"
+	Control+Shift+Rotary3				FXParam 14 "2ndER"	
+	Control+Shift+Rotary4				FXParam 24 "2ndLEVEL"
+	Control+Shift+Rotary5				FXParam 11 "Modulation"
+	Control+Shift+Rotary6				FXParam 19 "RT-low" 
+	Control+Shift+Rotary7				FXParam 20 "RT-Xover"
 
 ZoneEnd

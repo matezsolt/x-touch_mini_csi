@@ -6,114 +6,42 @@ Zone "VST: MAutopan (MeldaProduction)"
 /	FXParam 12 "PresetTrigger-Previous"	
 /	FXParam 13 "Preset trigger - next"	
 
-	LayerA						GoZone "Home"
+	IncludedZones
+		"Default FX Zone"
+	IncludedZonesEnd    	
 
-	Rotary1						FXParam 0 "Depth"
-	Rotary2						FXParam 1 "Rate"
-	Rotary3						FXParam 2 "Pan law"
-	Rotary4 					FXParam 3 "LFO override"
-	Rotary5						FXParam 5 "Synchronization - Length" 
-	Rotary6						FXParam 6 "Synchronization - Type" [ 0.0 0.34 0.67 1.0 ]
-	Rotary7						FXParam 7 "Synchronization - Phase"
-	Rotary8						NoAction
+	Rotary1								FXParam 0 "Depth"
+	Rotary2								FXParam 1 "Rate"
+	Rotary3								FXParam 2 "Pan law"
+	Rotary4 							FXParam 3 "LFO override"
+	Rotary5								FXParam 5 "Synchronization - Length" 
+	Rotary6								FXParam 6 "Synchronization - Type" [ 0.0 0.34 0.67 1.0 ]
+	Rotary7								FXParam 7 "Synchronization - Phase"
 
-	ButtonUpper1 				FXParam 14 "Bypass" [ 0.0 1.0 ]
-	ButtonUpper2 				FXParam 4 "Synchroniza-Synchroniza" [ 0.0 1.0 ]
-	ButtonUpper3 				NoAction
-	ButtonUpper4 				NoAction
-	ButtonUpper5 				NoAction
-	ButtonUpper6 				NoAction
-	ButtonUpper7 				NoAction
-	ButtonUpper8 				NoAction
+	InvertFB+ButtonUpper1 				FXParam 14 "Bypass" [ 0.0 1.0 ]
+	ButtonUpper2 						FXParam 4 "Synchroniza-Synchroniza" [ 0.0 1.0 ]
 
-	RotaryPush1 				NoAction
-	RotaryPush2 				NoAction
-	RotaryPush3 				NoAction
-	RotaryPush4 				NoAction
-	RotaryPush5 				NoAction
-	RotaryPush6 				NoAction
-	RotaryPush7 				NoAction
-	RotaryPush8 				NoAction
+	Shift+Rotary1						FXParam 8 "Param 1"
+	Shift+Rotary2						FXParam 9 "Param 2"
+	Shift+Rotary3						FXParam 10 "Param 3"
+	Shift+Rotary4						FXParam 11 "Param 4"
+	Shift+Rotary8						FXParam 15 "Wet"
 
-	Shift+Rotary1				FXParam 8 "Param 1"
-	Shift+Rotary2				FXParam 9 "Param 2"
-	Shift+Rotary3				FXParam 10 "Param 3"
-	Shift+Rotary4				FXParam 11 "Param 4"
-	Shift+Rotary5				NoAction
-	Shift+Rotary6				NoAction
-	Shift+Rotary7				NoAction
-	Shift+Rotary8				FXParam 15 "Wet"
-	
-	Shift+ButtonUpper1 			NoAction
-	Shift+ButtonUpper2 			NoAction
-	Shift+ButtonUpper3 			NoAction
-	Shift+ButtonUpper4 			NoAction
-	Shift+ButtonUpper5 			NoAction
-	Shift+ButtonUpper6 			NoAction
-	Shift+ButtonUpper7 			NoAction
-	Shift+ButtonUpper8 			NoAction
+	Control+Rotary1		 				FXParam 0 "Depth"
+	Control+Rotary2		 				FXParam 1 "Rate"
+	Control+Rotary3		 				FXParam 2 "Pan law"
+	Control+Rotary4		 				FXParam 3 "LFO override"
+	Control+Rotary5		 				FXParam 5 "Synchronization - Length"
+	Control+Rotary6		 				FXParam 6 "Synchronization - Type" [ 0.0 0.34 0.67 1.0 ]
+	Control+Rotary7		 				FXParam 7 "Synchronization - Phase"
 
-	Shift+RotaryPush1 			NoAction
-	Shift+RotaryPush2 			NoAction
-	Shift+RotaryPush3 			NoAction
-	Shift+RotaryPush4 			NoAction
-	Shift+RotaryPush5 			NoAction
-	Shift+RotaryPush6 			NoAction
-	Shift+RotaryPush7 			NoAction
-	Shift+RotaryPush8 			NoAction
+	Control+InvertFB+ButtonUpper1 		FXParam 14 "Bypass" [ 0.0 1.0 ]
+	Control+ButtonUpper2 				FXParam 4 "Synchroniza-Synchroniza" [ 0.0 1.0 ]
 
-	Control+Rotary1		 		FXParam 0 "Depth"
-	Control+Rotary2		 		FXParam 1 "Rate"
-	Control+Rotary3		 		FXParam 2 "Pan law"
-	Control+Rotary4		 		FXParam 3 "LFO override"
-	Control+Rotary5		 		FXParam 5 "Synchronization - Length"
-	Control+Rotary6		 		FXParam 6 "Synchronization - Type" [ 0.0 0.34 0.67 1.0 ]
-	Control+Rotary7		 		FXParam 7 "Synchronization - Phase"
-	Control+Rotary8		 		NoAction
-                                
-	Control+ButtonUpper1 		FXParam 14 "Bypass" [ 0.0 1.0 ]
-	Control+ButtonUpper2 		FXParam 4 "Synchroniza-Synchroniza" [ 0.0 1.0 ]
-	Control+ButtonUpper3 		NoAction
-	Control+ButtonUpper4 		NoAction
-	Control+ButtonUpper5 		NoAction
-	Control+ButtonUpper6 		NoAction
-	Control+ButtonUpper7 		NoAction
-	Control+ButtonUpper8 		NoAction
-	
-	Control+RotaryPush1 		NoAction
-	Control+RotaryPush2 		NoAction
-	Control+RotaryPush3 		NoAction
-	Control+RotaryPush4 		NoAction
-	Control+RotaryPush5 		NoAction
-	Control+RotaryPush6 		NoAction
-	Control+RotaryPush7 		NoAction
-	Control+RotaryPush8 		NoAction
-	                            
-	Control+Shift+Rotary1		FXParam 8 "Param 1"
-	Control+Shift+Rotary2		FXParam 9 "Param 2"
-	Control+Shift+Rotary3		FXParam 10 "Param 3"
-	Control+Shift+Rotary4		FXParam 11 "Param 4"
-	Control+Shift+Rotary5		NoAction
-	Control+Shift+Rotary6		NoAction
-	Control+Shift+Rotary7		NoAction
-	Control+Shift+Rotary8		FXParam 15 "Wet"
-
-	Control+Shift+ButtonUpper1 	NoAction
-	Control+Shift+ButtonUpper2 	NoAction
-	Control+Shift+ButtonUpper3 	NoAction
-	Control+Shift+ButtonUpper4 	NoAction
-	Control+Shift+ButtonUpper5 	NoAction
-	Control+Shift+ButtonUpper6 	NoAction
-	Control+Shift+ButtonUpper7 	NoAction
-	Control+Shift+ButtonUpper8 	NoAction
-
-	Control+Shift+RotaryPush1 	NoAction
-	Control+Shift+RotaryPush2 	NoAction
-	Control+Shift+RotaryPush3 	NoAction
-	Control+Shift+RotaryPush4 	NoAction
-	Control+Shift+RotaryPush5 	NoAction
-	Control+Shift+RotaryPush6 	NoAction
-	Control+Shift+RotaryPush7 	NoAction
-	Control+Shift+RotaryPush8 	NoAction
+	Control+Shift+Rotary1				FXParam 8 "Param 1"
+	Control+Shift+Rotary2				FXParam 9 "Param 2"
+	Control+Shift+Rotary3				FXParam 10 "Param 3"
+	Control+Shift+Rotary4				FXParam 11 "Param 4"
+	Control+Shift+Rotary8				FXParam 15 "Wet"
 
 ZoneEnd

@@ -2,114 +2,34 @@ Zone "VST: TR5 One (IK Multimedia)"
 
 	FocusedFXNavigator
 	
-	LayerA						GoZone "Home"
+	IncludedZones
+		"Default FX Zone"
+	IncludedZonesEnd    	
 
-	Rotary1						FXParam 1 "Focus"
-	Rotary2						FXParam 0 "Air"
-	Rotary3						FXParam 3 "Body"
-	Rotary4 					FXParam 2 "Push"
-	Rotary5						FXParam 4 "Width"
-	Rotary6						FXParam 5 "Volume"
-	Rotary7						FXParam 6 "Transient"
-	Rotary8						FXParam 7 "Analog"
+	Rotary1								FXParam 1 "Focus"
+	Rotary2								FXParam 0 "Air"
+	Rotary3								FXParam 3 "Body"
+	Rotary4 							FXParam 2 "Push"
+	Rotary5								FXParam 4 "Width"
+	Rotary6								FXParam 5 "Volume"
+	Rotary7								FXParam 6 "Transient"
+	Rotary8								FXParam 7 "Analog"
 
-	ButtonUpper1 				FXParam 9 "Bypass" [ 0.0 1.0 ]
-	ButtonUpper2 				NoAction
-	ButtonUpper3 				NoAction
-	ButtonUpper4 				NoAction
-	ButtonUpper5 				NoAction
-	ButtonUpper6 				NoAction
-	ButtonUpper7 				NoAction
-	ButtonUpper8 				NoAction
+	InvertFB+ButtonUpper1 				FXParam 9 "Bypass" [ 0.0 1.0 ]
 
-	RotaryPush1 				NoAction
-	RotaryPush2 				NoAction
-	RotaryPush3 				NoAction
-	RotaryPush4 				NoAction
-	RotaryPush5 				NoAction
-	RotaryPush6 				NoAction
-	RotaryPush7 				NoAction
-	RotaryPush8 				NoAction
+	Shift+Rotary1						FXParam 8 "Bass Punch"
 
-	Shift+Rotary1				FXParam 8 "Bass Punch"
-	Shift+Rotary2				NoAction
-	Shift+Rotary3				NoAction
-	Shift+Rotary4				NoAction
-	Shift+Rotary5				NoAction
-	Shift+Rotary6				NoAction
-	Shift+Rotary7				NoAction
-	Shift+Rotary8				NoAction
-	
-	Shift+ButtonUpper1 			NoAction
-	Shift+ButtonUpper2 			NoAction
-	Shift+ButtonUpper3 			NoAction
-	Shift+ButtonUpper4 			NoAction
-	Shift+ButtonUpper5 			NoAction
-	Shift+ButtonUpper6 			NoAction
-	Shift+ButtonUpper7 			NoAction
-	Shift+ButtonUpper8 			NoAction
+	Control+Rotary1		 				FXParam 1 "Focus"
+	Control+Rotary2		 				FXParam 0 "Air"
+	Control+Rotary3		 				FXParam 3 "Body"
+	Control+Rotary4		 				FXParam 2 "Push"
+	Control+Rotary5		 				FXParam 4 "Width"
+	Control+Rotary6		 				FXParam 5 "Volume"
+	Control+Rotary7		 				FXParam 6 "Transient"
+	Control+Rotary8		 				FXParam 7 "Analog"
 
-	Shift+RotaryPush1 			NoAction
-	Shift+RotaryPush2 			NoAction
-	Shift+RotaryPush3 			NoAction
-	Shift+RotaryPush4 			NoAction
-	Shift+RotaryPush5 			NoAction
-	Shift+RotaryPush6 			NoAction
-	Shift+RotaryPush7 			NoAction
-	Shift+RotaryPush8 			NoAction
+	Control+InvertFB+ButtonUpper1 		FXParam 9 "Bypass" [ 0.0 1.0 ]
 
-	Control+Rotary1		 		FXParam 1 "Focus"
-	Control+Rotary2		 		FXParam 0 "Air"
-	Control+Rotary3		 		FXParam 3 "Body"
-	Control+Rotary4		 		FXParam 2 "Push"
-	Control+Rotary5		 		FXParam 4 "Width"
-	Control+Rotary6		 		FXParam 5 "Volume"
-	Control+Rotary7		 		FXParam 6 "Transient"
-	Control+Rotary8		 		FXParam 7 "Analog"
-                                
-	Control+ButtonUpper1 		FXParam 9 "Bypass" [ 0.0 1.0 ]
-	Control+ButtonUpper2 		NoAction
-	Control+ButtonUpper3 		NoAction
-	Control+ButtonUpper4 		NoAction
-	Control+ButtonUpper5 		NoAction
-	Control+ButtonUpper6 		NoAction
-	Control+ButtonUpper7 		NoAction
-	Control+ButtonUpper8 		NoAction
-	
-	Control+RotaryPush1 		NoAction
-	Control+RotaryPush2 		NoAction
-	Control+RotaryPush3 		NoAction
-	Control+RotaryPush4 		NoAction
-	Control+RotaryPush5 		NoAction
-	Control+RotaryPush6 		NoAction
-	Control+RotaryPush7 		NoAction
-	Control+RotaryPush8 		NoAction
-	
-	Control+Shift+Rotary1		FXParam 8 "Bass Punch"
-	Control+Shift+Rotary2		NoAction
-	Control+Shift+Rotary3		NoAction
-	Control+Shift+Rotary4		NoAction
-	Control+Shift+Rotary5		NoAction
-	Control+Shift+Rotary6		NoAction
-	Control+Shift+Rotary7		NoAction
-	Control+Shift+Rotary8		NoAction
-
-	Control+Shift+ButtonUpper1 	NoAction
-	Control+Shift+ButtonUpper2 	NoAction
-	Control+Shift+ButtonUpper3 	NoAction
-	Control+Shift+ButtonUpper4 	NoAction
-	Control+Shift+ButtonUpper5 	NoAction
-	Control+Shift+ButtonUpper6 	NoAction
-	Control+Shift+ButtonUpper7 	NoAction
-	Control+Shift+ButtonUpper8 	NoAction
-
-	Control+Shift+RotaryPush1 	NoAction
-	Control+Shift+RotaryPush2 	NoAction
-	Control+Shift+RotaryPush3 	NoAction
-	Control+Shift+RotaryPush4 	NoAction
-	Control+Shift+RotaryPush5 	NoAction
-	Control+Shift+RotaryPush6 	NoAction
-	Control+Shift+RotaryPush7 	NoAction
-	Control+Shift+RotaryPush8 	NoAction
+	Control+Shift+Rotary1				FXParam 8 "Bass Punch"
 
 ZoneEnd

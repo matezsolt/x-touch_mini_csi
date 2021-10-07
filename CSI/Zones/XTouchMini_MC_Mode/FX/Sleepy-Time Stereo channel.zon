@@ -2,114 +2,72 @@ Zone "VST: StereoChannel (Sleepy-Time Records)"
 
 	FocusedFXNavigator
 	
-	LayerA						GoZone "Home"
+	IncludedZones
+		"Default FX Zone"
+	IncludedZonesEnd    	
 
-	Rotary1						FXParam 0 "Volume Level"
-	Rotary2						FXParam 16 "VU Nominal Level"
-	Rotary3						FXParam 1 "Left/Right Balance"
-	Rotary4 					FXParam 2 "Mid/Side Balance"
-	Rotary5						FXParam 10 "Center X-Over"
-	Rotary6						FXParam 12 "L/R Balance Law"
-	Rotary7						FXParam 13 "M/S Balance Law"
-	Rotary8						NoAction
+	Rotary1								FXParam 0 "Volume Level"
+	Rotary2								FXParam 16 "VU Nominal Level"
+	Rotary3								FXParam 1 "Left/Right Balance"
+	Rotary4 							FXParam 2 "Mid/Side Balance"
+	Rotary5								FXParam 10 "Center X-Over"
+	Rotary6								FXParam 12 "L/R Balance Law"
+	Rotary7								FXParam 13 "M/S Balance Law"
 
-	ButtonUpper1 				FXParam 27 "Bypass" [ 0.0 1.0 ]
-	ButtonUpper2 				FXParam 3 "Mute Left" [ 0.0 1.0 ]
-	ButtonUpper3 				FXParam 4 "Mute Right" [ 0.0 1.0 ]
-	ButtonUpper4 				FXParam 5 "Mute Mid" [ 0.0 1.0 ]
-	ButtonUpper5 				FXParam 6 "Mute Side" [ 0.0 1.0 ]
-	ButtonUpper6 				FXParam 7 "Invert Left" [ 0.0 1.0 ]
-	ButtonUpper7 				FXParam 8 "Invert Right" [ 0.0 1.0 ]
-	ButtonUpper8 				FXParam 9 "Swap L/R" [ 0.0 1.0 ]
+	InvertFB+ButtonUpper1 				FXParam 27 "Bypass" [ 0.0 1.0 ]
+	ButtonUpper2 						FXParam 3 "Mute Left" [ 0.0 1.0 ]
+	ButtonUpper3 						FXParam 4 "Mute Right" [ 0.0 1.0 ]
+	ButtonUpper4 						FXParam 5 "Mute Mid" [ 0.0 1.0 ]
+	ButtonUpper5 						FXParam 6 "Mute Side" [ 0.0 1.0 ]
+	ButtonUpper6 						FXParam 7 "Invert Left" [ 0.0 1.0 ]
+	ButtonUpper7 						FXParam 8 "Invert Right" [ 0.0 1.0 ]
+	ButtonUpper8 						FXParam 9 "Swap L/R" [ 0.0 1.0 ]
 
-	RotaryPush1 				NoAction
-	RotaryPush2 				NoAction
-	RotaryPush3 				NoAction
-	RotaryPush4 				NoAction
-	RotaryPush5 				NoAction
-	RotaryPush6 				NoAction
-	RotaryPush7 				NoAction
-	RotaryPush8 				NoAction
+	Shift+Rotary1						FXParam 17 "Yellow LED Level"
+	Shift+Rotary2						FXParam 18 "Red LED Level"
+	Shift+Rotary3						FXParam 19 "Yellow LED Hold"
+	Shift+Rotary4						FXParam 20 "Red LED Hold"
+	Shift+Rotary5						FXParam 21 "Phase Correlation Timing"
+	Shift+Rotary8						FXParam 26 "Phase Meter Detection"
 
-	Shift+Rotary1				FXParam 17 "Yellow LED Level"
-	Shift+Rotary2				FXParam 18 "Red LED Level"
-	Shift+Rotary3				FXParam 19 "Yellow LED Hold"
-	Shift+Rotary4				FXParam 20 "Red LED Hold"
-	Shift+Rotary5				FXParam 21 "Phase Correlation Timing"
-	Shift+Rotary6				NoAction
-	Shift+Rotary7				NoAction
-	Shift+Rotary8				FXParam 26 "Phase Meter Detection"
-	
-	Shift+ButtonUpper1 			FXParam 22 "Settings Panel" [ 0.0 1.0 ]
-	Shift+ButtonUpper2 			FXParam 23 "VU Meter Mode" [ 0.0 1.0 ]
-	Shift+ButtonUpper3 			FXParam 24 "Mini Mode" [ 0.0 1.0 ]
-	Shift+ButtonUpper4 			FXParam 25 "Show VU Peak Hold Needles" [ 0.0 1.0 ]
-	Shift+ButtonUpper5 			FXParam 11 "VU Operating Mode"  [ 0.0 1.0 ]
-	Shift+ButtonUpper6 			FXParam 14 "M/S Balance Compensation" [ 0.0 1.0 ]
-	Shift+ButtonUpper7 			FXParam 15 "L/R Balance Compensation" [ 0.0 1.0 ]
-	Shift+ButtonUpper8 			NoAction
+	Shift+ButtonUpper1 					FXParam 22 "Settings Panel" [ 0.0 1.0 ]
+	Shift+ButtonUpper2 					FXParam 23 "VU Meter Mode" [ 0.0 1.0 ]
+	Shift+ButtonUpper3 					FXParam 24 "Mini Mode" [ 0.0 1.0 ]
+	Shift+ButtonUpper4 					FXParam 25 "Show VU Peak Hold Needles" [ 0.0 1.0 ]
+	Shift+ButtonUpper5 					FXParam 11 "VU Operating Mode"  [ 0.0 1.0 ]
+	Shift+ButtonUpper6 					FXParam 14 "M/S Balance Compensation" [ 0.0 1.0 ]
+	Shift+ButtonUpper7 					FXParam 15 "L/R Balance Compensation" [ 0.0 1.0 ]
 
-	Shift+RotaryPush1 			NoAction
-	Shift+RotaryPush2 			NoAction
-	Shift+RotaryPush3 			NoAction
-	Shift+RotaryPush4 			NoAction
-	Shift+RotaryPush5 			NoAction
-	Shift+RotaryPush6 			NoAction
-	Shift+RotaryPush7 			NoAction
-	Shift+RotaryPush8 			NoAction
+	Control+Rotary1		 				FXParam 0 "Volume Level"
+	Control+Rotary2		 				FXParam 16 "VU Nominal Level"
+	Control+Rotary3		 				FXParam 1 "Left/Right Balance"
+	Control+Rotary4		 				FXParam 2 "Mid/Side Balance"
+	Control+Rotary5		 				FXParam 10 "Center X-Over"
+	Control+Rotary6		 				FXParam 12 "L/R Balance Law"
+	Control+Rotary7		 				FXParam 13 "M/S Balance Law"
 
-	Control+Rotary1		 		FXParam 0 "Volume Level"
-	Control+Rotary2		 		FXParam 16 "VU Nominal Level"
-	Control+Rotary3		 		FXParam 1 "Left/Right Balance"
-	Control+Rotary4		 		FXParam 2 "Mid/Side Balance"
-	Control+Rotary5		 		FXParam 10 "Center X-Over"
-	Control+Rotary6		 		FXParam 12 "L/R Balance Law"
-	Control+Rotary7		 		FXParam 13 "M/S Balance Law"
-	Control+Rotary8		 		NoAction
-                                
-	Control+ButtonUpper1 		FXParam 27 "Bypass" [ 0.0 1.0 ]
-	Control+ButtonUpper2 		FXParam 3 "Mute Left" [ 0.0 1.0 ]
-	Control+ButtonUpper3 		FXParam 4 "Mute Right" [ 0.0 1.0 ]
-	Control+ButtonUpper4 		FXParam 5 "Mute Mid" [ 0.0 1.0 ]
-	Control+ButtonUpper5 		FXParam 6 "Mute Side" [ 0.0 1.0 ]
-	Control+ButtonUpper6 		FXParam 7 "Invert Left" [ 0.0 1.0 ]
-	Control+ButtonUpper7 		FXParam 8 "Invert Right" [ 0.0 1.0 ]
-	Control+ButtonUpper8 		FXParam 9 "Swap L/R" [ 0.0 1.0 ]
-	
-	Control+RotaryPush1 		NoAction
-	Control+RotaryPush2 		NoAction
-	Control+RotaryPush3 		NoAction
-	Control+RotaryPush4 		NoAction
-	Control+RotaryPush5 		NoAction
-	Control+RotaryPush6 		NoAction
-	Control+RotaryPush7 		NoAction
-	Control+RotaryPush8 		NoAction
-	
-	Control+Shift+Rotary1		FXParam 17 "Yellow LED Level"
-	Control+Shift+Rotary2		FXParam 18 "Red LED Level"
-	Control+Shift+Rotary3		FXParam 19 "Yellow LED Hold"
-	Control+Shift+Rotary4		FXParam 20 "Red LED Hold"
-	Control+Shift+Rotary5		FXParam 21 "Phase Correlation Timing"
-	Control+Shift+Rotary6		NoAction
-	Control+Shift+Rotary7		NoAction
-	Control+Shift+Rotary8		FXParam 26 "Phase Meter Detection"
-                                
-	Control+Shift+ButtonUpper1 	FXParam 22 "Settings Panel" [ 0.0 1.0 ]
-	Control+Shift+ButtonUpper2 	FXParam 23 "VU Meter Mode" [ 0.0 1.0 ]
-	Control+Shift+ButtonUpper3 	FXParam 24 "Mini Mode" [ 0.0 1.0 ]
-	Control+Shift+ButtonUpper4 	FXParam 25 "Show VU Peak Hold Needles" [ 0.0 1.0 ]
-	Control+Shift+ButtonUpper5 	FXParam 11 "VU Operating Mode"  [ 0.0 1.0 ]
-	Control+Shift+ButtonUpper6 	FXParam 14 "M/S Balance Compensation" [ 0.0 1.0 ]
-	Control+Shift+ButtonUpper7 	FXParam 15 "L/R Balance Compensation" [ 0.0 1.0 ]
-	Control+Shift+ButtonUpper8 	NoAction
+	Control+InvertFB+ButtonUpper1 		FXParam 27 "Bypass" [ 0.0 1.0 ]
+	Control+ButtonUpper2 				FXParam 3 "Mute Left" [ 0.0 1.0 ]
+	Control+ButtonUpper3 				FXParam 4 "Mute Right" [ 0.0 1.0 ]
+	Control+ButtonUpper4 				FXParam 5 "Mute Mid" [ 0.0 1.0 ]
+	Control+ButtonUpper5 				FXParam 6 "Mute Side" [ 0.0 1.0 ]
+	Control+ButtonUpper6 				FXParam 7 "Invert Left" [ 0.0 1.0 ]
+	Control+ButtonUpper7 				FXParam 8 "Invert Right" [ 0.0 1.0 ]
+	Control+ButtonUpper8 				FXParam 9 "Swap L/R" [ 0.0 1.0 ]
 
-	Control+Shift+RotaryPush1 	NoAction
-	Control+Shift+RotaryPush2 	NoAction
-	Control+Shift+RotaryPush3 	NoAction
-	Control+Shift+RotaryPush4 	NoAction
-	Control+Shift+RotaryPush5 	NoAction
-	Control+Shift+RotaryPush6 	NoAction
-	Control+Shift+RotaryPush7 	NoAction
-	Control+Shift+RotaryPush8 	NoAction
+	Control+Shift+Rotary1				FXParam 17 "Yellow LED Level"
+	Control+Shift+Rotary2				FXParam 18 "Red LED Level"
+	Control+Shift+Rotary3				FXParam 19 "Yellow LED Hold"
+	Control+Shift+Rotary4				FXParam 20 "Red LED Hold"
+	Control+Shift+Rotary5				FXParam 21 "Phase Correlation Timing"
+	Control+Shift+Rotary8				FXParam 26 "Phase Meter Detection"
+
+	Control+Shift+ButtonUpper1 			FXParam 22 "Settings Panel" [ 0.0 1.0 ]
+	Control+Shift+ButtonUpper2 			FXParam 23 "VU Meter Mode" [ 0.0 1.0 ]
+	Control+Shift+ButtonUpper3 			FXParam 24 "Mini Mode" [ 0.0 1.0 ]
+	Control+Shift+ButtonUpper4 			FXParam 25 "Show VU Peak Hold Needles" [ 0.0 1.0 ]
+	Control+Shift+ButtonUpper5 			FXParam 11 "VU Operating Mode"  [ 0.0 1.0 ]
+	Control+Shift+ButtonUpper6 			FXParam 14 "M/S Balance Compensation" [ 0.0 1.0 ]
+	Control+Shift+ButtonUpper7 			FXParam 15 "L/R Balance Compensation" [ 0.0 1.0 ]
 
 ZoneEnd

@@ -141,7 +141,9 @@ Zone "VST3: Helix Native (Line 6)"
 /	FXParam 167 "Bypass"
 /	FXParam 168 "Wet"	
 	
-	LayerA						GoZone "Home"
+	IncludedZones
+		"Default FX Zone"
+	IncludedZonesEnd    	
 
 	Rotary1						FXParam 0 "Knob 1"
 	Rotary2						FXParam 1 "Knob 2"
@@ -161,14 +163,6 @@ Zone "VST3: Helix Native (Line 6)"
 	ButtonUpper7 				FXParam 22 "Switch 7"
 	ButtonUpper8 				FXParam 23 "Switch 8"
 
-	RotaryPush1 				NoAction
-	RotaryPush2 				NoAction
-	RotaryPush3 				NoAction
-	RotaryPush4 				NoAction
-	RotaryPush5 				NoAction
-	RotaryPush6 				NoAction
-	RotaryPush7 				NoAction
-	RotaryPush8 				NoAction
 
 	Shift+Rotary1				FXParam 8 "Knob 9"
 	Shift+Rotary2				FXParam 9 "Knob 10"
@@ -188,14 +182,6 @@ Zone "VST3: Helix Native (Line 6)"
 	Shift+ButtonUpper7 			FXParam 30 "Switch 15"
 	Shift+ButtonUpper8 			FXParam 31 "Switch 16"
 
-	Shift+RotaryPush1 			NoAction
-	Shift+RotaryPush2 			NoAction
-	Shift+RotaryPush3 			NoAction
-	Shift+RotaryPush4 			NoAction
-	Shift+RotaryPush5 			NoAction
-	Shift+RotaryPush6 			NoAction
-	Shift+RotaryPush7 			NoAction
-	Shift+RotaryPush8 			NoAction
 
 	Control+Rotary1		 		FXParam 0 "Knob 1"
 	Control+Rotary2		 		FXParam 1 "Knob 2"
@@ -214,16 +200,7 @@ Zone "VST3: Helix Native (Line 6)"
 	Control+ButtonUpper6 		FXParam 21 "Switch 6"
 	Control+ButtonUpper7 		FXParam 22 "Switch 7"
 	Control+ButtonUpper8 		FXParam 23 "Switch 8"
-	                            
-	Control+RotaryPush1 		NoAction
-	Control+RotaryPush2 		NoAction
-	Control+RotaryPush3 		NoAction
-	Control+RotaryPush4 		NoAction
-	Control+RotaryPush5 		NoAction
-	Control+RotaryPush6 		NoAction
-	Control+RotaryPush7 		NoAction
-	Control+RotaryPush8 		NoAction
-	                            
+	                                                        
 	Control+Shift+Rotary1		FXParam 8 "Knob 9"
 	Control+Shift+Rotary2		FXParam 9 "Knob 10"
 	Control+Shift+Rotary3		FXParam 10 "Knob 11"
@@ -241,14 +218,5 @@ Zone "VST3: Helix Native (Line 6)"
 	Control+Shift+ButtonUpper6 	FXParam 29 "Switch 14"
 	Control+Shift+ButtonUpper7 	FXParam 30 "Switch 15"
 	Control+Shift+ButtonUpper8 	FXParam 31 "Switch 16"
-
-	Control+Shift+RotaryPush1 	NoAction
-	Control+Shift+RotaryPush2 	NoAction
-	Control+Shift+RotaryPush3 	NoAction
-	Control+Shift+RotaryPush4 	NoAction
-	Control+Shift+RotaryPush5 	NoAction
-	Control+Shift+RotaryPush6 	NoAction
-	Control+Shift+RotaryPush7 	NoAction
-	Control+Shift+RotaryPush8 	NoAction
 
 ZoneEnd

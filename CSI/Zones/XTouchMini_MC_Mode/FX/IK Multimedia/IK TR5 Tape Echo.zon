@@ -1,0 +1,45 @@
+Zone "VST: TR5 Tape Echo (IK Multimedia)"
+
+	FocusedFXNavigator
+	
+	IncludedZones
+		"Default FX Zone"
+	IncludedZonesEnd    	
+
+	Rotary1						FXParam 1 "Input Level"
+	Rotary2						FXParam 2 "Delay Time A"
+	Rotary3						FXParam 4 "BPM Meter A" [ 0.00 0.08 0.16 0.24 0.31 0.38 0.46 0.53 0.62 0.70 0.77 0.84 0.93 1.0 ]
+	Rotary4 					FXParam 6 "Volume A"
+	Rotary5						FXParam 7 "Volume B"
+	Rotary6						FXParam 9 "Sustain B"
+	Rotary7						FXParam 8 "Sustain A"
+
+	ButtonUpper2 				FXParam 0 "BPM Sync" [ 0.0 1.0 ]
+
+	Shift+Rotary2				FXParam 3 "Delay Time B"
+	Shift+Rotary3				FXParam 4 "BPM Meter A" [ 0.00 0.08 0.16 0.24 0.31 0.38 0.46 0.53 0.62 0.70 0.77 0.84 0.93 1.0 ]
+	Shift+Rotary4				FXParam 10 "Rec Level"
+	Shift+Rotary5				FXParam 11 "Tape Wear"
+	Shift+Rotary6				FXParam 12 "Wow Flutter"
+	Shift+Rotary7				FXParam 13 "Noise"
+	Shift+Rotary8				FXParam 15 "Wet"
+	
+	Control+Rotary1		 		FXParam 1 "Input Level"
+	Control+Rotary2		 		FXParam 2 "Delay Time A"
+	Control+Rotary3		 		FXParam 4 "BPM Meter A" [ 0.00 0.08 0.16 0.24 0.31 0.38 0.46 0.53 0.62 0.70 0.77 0.84 0.93 1.0 ]
+	Control+Rotary4		 		FXParam 6 "Volume A"
+	Control+Rotary5		 		FXParam 7 "Volume B"
+	Control+Rotary6		 		FXParam 9 "Sustain B"
+	Control+Rotary7		 		FXParam 8 "Sustain A"
+                                
+	Control+ButtonUpper2 		FXParam 0 "BPM Sync" [ 0.0 1.0 ]
+	
+	Control+Shift+Rotary2		FXParam 3 "Delay Time B"
+	Control+Shift+Rotary3		FXParam 4 "BPM Meter A" [ 0.00 0.08 0.16 0.24 0.31 0.38 0.46 0.53 0.62 0.70 0.77 0.84 0.93 1.0 ]
+	Control+Shift+Rotary4		FXParam 10 "Rec Level"
+	Control+Shift+Rotary5		FXParam 11 "Tape Wear"
+	Control+Shift+Rotary6		FXParam 12 "Wow Flutter"
+	Control+Shift+Rotary7		FXParam 13 "Noise"
+	Control+Shift+Rotary8		FXParam 15 "Wet"
+
+ZoneEnd

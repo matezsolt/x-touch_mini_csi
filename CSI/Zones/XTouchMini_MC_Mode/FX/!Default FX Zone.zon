@@ -1,6 +1,11 @@
-Zone "Dummy"
+Zone "Default FX Zone"
 
 	FocusedFXNavigator
+
+/ Should be user in FX Zones
+/	IncludedZones
+/		"Default FX Zone"
+/	IncludedZonesEnd    	
 	
 	LayerA								GoZone "Home"
 
@@ -13,7 +18,7 @@ Zone "Dummy"
 	Rotary7								NoAction
 	Rotary8								NoAction
 
-	InvertFB+ButtonUpper1 				FXParam 25 "Bypass" [ 0.0 1.0 ]
+	InvertFB+ButtonUpper1 				NoAction
 	ButtonUpper2 						NoAction
 	ButtonUpper3 						NoAction
 	ButtonUpper4 						NoAction
@@ -67,7 +72,7 @@ Zone "Dummy"
 	Control+Rotary7		 				NoAction
 	Control+Rotary8		 				NoAction
 
-	InvertFB+Control+ButtonUpper1 		FXParam 25 "Bypass" [ 0.0 1.0 ]
+	Control+InvertFB+ButtonUpper1 		NoAction
 	Control+ButtonUpper2 				NoAction
 	Control+ButtonUpper3 				NoAction
 	Control+ButtonUpper4 				NoAction
