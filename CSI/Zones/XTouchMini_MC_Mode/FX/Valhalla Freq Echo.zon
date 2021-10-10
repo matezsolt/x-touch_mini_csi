@@ -6,26 +6,116 @@ Zone "VST: ValhallaFreqEcho (Valhalla DSP, LLC)"
 		"Default FX Zone"
 	IncludedZonesEnd    	
 
-	Rotary1								FXParam 0 "wetDry"
-	Rotary2								FXParam 2 "delay"
-	Rotary3								FXParam 1 "shift"
-	Rotary4 							FXParam 4 "feedback"
-	Rotary5								FXParam 5 "lowCut"
-	Rotary6								FXParam 6 "highCut"
-	Rotary7								FXParam 3 "sync"
+	LayerA												Reaper "_S&M_WNCLS3"			//SWS/S&M: Close all floating FX windows
+	LayerA												Reaper "_S&M_HIDEFXCHAIN" //SWS/S&M: Hide FX chain windows for selected tracks
+	LayerA												GoZone "Home"
+
+	Rotary1												FXParam 0 "wetDry"
+	Rotary2												FXParam 2 "delay"
+	Rotary3												FXParam 1 "shift"
+	Rotary4 											FXParam 4 "feedback"
+	Rotary5												FXParam 5 "lowCut"
+	Rotary6												FXParam 6 "highCut"
+	Rotary7												FXParam 3 "sync"
+	Rotary8												NoAction
 
 	InvertFB+ButtonUpper1 				FXParam 8 "Bypass" [ 0.0 1.0 ]
-	ButtonUpper2 						FXParam 7 "stereo" [ 0.0 1.0 ]
+	ButtonUpper2 									FXParam 7 "stereo" [ 0.0 1.0 ]
+	ButtonUpper3 									NoAction
+	ButtonUpper4 									NoAction
+	ButtonUpper5 									NoAction
+	ButtonUpper6 									NoAction
+	ButtonUpper7 									NoAction
+	ButtonUpper8 									NoAction
 
-	Control+Rotary1		 				FXParam 0 "wetDry"
-	Control+Rotary2		 				FXParam 2 "delay"
-	Control+Rotary3		 				FXParam 1 "shift"
-	Control+Rotary4		 				FXParam 4 "feedback"
-	Control+Rotary5		 				FXParam 5 "lowCut"
-	Control+Rotary6		 				FXParam 6 "highCut"
-	Control+Rotary7		 				FXParam 3 "sync"
+	RotaryPush1 									Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+	RotaryPush2 									Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+	RotaryPush3 									Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+	RotaryPush4 									Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+	RotaryPush5 									Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+	RotaryPush6 									Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+	RotaryPush7 									Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+	RotaryPush8 									Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+
+	Shift+Rotary1									NoAction
+	Shift+Rotary2									NoAction
+	Shift+Rotary3									NoAction
+	Shift+Rotary4									NoAction
+	Shift+Rotary5									NoAction
+	Shift+Rotary6									NoAction
+	Shift+Rotary7									NoAction
+	Shift+Rotary8									NoAction
+
+	Shift+ButtonUpper1 						NoAction
+	Shift+ButtonUpper2 						NoAction
+	Shift+ButtonUpper3 						NoAction
+	Shift+ButtonUpper4 						NoAction
+	Shift+ButtonUpper5 						NoAction
+	Shift+ButtonUpper6 						NoAction
+	Shift+ButtonUpper7 						NoAction
+	Shift+ButtonUpper8 						NoAction
+
+	Shift+RotaryPush1 						NoAction
+	Shift+RotaryPush2 						NoAction
+	Shift+RotaryPush3 						NoAction
+	Shift+RotaryPush4 						NoAction
+	Shift+RotaryPush5 						NoAction
+	Shift+RotaryPush6 						NoAction
+	Shift+RotaryPush7 						NoAction
+	Shift+RotaryPush8 						NoAction
+
+	Control+Rotary1		 						FXParam 0 "wetDry"
+	Control+Rotary2		 						FXParam 2 "delay"
+	Control+Rotary3		 						FXParam 1 "shift"
+	Control+Rotary4		 						FXParam 4 "feedback"
+	Control+Rotary5		 						FXParam 5 "lowCut"
+	Control+Rotary6		 						FXParam 6 "highCut"
+	Control+Rotary7		 						FXParam 3 "sync"
+	Control+Rotary8		 						NoAction
 
 	Control+InvertFB+ButtonUpper1 		FXParam 8 "Bypass" [ 0.0 1.0 ]
-	Control+ButtonUpper2 				FXParam 7 "stereo" [ 0.0 1.0 ]
+	Control+ButtonUpper2 					FXParam 7 "stereo" [ 0.0 1.0 ]
+	Control+ButtonUpper3 					NoAction
+	Control+ButtonUpper4 					NoAction
+	Control+ButtonUpper5 					NoAction
+	Control+ButtonUpper6 					NoAction
+	Control+ButtonUpper7 					NoAction
+	Control+ButtonUpper8 					NoAction
+
+	Control+RotaryPush1           Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+  Control+RotaryPush2           Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+  Control+RotaryPush3           Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+  Control+RotaryPush4           Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+  Control+RotaryPush5           Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+  Control+RotaryPush6           Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+  Control+RotaryPush7           Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+  Control+RotaryPush8           Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+
+	Control+Shift+Rotary1					NoAction
+	Control+Shift+Rotary2					NoAction
+	Control+Shift+Rotary3					NoAction
+	Control+Shift+Rotary4					NoAction
+	Control+Shift+Rotary5					NoAction
+	Control+Shift+Rotary6					NoAction
+	Control+Shift+Rotary7					NoAction
+	Control+Shift+Rotary8					NoAction
+
+	Control+Shift+ButtonUpper1 		NoAction
+	Control+Shift+ButtonUpper2 		NoAction
+	Control+Shift+ButtonUpper3 		NoAction
+	Control+Shift+ButtonUpper4 		NoAction
+	Control+Shift+ButtonUpper5 		NoAction
+	Control+Shift+ButtonUpper6 		NoAction
+	Control+Shift+ButtonUpper7 		NoAction
+	Control+Shift+ButtonUpper8 		NoAction
+
+	Control+Shift+RotaryPush1 		NoAction
+	Control+Shift+RotaryPush2 		NoAction
+	Control+Shift+RotaryPush3 		NoAction
+	Control+Shift+RotaryPush4 		NoAction
+	Control+Shift+RotaryPush5 		NoAction
+	Control+Shift+RotaryPush6 		NoAction
+	Control+Shift+RotaryPush7 		NoAction
+	Control+Shift+RotaryPush8 		NoAction
 
 ZoneEnd

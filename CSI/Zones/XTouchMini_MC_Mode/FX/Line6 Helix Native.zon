@@ -145,6 +145,10 @@ Zone "VST3: Helix Native (Line 6)"
 		"Default FX Zone"
 	IncludedZonesEnd    	
 
+	LayerA												Reaper "_S&M_WNCLS3"			//SWS/S&M: Close all floating FX windows
+	LayerA												Reaper "_S&M_HIDEFXCHAIN" //SWS/S&M: Hide FX chain windows for selected tracks
+	LayerA												GoZone "Home"
+
 	Rotary1						FXParam 0 "Knob 1"
 	Rotary2						FXParam 1 "Knob 2"
 	Rotary3						FXParam 2 "Knob 3"
@@ -163,6 +167,14 @@ Zone "VST3: Helix Native (Line 6)"
 	ButtonUpper7 				FXParam 22 "Switch 7"
 	ButtonUpper8 				FXParam 23 "Switch 8"
 
+	RotaryPush1 									Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+	RotaryPush2 									Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+	RotaryPush3 									Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+	RotaryPush4 									Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+	RotaryPush5 									Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+	RotaryPush6 									Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+	RotaryPush7 									Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+	RotaryPush8 									Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
 	Shift+Rotary1				FXParam 8 "Knob 9"
 	Shift+Rotary2				FXParam 9 "Knob 10"
@@ -182,6 +194,14 @@ Zone "VST3: Helix Native (Line 6)"
 	Shift+ButtonUpper7 			FXParam 30 "Switch 15"
 	Shift+ButtonUpper8 			FXParam 31 "Switch 16"
 
+	Shift+RotaryPush1 						NoAction
+	Shift+RotaryPush2 						NoAction
+	Shift+RotaryPush3 						NoAction
+	Shift+RotaryPush4 						NoAction
+	Shift+RotaryPush5 						NoAction
+	Shift+RotaryPush6 						NoAction
+	Shift+RotaryPush7 						NoAction
+	Shift+RotaryPush8 						NoAction
 
 	Control+Rotary1		 		FXParam 0 "Knob 1"
 	Control+Rotary2		 		FXParam 1 "Knob 2"
@@ -200,7 +220,16 @@ Zone "VST3: Helix Native (Line 6)"
 	Control+ButtonUpper6 		FXParam 21 "Switch 6"
 	Control+ButtonUpper7 		FXParam 22 "Switch 7"
 	Control+ButtonUpper8 		FXParam 23 "Switch 8"
-	                                                        
+
+	Control+RotaryPush1           Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+  Control+RotaryPush2           Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+  Control+RotaryPush3           Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+  Control+RotaryPush4           Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+  Control+RotaryPush5           Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+  Control+RotaryPush6           Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+  Control+RotaryPush7           Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+  Control+RotaryPush8           Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+
 	Control+Shift+Rotary1		FXParam 8 "Knob 9"
 	Control+Shift+Rotary2		FXParam 9 "Knob 10"
 	Control+Shift+Rotary3		FXParam 10 "Knob 11"
@@ -218,5 +247,14 @@ Zone "VST3: Helix Native (Line 6)"
 	Control+Shift+ButtonUpper6 	FXParam 29 "Switch 14"
 	Control+Shift+ButtonUpper7 	FXParam 30 "Switch 15"
 	Control+Shift+ButtonUpper8 	FXParam 31 "Switch 16"
+
+	Control+Shift+RotaryPush1 		NoAction
+	Control+Shift+RotaryPush2 		NoAction
+	Control+Shift+RotaryPush3 		NoAction
+	Control+Shift+RotaryPush4 		NoAction
+	Control+Shift+RotaryPush5 		NoAction
+	Control+Shift+RotaryPush6 		NoAction
+	Control+Shift+RotaryPush7 		NoAction
+	Control+Shift+RotaryPush8 		NoAction
 
 ZoneEnd

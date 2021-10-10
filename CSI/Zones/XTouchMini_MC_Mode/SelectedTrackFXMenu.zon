@@ -1,0 +1,9 @@
+Zone "SelectedTrackFXMenu"
+    
+    SelectedTrackFXMenuNavigator
+    
+    Control+RotaryPush|        Reaper "_S&M_FLOATFX|"
+    Control+RotaryPush|        Reaper "_S&M_SELFX|" 
+    Control+RotaryPush|        GoFXSlot |
+
+ZoneEnd

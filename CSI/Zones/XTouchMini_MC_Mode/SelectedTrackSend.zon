@@ -1,9 +1,8 @@
 Zone "SelectedTrackSend"
     SelectedTrackSendNavigator
 
-	Rotary|                     TrackSendVolume
-	Shift+Rotary|       		TrackSendPan
-	Shift+Control+Rotary|       TrackSendPan
-	ButtonUpper|                TrackSendMute
+	Control+Rotary|               TrackSendVolume
+	Control+Shift+Rotary|       	TrackSendPan
+	Control+Shift+ButtonUpper|    TrackSendMute
 
 ZoneEnd

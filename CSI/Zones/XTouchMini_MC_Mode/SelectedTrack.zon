@@ -8,6 +8,14 @@ Zone "SelectedTrack"
 
 	LayerA								GoZone "Home"
 
+    ButtonUpper1                        TrackRecordArm
+    ButtonUpper2                        TrackMute
+    ButtonUpper3                        TrackSolo
+    ButtonUpper4                        ClearAllSolo
+    ButtonUpper5                        CycleTrackAutoMode
+    ButtonUpper7                        TrackToggleVCASpill
+    ButtonUpper6                        TogglePin
+
 	IncludedZones
 		"SelectedTrackSend"
 	IncludedZonesEnd    	

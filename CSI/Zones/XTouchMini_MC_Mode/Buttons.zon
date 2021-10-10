@@ -12,20 +12,32 @@ Zone "Buttons"
     ButtonLower5                CycleTimeline
     ButtonLower6                Stop        
     ButtonLower7                Play        
-    ButtonLower8                Record      
+    ButtonLower8                Record
 
-    Shift+ButtonLower1          TrackBank "-1"
-    Shift+ButtonLower2          TrackBank "1"
-    Shift+ButtonLower3          Rewind
-    Shift+ButtonLower4          FastForward
-    Shift+ButtonLower5          Reaper "40364"              // Toggle metronome
-	Shift+ButtonLower6          ToggleVCAMode
-	Shift+ButtonLower7			"40157"						// Markers: Insert marker at current position
-	Shift+ButtonLower8          CycleTrackAutoMode
-	
-	Control+ButtonLower1		GoZone "SelectedTrack"
-	Control+ButtonLower2		MapFocusedFXToWidgets
+    Hold+ButtonLower3           Reaper "40042"              //Transport: Go to start of project  
+    Hold+ButtonLower4           Reaper "40043"              //Transport: Go to end of project
+    Hold+ButtonLower6           ToggleVCAMode
 
-    Hold+Shift+ButtonLower5     Reaper "40363"              // Show metronome settings
+    LayerA                      GoZone "SelectedTrack"
+
+/    Control+ButtonLower1        GoZone "Home"  
+/    Control+ButtonLower2        GoZone "SelectedTrack"
+/    Control+ButtonLower3        MapSelectedTrackFXMenusToWidgets
+/    Control+ButtonLower4        MapFocusedFXToWidgets
+/    Control+ButtonLower5        NoAction
+/    Control+ButtonLower6        NoAction
+/    Control+ButtonLower7        NoAction
+/    Control+ButtonLower8        NoAction
+
+/   Shift+ButtonLower1          TrackBank "-1"
+/   Shift+ButtonLower2          TrackBank "1"
+/   Shift+ButtonLower3          Rewind
+/   Shift+ButtonLower4          FastForward
+/   Shift+ButtonLower5          Reaper "40364"              // Toggle metronome
+/	Shift+ButtonLower6          ToggleVCAMode
+/	Shift+ButtonLower7			"40157"						// Markers: Insert marker at current position
+/	Shift+ButtonLower8          CycleTrackAutoMode
+
+/   Hold+Shift+ButtonLower5     Reaper "40363"              // Show metronome settings
 	
 ZoneEnd

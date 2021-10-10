@@ -14,50 +14,116 @@ Zone "VST: OrilRiver (Denis Tihanov)"
 		"Default FX Zone"
 	IncludedZonesEnd    	
 
-	Rotary1								FXParam 1 "Predelay"
-	Rotary2								FXParam 2 "Width"
-	Rotary3								FXParam 5 "Decay time"
-	Rotary4 							FXParam 6 "Room size"
-	Rotary5								FXParam 7 "Diffusion"
-	Rotary6								FXParam 16 "Early reflections"
-	Rotary7								FXParam 17 "Reverb"
-	Rotary8								FXParam 18 "Wet"
+	LayerA												Reaper "_S&M_WNCLS3"			//SWS/S&M: Close all floating FX windows
+	LayerA												Reaper "_S&M_HIDEFXCHAIN" //SWS/S&M: Hide FX chain windows for selected tracks
+	LayerA												GoZone "Home"
+
+	Rotary1												FXParam 0 "Dry"
+	Rotary2												FXParam 1 "Predelay"
+	Rotary3												FXParam 3 "E.R. variation"
+	Rotary4 											FXParam 4 "Reverb variation" [ (3) 0.0 0.26 0.51 0.76 1.0 ]
+	Rotary5												FXParam 5 "Decay time"
+	Rotary6												FXParam 16 "Early reflections"
+	Rotary7												FXParam 17 "Reverb"
+	Rotary8												FXParam 18 "Wet"
 
 	InvertFB+ButtonUpper1 				FXParam 25 "Bypass" [ 0.0 1.0 ]
-	ButtonUpper2 						FXParam 19 "Bypass Dry"
-	ButtonUpper3 						FXParam 20 "Bypass E.R."
-	ButtonUpper4 						FXParam 21 "Bypass Reverb"
-	ButtonUpper5 						FXParam 22 "Bypass Wet"
+	ButtonUpper2 									FXParam 19 "Bypass Dry"
+	ButtonUpper3 									FXParam 20 "Bypass E.R."
+	ButtonUpper4 									FXParam 21 "Bypass Reverb"
+	ButtonUpper5 									FXParam 22 "Bypass Wet"
+	ButtonUpper6 									NoAction
+	ButtonUpper7 									NoAction
+	ButtonUpper8 									NoAction
 
-	Shift+Rotary1						FXParam 0 "Dry"
-	Shift+Rotary2						FXParam 3 "E.R. variation"
-	Shift+Rotary3						FXParam 4 "Reverb variation" [ 0.0 0.26 0.51 0.76 1.0 ]
-	Shift+Rotary4						FXParam 8 "Damp intensity"
-	Shift+Rotary5						FXParam 9 "Damp"
-	Shift+Rotary6						FXParam 24 "Mod. deph"
-	Shift+Rotary7						FXParam 23 "Mod. speed"
+	RotaryPush1 									Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+	RotaryPush2 									Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+	RotaryPush3 									Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+	RotaryPush4 									Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+	RotaryPush5 									Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+	RotaryPush6 									Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+	RotaryPush7 									Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+	RotaryPush8 									Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-	Control+Rotary1		 				FXParam 1 "Predelay"
-	Control+Rotary2		 				FXParam 2 "Width"
-	Control+Rotary3		 				FXParam 5 "Decay time"
-	Control+Rotary4		 				FXParam 6 "Room size"
-	Control+Rotary5		 				FXParam 7 "Diffusion"
-	Control+Rotary6		 				FXParam 16 "Early reflections"
-	Control+Rotary7		 				FXParam 17 "Reverb"
-	Control+Rotary8		 				FXParam 18 "Wet"
+	Shift+Rotary1									FXParam 2 "Width"
+	Shift+Rotary2									FXParam 6 "Room size"
+	Shift+Rotary3									FXParam 7 "Diffusion"
+	Shift+Rotary4									FXParam 8 "Damp intensity"
+	Shift+Rotary5									FXParam 9 "Damp"
+	Shift+Rotary6									FXParam 24 "Mod. deph"
+	Shift+Rotary7									FXParam 23 "Mod. speed"
+	Shift+Rotary8									NoAction
+	
+	Shift+ButtonUpper1 						NoAction
+	Shift+ButtonUpper2 						NoAction
+	Shift+ButtonUpper3 						NoAction
+	Shift+ButtonUpper4 						NoAction
+	Shift+ButtonUpper5 						NoAction
+	Shift+ButtonUpper6 						NoAction
+	Shift+ButtonUpper7 						NoAction
+	Shift+ButtonUpper8 						NoAction
+
+	Shift+RotaryPush1 						NoAction
+	Shift+RotaryPush2 						NoAction
+	Shift+RotaryPush3 						NoAction
+	Shift+RotaryPush4 						NoAction
+	Shift+RotaryPush5 						NoAction
+	Shift+RotaryPush6 						NoAction
+	Shift+RotaryPush7 						NoAction
+	Shift+RotaryPush8 						NoAction
+
+	Control+Rotary1		 						FXParam 0 "Dry"
+	Control+Rotary2		 						FXParam 1 "Predelay"
+	Control+Rotary3		 						FXParam 3 "E.R. variation"
+	Control+Rotary4		 						FXParam 4 "Reverb variation" [ (3) 0.0 0.26 0.51 0.76 1.0 ]
+	Control+Rotary5		 						FXParam 5 "Decay time"
+	Control+Rotary6		 						FXParam 16 "Early reflections"
+	Control+Rotary7		 						FXParam 17 "Reverb"
+	Control+Rotary8		 						FXParam 18 "Wet"
                                 
 	Control+InvertFB+ButtonUpper1 		FXParam 25 "Bypass" [ 0.0 1.0 ]
-	Control+ButtonUpper2 				FXParam 19 "Bypass Dry"
-	Control+ButtonUpper3 				FXParam 20 "Bypass E.R."
-	Control+ButtonUpper4 				FXParam 21 "Bypass Reverb"
-	Control+ButtonUpper5 				FXParam 22 "Bypass Wet"
-			
-	Control+Shift+Rotary1				FXParam 0 "Dry"
-	Control+Shift+Rotary2				FXParam 3 "E.R. variation"
-	Control+Shift+Rotary3				FXParam 4 "Reverb variation" [ 0.0 0.26 0.51 0.76 1.0 ]
-	Control+Shift+Rotary4				FXParam 8 "Damp intensity"
-	Control+Shift+Rotary5				FXParam 9 "Damp"
-	Control+Shift+Rotary6				FXParam 24 "Mod. deph"
-	Control+Shift+Rotary7				FXParam 23 "Mod. speed"
+	Control+ButtonUpper2 					FXParam 19 "Bypass Dry"
+	Control+ButtonUpper3 					FXParam 20 "Bypass E.R."
+	Control+ButtonUpper4 					FXParam 21 "Bypass Reverb"
+	Control+ButtonUpper5 					FXParam 22 "Bypass Wet"
+	Control+ButtonUpper6 					NoAction
+	Control+ButtonUpper7 					NoAction
+	Control+ButtonUpper8 					NoAction
 
-ZoneEnd	
+	Control+RotaryPush1           Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+  Control+RotaryPush2           Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+  Control+RotaryPush3           Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+  Control+RotaryPush4           Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+  Control+RotaryPush5           Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+  Control+RotaryPush6           Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+  Control+RotaryPush7           Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+  Control+RotaryPush8           Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+
+	Control+Shift+Rotary1					FXParam 2 "Width"
+	Control+Shift+Rotary2					FXParam 6 "Room size"
+	Control+Shift+Rotary3					FXParam 7 "Diffusion"
+	Control+Shift+Rotary4					FXParam 8 "Damp intensity"
+	Control+Shift+Rotary5					FXParam 9 "Damp"
+	Control+Shift+Rotary6					FXParam 24 "Mod. deph"
+	Control+Shift+Rotary7					FXParam 23 "Mod. speed"
+	Control+Shift+Rotary8					NoAction
+
+	Control+Shift+ButtonUpper1 		NoAction
+	Control+Shift+ButtonUpper2 		NoAction
+	Control+Shift+ButtonUpper3 		NoAction
+	Control+Shift+ButtonUpper4 		NoAction
+	Control+Shift+ButtonUpper5 		NoAction
+	Control+Shift+ButtonUpper6 		NoAction
+	Control+Shift+ButtonUpper7 		NoAction
+	Control+Shift+ButtonUpper8 		NoAction
+
+	Control+Shift+RotaryPush1 		NoAction
+	Control+Shift+RotaryPush2 		NoAction
+	Control+Shift+RotaryPush3 		NoAction
+	Control+Shift+RotaryPush4 		NoAction
+	Control+Shift+RotaryPush5 		NoAction
+	Control+Shift+RotaryPush6 		NoAction
+	Control+Shift+RotaryPush7 		NoAction
+	Control+Shift+RotaryPush8 		NoAction
+
+ZoneEnd
