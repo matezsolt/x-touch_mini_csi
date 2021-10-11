@@ -1,4 +1,4 @@
-Zone "VST: TR5 EQ-73 (IK Multimedia)"
+Zone "VST: ReaEQ (Cockos)"
 
 	FocusedFXNavigator
 	
@@ -10,19 +10,19 @@ Zone "VST: TR5 EQ-73 (IK Multimedia)"
 	LayerA												Reaper "_S&M_HIDEFXCHAIN" //SWS/S&M: Hide FX chain windows for selected tracks
 	LayerA												GoZone "Home"
 
-	Rotary1												FXParam 4 "Low Freq" [ (2) 0.0 0.25 0.5 0.75 1.0 ]
-	Rotary2												FXParam 5 "Low"
-	Rotary3												FXParam 7 "Pres Freq" [ (2) 0.0 0.17 0.34 0.51 0.68 0.85 1.0 ]
-	Rotary4												FXParam 8 "Presence"
-	Rotary5												FXParam 6 "High"
-	Rotary6												FXParam 3 "Gain" [ (0.05,0.05,0.05,0.05,0.05,0.05) ]
-	Rotary7												FXParam 10 "Output" [ (0.05,0.05,0.05,0.05,0.05,0.05) ]
-	Rotary8												FXParam 9 "HP Freq" [ (2) 0.0 0.26 0.51 0.76 1.0 ]
-	
-	InvertFB+ButtonUpper1 				FXParam 11 "Bypass" [ 0.0 1.0 ]
-	ButtonUpper2 									FXParam 0 "Line/Mic" [ 0.0 1.0 ]
-	ButtonUpper3									FXParam 1 "Eq" [ 0.0 1.0 ]
-	ButtonUpper4									FXParam 2 "Phase" [ 0.0 1.0 ]
+	Rotary1												FXParam 0 "Freq-Low Shelf"
+	Rotary2												FXParam 1 "Gain-Low Shelf"
+	Rotary3												FXParam 3 "Freq-Band 2"
+	Rotary4 											FXParam 4 "Gain-Band 2"
+	Rotary5												FXParam 6 "Freq-Band 3"
+	Rotary6												FXParam 7 "Gain-Band 3"
+	Rotary7												FXParam 9 "Freq-High Shelf"
+	Rotary8												FXParam 10 "Gain-High Shelf"
+
+	InvertFB+ButtonUpper1 				FXParam 12 "Bypass" [ 0.0 1.0 ]
+	ButtonUpper2 									NoAction
+	ButtonUpper3 									NoAction
+	ButtonUpper4 									NoAction
 	ButtonUpper5 									NoAction
 	ButtonUpper6 									NoAction
 	ButtonUpper7 									NoAction
@@ -37,13 +37,13 @@ Zone "VST: TR5 EQ-73 (IK Multimedia)"
 	RotaryPush7 									Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
 	RotaryPush8 									Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-	Shift+Rotary1									NoAction
+	Shift+Rotary1									FXParam 2 "Q-Low Shelf"
 	Shift+Rotary2									NoAction
-	Shift+Rotary3									NoAction
+	Shift+Rotary3									FXParam 5 "Q-Band 2"
 	Shift+Rotary4									NoAction
-	Shift+Rotary5									NoAction
+	Shift+Rotary5									FXParam 8 "Q-Band 3"
 	Shift+Rotary6									NoAction
-	Shift+Rotary7									NoAction
+	Shift+Rotary7									FXParam 11 "Q-High Shelf"
 	Shift+Rotary8									NoAction
 
 	Shift+ButtonUpper1 						NoAction
@@ -64,19 +64,19 @@ Zone "VST: TR5 EQ-73 (IK Multimedia)"
 	Shift+RotaryPush7 						NoAction
 	Shift+RotaryPush8 						NoAction
 
-	Control+Rotary1		 						FXParam 4 "Low Freq" [ (2) 0.0 0.25 0.5 0.75 1.0 ]
-	Control+Rotary2		 						FXParam 5 "Low"
-	Control+Rotary3		 						FXParam 7 "Pres Freq" [ (2) 0.0 0.17 0.34 0.51 0.68 0.85 1.0 ]
-	Control+Rotary4		 						FXParam 8 "Presence"
-	Control+Rotary5		 						FXParam 6 "High"
-	Control+Rotary6		 						FXParam 3 "Gain" [ (0.05,0.05,0.05,0.05,0.05,0.05) ]
-	Control+Rotary7		 						FXParam 10 "Output" [ (0.05,0.05,0.05,0.05,0.05,0.05) ]
-	Control+Rotary8		 						FXParam 9 "HP Freq" [ (2) 0.0 0.26 0.51 0.76 1.0 ]
-	
-	InvertFB+Control+ButtonUpper1 FXParam 11 "Bypass" [ 0.0 1.0 ]
-	Control+ButtonUpper2 					FXParam 0 "Line/Mic" [ 0.0 1.0 ]
-	Control+ButtonUpper3 					FXParam 1 "Eq" [ 0.0 1.0 ]
-	Control+ButtonUpper4 					FXParam 2 "Phase" [ 0.0 1.0 ]
+	Control+Rotary1		 						FXParam 0 "Freq-Low Shelf"
+	Control+Rotary2		 						FXParam 1 "Gain-Low Shelf"
+	Control+Rotary3		 						FXParam 3 "Freq-Band 2"
+	Control+Rotary4		 						FXParam 4 "Gain-Band 2"
+	Control+Rotary5		 						FXParam 6 "Freq-Band 3"
+	Control+Rotary6		 						FXParam 7 "Gain-Band 3"
+	Control+Rotary7		 						FXParam 9 "Freq-High Shelf"
+	Control+Rotary8		 						FXParam 10 "Gain-High Shelf"
+
+	InvertFB+Control+ButtonUpper1 FXParam 12 "Bypass" [ 0.0 1.0 ]
+	Control+ButtonUpper2 					NoAction
+	Control+ButtonUpper3 					NoAction
+	Control+ButtonUpper4 					NoAction
 	Control+ButtonUpper5 					NoAction
 	Control+ButtonUpper6 					NoAction
 	Control+ButtonUpper7 					NoAction
@@ -91,13 +91,13 @@ Zone "VST: TR5 EQ-73 (IK Multimedia)"
   Control+RotaryPush7           Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
   Control+RotaryPush8           Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-	Control+Shift+Rotary1					NoAction
+	Control+Shift+Rotary1					FXParam 2 "Q-Low Shelf"
 	Control+Shift+Rotary2					NoAction
-	Control+Shift+Rotary3					NoAction
+	Control+Shift+Rotary3					FXParam 5 "Q-Band 2"
 	Control+Shift+Rotary4					NoAction
-	Control+Shift+Rotary5					NoAction
+	Control+Shift+Rotary5					FXParam 8 "Q-Band 3"
 	Control+Shift+Rotary6					NoAction
-	Control+Shift+Rotary7					NoAction
+	Control+Shift+Rotary7					FXParam 11 "Q-High Shelf"
 	Control+Shift+Rotary8					NoAction
 
 	Control+Shift+ButtonUpper1 		NoAction
@@ -119,4 +119,3 @@ Zone "VST: TR5 EQ-73 (IK Multimedia)"
 	Control+Shift+RotaryPush8 		NoAction
 
 ZoneEnd
-

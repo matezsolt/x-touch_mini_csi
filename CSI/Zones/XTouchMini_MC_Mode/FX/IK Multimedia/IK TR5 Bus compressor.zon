@@ -10,10 +10,10 @@ Zone "VST: TR5 Bus Compressor (IK Multimedia)"
 	LayerA												Reaper "_S&M_HIDEFXCHAIN" //SWS/S&M: Hide FX chain windows for selected tracks
 	LayerA												GoZone "Home"
 
-	Rotary1												FXParam 0 "Ratio" [ (3) 0.0 0.34 0.67 1.0 ]
-	Rotary2												FXParam 1 "Attack" [ (3) 0.0 0.21 0.41 0.61 0.81 1.0 ]
-	Rotary3												FXParam 2 "Release" [ (3) 0.0 0.26 0.51 0.76 1.0 ]
-	Rotary4 											FXParam 3 "Side Chain Freq" [ (3) 0.0 0.26 0.51 0.76 1.0 ]
+	Rotary1												FXParam 0 "Ratio" [ (3) 0.0 0.33 0.66 1.0 ]
+	Rotary2												FXParam 1 "Attack" [ (3) 0.0 0.2 0.4 0.60 0.80 1.0 ]
+	Rotary3												FXParam 2 "Release" [ (3) 0.0 0.25 0.5 0.75 1.0 ]
+	Rotary4 											FXParam 3 "Side Chain Freq" [ (3) 0.0 0.25 0.50 0.75 1.0 ]
 	Rotary5												FXParam 4 "Threshold"
 	Rotary6												FXParam 5 "Make Up"
 	Rotary7												NoAction
@@ -64,10 +64,10 @@ Zone "VST: TR5 Bus Compressor (IK Multimedia)"
 	Shift+RotaryPush7 						NoAction
 	Shift+RotaryPush8 						NoAction
 
-	Control+Rotary1		 						FXParam 0 "Ratio" [ (3) 0.0 0.34 0.67 1.0 ]
-	Control+Rotary2		 						FXParam 1 "Attack" [ (3) 0.0 0.21 0.41 0.61 0.81 1.0 ]
-	Control+Rotary3		 						FXParam 2 "Release" [ (3) 0.0 0.26 0.51 0.76 1.0 ]
-	Control+Rotary4		 						FXParam 3 "Side Chain Freq" [ (3) 0.0 0.26 0.51 0.76 1.0 ]
+	Control+Rotary1		 						FXParam 0 "Ratio" [ (3) 0.0 0.33 0.66 1.0 ]
+	Control+Rotary2		 						FXParam 1 "Attack" [ (3) 0.0 0.2 0.4 0.60 0.80 1.0 ]
+	Control+Rotary3		 						FXParam 2 "Release" [ (3) 0.0 0.25 0.5 0.75 1.0 ]
+	Control+Rotary4		 						FXParam 3 "Side Chain Freq" [ (3) 0.0 0.25 0.50 0.75 1.0 ]
 	Control+Rotary5		 						FXParam 4 "Threshold"
 	Control+Rotary6		 						FXParam 5 "Make Up"
 	Control+Rotary7		 						NoAction

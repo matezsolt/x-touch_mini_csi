@@ -37,7 +37,7 @@ Zone "VST: TR5 Tape Machine 80 (IK Multimedia)"
 	RotaryPush7 									Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
 	RotaryPush8 									Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-  Shift+Rotary1									      FXParam 3 "Tape Type" [ 0.0 0.33 0.66 1.0 ]
+  Shift+Rotary1									      FXParam 3 "Tape Type" [ (3) 0.0 0.33 0.66 1.0 ]
 	Shift+Rotary2												NoAction
 	Shift+Rotary3												NoAction
 	Shift+Rotary4												NoAction
@@ -91,7 +91,7 @@ Zone "VST: TR5 Tape Machine 80 (IK Multimedia)"
   Control+RotaryPush7           Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
   Control+RotaryPush8           Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-  Control+Shift+Rotary1								FXParam 3 "Tape Type" [ 0.0 0.33 0.66 1.0 ]
+  Control+Shift+Rotary1								FXParam 3 "Tape Type" [ (3) 0.0 0.33 0.66 1.0 ]
 	Control+Shift+Rotary2								NoAction
 	Control+Shift+Rotary3								NoAction
 	Control+Shift+Rotary4								NoAction
