@@ -1,5 +1,5 @@
 Zone "SelectedTrackSend"
-    SelectedTrackSendNavigator
+  SelectedTrackSendNavigator
 
 	Control+Rotary|               TrackSendVolume
 	Control+Shift+Rotary|       	TrackSendPan

@@ -3,6 +3,8 @@ Zone "SelectedTrack"
 
     Fader                              	TrackVolume
 
+    ButtonLower1                		TrackBank "-1"
+    ButtonLower2                		TrackBank "1"
     ButtonLower1                		SelectedTrackBank "-1"
     ButtonLower2                		SelectedTrackBank "1"
 

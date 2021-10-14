@@ -1,5 +1,7 @@
 Zone "Default FX Zone"
 
+	Fader                      		FocusedFXParam
+	
 	LayerA												Reaper "_S&M_WNCLS3"			//SWS/S&M: Close all floating FX windows
 	LayerA												Reaper "_S&M_HIDEFXCHAIN" //SWS/S&M: Hide FX chain windows for selected tracks
 	LayerA												GoZone "Home"

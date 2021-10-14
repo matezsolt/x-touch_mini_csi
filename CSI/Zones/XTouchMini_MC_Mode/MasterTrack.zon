@@ -1,5 +1,4 @@
 Zone "MasterTrack"
-
     MasterTrackNavigator
     
 	Fader                 TrackVolume

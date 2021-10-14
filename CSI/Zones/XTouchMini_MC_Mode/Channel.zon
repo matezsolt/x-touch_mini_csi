@@ -1,5 +1,4 @@
 Zone "Channel"
-
     TrackNavigator
 	
 		Rotary|											TrackVolume
