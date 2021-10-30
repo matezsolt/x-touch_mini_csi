@@ -69,7 +69,7 @@
 | **Encoder** | Track 1 Volume | Track 2 Volume | Track 3 Volume | Track 4 Volume | Track 5 Volume | Track 6 Volume | Track 7 Volume | Track 8 Volume | Master Track Volume | - |
 | **Encoder push** | - | - | - | - | - | - | - | - | - | - |
 | **Button upper** | Track 1 Record | Track 2 Record | Track 3 Record | Track 4 Record | Track 5 Record | Track 6 Record | Track 7 Record | Track 8 Record | - | **Control [X]** |
-| **Button lower** | Refresh all surfaces | - | Go to previous marker/project start | Go to next marker/project end | [Cycle Timeline](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/CycleTimeline) | [Stop](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Transport-Actions) | [Play](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Transport-Actions) | [Record](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Transport-Actions) | - | **Shift [X]** |
+| **Button lower** | Refresh all surfaces | - | Zoom in vertical | Zoom out vertical | Zoom in horizontal | Zoom out horizontal | Toggle track height to maximum | Minimize all tracks | - | **Shift [X]** |
 | **Hold+Button lower** | - | - | - | - | - | - | - | - | - | - |
 
 ### "Selected Track" zone layout
@@ -109,7 +109,7 @@
 | **Encoder** | Send 1 volume | Send 2 volume | Send 3 volume | Send 4 volume | Send 5 volume | Send 6 volume | Send 7 volume | Send 8 volumme | Selected Track Volume | - |
 | **Encoder push** | Open FX slot 1 | Open FX slot 2 | Open FX slot 3 | Open FX slot 4 | Open FX slot 5 | Open FX slot 6 | Open FX slot 7 | Open FX slot 8 | - | - |
 | **Button upper** | Record Arm | Mute | Solo | Clear All Solo | Invert polarity | [VCA Spill](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/VCA's-and-VCA-Spill) | [Cycle Track Auto Mode](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Automation-Actions) | [Toggle Pin](<https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/TogglePin-(Pinning-Tacks)>) | - | **Control [X]** |
-| **Button lower** | Refresh all surfaces | - | Go to previous marker/project start | Go to next marker/project end | [Cycle Timeline](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/CycleTimeline) | [Stop](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Transport-Actions) | [Play](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Transport-Actions) | [Record](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Transport-Actions) | - | **Shift [X]** |
+| **Button lower** | Refresh all surfaces | - | Zoom in vertical | Zoom out vertical | Zoom in horizontal | Zoom out horizontal | Toggle track height to maximum | Minimize all tracks | - | **Shift [X]** |
 | **Hold+Button lower** | - | - | - | - | - | - | - | - | - | - |
 
 Enjoy!

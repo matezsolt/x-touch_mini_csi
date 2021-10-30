@@ -43,14 +43,19 @@ Zone "Buttons"
   Control+ButtonLower8            Reaper "40613"              // Markers: Delete marker near cursor
   Property+Control+ButtonLower8   NoFeedback 
 
-  Shift+Control+ButtonLower1      Reaper "41743"              // Control surface: Refresh all surfaces
-  Property+Control+ButtonLower1   NoFeedback 
-  Shift+Control+ButtonLower2      NoAction
-  Shift+Control+ButtonLower3      NoAction
-  Shift+Control+ButtonLower4      NoAction
-  Shift+Control+ButtonLower5      NoAction
-  Shift+Control+ButtonLower6      NoAction
-  Shift+Control+ButtonLower7      NoAction
-  Shift+Control+ButtonLower8      NoAction
-
+  Shift+Control+ButtonLower1            Reaper "41743"        // Control surface: Refresh all surfaces
+  Property+Control+ButtonLower1         NoFeedback 
+  Shift+Control+ButtonLower2            NoAction
+  Shift+Control+ButtonLower3            Reaper "40111"        // Zoom in vertical
+  Property+Shift+Control+ButtonLower3   NoFeedback            // Turns off the button light
+  Shift+Control+ButtonLower4            Reaper "40112"        // Zoom out vertical
+  Property+Shift+Control+ButtonLower4   NoFeedback            // Turns off the button light
+  Shift+Control+ButtonLower5            Reaper "1012"         // Zoom in horizontal
+  Property+Shift+Control+ButtonLower5   NoFeedback            // Turns off the button light
+  Shift+Control+ButtonLower6            Reaper "1011"         // Zoom out horizontal
+  Property+Shift+Control+ButtonLower6   NoFeedback            // Turns off the button light 
+  Shift+Control+ButtonLower7            Reaper "40113"        // Toggle track height to maximum
+  Shift+Control+ButtonLower8            Reaper "40727"        // Minimize all tracks
+  Property+Shift+Control+ButtonLower8   NoFeedback
+  
 ZoneEnd
