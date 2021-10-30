@@ -16,9 +16,7 @@ Zone "SelectedTrack"
   ButtonUpper7                    CycleTrackAutoMode
   ButtonUpper8                    TogglePin
 
-  ButtonLower1                    TrackBank "-1"
   ButtonLower1                    SelectedTrackBank "-1"
-  ButtonLower2                    TrackBank "1"
   ButtonLower2                    SelectedTrackBank "1"
 
   Control+ButtonLower1            Reaper "_S&M_DUMMY_TGL1"    // SWS/S&M: Dummy toggle 1

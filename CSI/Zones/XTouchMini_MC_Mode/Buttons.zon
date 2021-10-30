@@ -4,9 +4,9 @@ Zone "Buttons"
   LayerB						              Shift
 
   ButtonLower1                    TrackBank "-8"
-  ButtonLower1                    SelectedTrackBank "-8"
+/  ButtonLower1                    SelectedTrackBank "-8"
   ButtonLower2                    TrackBank "8"
-  ButtonLower2                    SelectedTrackBank "8"
+/  ButtonLower2                    SelectedTrackBank "8"
   ButtonLower3                    Reaper "40172"              // Go to previous marker/project start
   Hold+ButtonLower3               Reaper "40042"              // Transport: Go to start of project  
   ButtonLower4                    Reaper "40173"              // Go to next marker/project end
@@ -17,9 +17,9 @@ Zone "Buttons"
   ButtonLower8                    Record
 
   Shift+ButtonLower1              TrackBank "-1"
-  Shift+ButtonLower1              SelectedTrackBank "-1"
+/  Shift+ButtonLower1              SelectedTrackBank "-1"
   Shift+ButtonLower2              TrackBank "1"
-  Shift+ButtonLower2              SelectedTrackBank "1"
+/  Shift+ButtonLower2              SelectedTrackBank "1"
   Shift+ButtonLower3              Reaper "40646"              // Move cursor left to grid division
   Shift+ButtonLower4              Reaper "40647"              // Move cursor right to grid division
   Shift+ButtonLower5              Reaper "40364"              // Toggle metronome
