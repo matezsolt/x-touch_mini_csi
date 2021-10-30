@@ -2,10 +2,6 @@ Zone "VST: TR5 CSR Hall (IK Multimedia)"
 
 	FocusedFXNavigator
 
-	IncludedZones
-		"Default FX Zone"
-	IncludedZonesEnd    	
-
 	Rotary1												FXParam 2 "Mix"
 	Rotary2												FXParam 12 "Diffusion"
 	Rotary3												FXParam 5 "Rvb Time"
@@ -24,14 +20,14 @@ Zone "VST: TR5 CSR Hall (IK Multimedia)"
 	ButtonUpper7 									NoAction
 	ButtonUpper8 									NoAction
 
-	Shift+Rotary1									NoAction
-	Shift+Rotary2									NoAction
-	Shift+Rotary3									NoAction
-	Shift+Rotary4									NoAction
-	Shift+Rotary5									NoAction
-	Shift+Rotary6									NoAction
-	Shift+Rotary7									NoAction
-	Shift+Rotary8									NoAction
+	Shift+Rotary1									FXParam 3 "In Image"
+	Shift+Rotary2									FXParam 4 "Out Image"
+	Shift+Rotary3									FXParam 7 "Crossover"
+	Shift+Rotary4									FXParam 10 "Pre Delay"
+	Shift+Rotary5									FXParam 11 "Size"
+	Shift+Rotary6									FXParam 13 "Buildup"
+	Shift+Rotary7									FXParam 14 "Disperse"
+	Shift+Rotary8									FXParam 15 "Modulation"
 
 	Shift+ButtonUpper1 						NoAction
 	Shift+ButtonUpper2 						NoAction
@@ -51,16 +47,16 @@ Zone "VST: TR5 CSR Hall (IK Multimedia)"
 	Shift+RotaryPush7 						NoAction
 	Shift+RotaryPush8 						NoAction
 
-	Control+Rotary1		 						FXParam 2 "Mix"
-	Control+Rotary2		 						FXParam 12 "Diffusion"
-	Control+Rotary3		 						FXParam 5 "Rvb Time"
-	Control+Rotary4		 						FXParam 6 "Low Time"
-	Control+Rotary5		 						FXParam 8 "High Freq"
-	Control+Rotary6		 						FXParam 9 "High Damp"
-	Control+Rotary7		 						FXParam 0 "In Level"
-	Control+Rotary8		 						FXParam 1 "Out Level"
+	Control+Rotary1		 						FXParam 17 "Lo Cut F"
+	Control+Rotary2		 						FXParam 18 "Lo Cut G"
+	Control+Rotary3		 						FXParam 19 "Hi Cut F"
+	Control+Rotary4		 						FXParam 20 "Hi Cut G"
+	Control+Rotary5		 						FXParam 21 "Time Left"
+	Control+Rotary6		 						FXParam 22 "Level Left"
+	Control+Rotary7		 						FXParam 23 "Time Right"
+	Control+Rotary8		 						FXParam 24 "Level Right"
 
-	Control+InvertFB+ButtonUpper1 		FXParam 25 "Bypass" [ 0.0 1.0 ]
+	Control+ButtonUpper1 					NoAction
 	Control+ButtonUpper2 					NoAction
 	Control+ButtonUpper3 					NoAction
 	Control+ButtonUpper4 					NoAction
@@ -69,16 +65,16 @@ Zone "VST: TR5 CSR Hall (IK Multimedia)"
 	Control+ButtonUpper7 					NoAction
 	Control+ButtonUpper8 					NoAction
 
-	Control+RotaryPush1           Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
-  Control+RotaryPush2           Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
-  Control+RotaryPush3           Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
-  Control+RotaryPush4           Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
-  Control+RotaryPush5           Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
-  Control+RotaryPush6           Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
-  Control+RotaryPush7           Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
-  Control+RotaryPush8           Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+	Control+RotaryPush1           NoAction
+  Control+RotaryPush2           NoAction
+  Control+RotaryPush3           NoAction
+  Control+RotaryPush4           NoAction
+  Control+RotaryPush5           NoAction
+  Control+RotaryPush6           NoAction
+  Control+RotaryPush7           NoAction
+  Control+RotaryPush8           NoAction
 
-	Control+Shift+Rotary1					NoAction
+	Control+Shift+Rotary1					FXParam 16 "Mod Move"
 	Control+Shift+Rotary2					NoAction
 	Control+Shift+Rotary3					NoAction
 	Control+Shift+Rotary4					NoAction

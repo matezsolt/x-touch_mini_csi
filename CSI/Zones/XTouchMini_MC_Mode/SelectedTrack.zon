@@ -1,25 +1,38 @@
 Zone "SelectedTrack"
-    SelectedTrackNavigator
+  SelectedTrackNavigator
 
-    Fader                              	TrackVolume
+  OnTrackSelection                MapSelectedTrackFXToMenu
+  OnTrackSelection                MapSelectedTrackSendsToWidgets
+  OnTrackSelection                MapSelectedTrackReceivesToWidgets
 
-    ButtonLower1                		TrackBank "-1"
-    ButtonLower2                		TrackBank "1"
-    ButtonLower1                		SelectedTrackBank "-1"
-    ButtonLower2                		SelectedTrackBank "1"
+  Fader                           TrackVolume
 
-	LayerA								GoZone "Home"
+  ButtonUpper1                    TrackRecordArm
+  ButtonUpper2                    TrackMute
+  ButtonUpper3                    TrackSolo
+  ButtonUpper4                    ClearAllSolo
+  ButtonUpper5                    TrackInvertPolarity
+  ButtonUpper6                    TrackToggleVCASpill
+  ButtonUpper7                    CycleTrackAutoMode
+  ButtonUpper8                    TogglePin
 
-    ButtonUpper1                        TrackRecordArm
-    ButtonUpper2                        TrackMute
-    ButtonUpper3                        TrackSolo
-    ButtonUpper4                        ClearAllSolo
-    ButtonUpper5                        CycleTrackAutoMode
-    ButtonUpper7                        TrackToggleVCASpill
-    ButtonUpper6                        TogglePin
+  ButtonLower1                    TrackBank "-1"
+  ButtonLower1                    SelectedTrackBank "-1"
+  ButtonLower2                    TrackBank "1"
+  ButtonLower2                    SelectedTrackBank "1"
 
-	IncludedZones
-		"SelectedTrackSend"
-	IncludedZonesEnd    	
+  Control+ButtonLower1            Reaper "_S&M_DUMMY_TGL1"    // SWS/S&M: Dummy toggle 1
+  Control+ButtonLower1            GoZone "Home"
+
+  Control+ButtonLower2            Reaper "_S&M_WNCLS3"			  //SWS/S&M: Close all floating FX windows
+  Property+Control+ButtonLower2   NoFeedback 
+	Control+ButtonLower2            Reaper "_S&M_HIDEFXCHAIN"   //SWS/S&M: Hide FX chain windows for selected tracks
+  Property+Control+ButtonLower2   NoFeedback 
+	
+  IncludedZones
+    "SelectedTrackSend"
+    "SelectedTrackReceive"
+    "SelectedTrackFXMenu"
+  IncludedZonesEnd    	
 
 ZoneEnd

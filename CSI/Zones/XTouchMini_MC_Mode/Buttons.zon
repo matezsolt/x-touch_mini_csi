@@ -1,45 +1,50 @@
 Zone "Buttons"
-	
-	LayerA						Control			
-	LayerB						Shift
-/
-/ Transport buttons
-/
-    ButtonLower1                TrackBank "-8"
-    ButtonLower2                TrackBank "8"
-    ButtonLower1                SelectedTrackBank "-8"
-    ButtonLower2                SelectedTrackBank "8"
-    ButtonLower3                Reaper "40172"              //Go to previous marker/project start
-    ButtonLower4                Reaper "40173"              //Go to next marker/project end      
-    ButtonLower5                CycleTimeline
-    ButtonLower6                Stop        
-    ButtonLower7                Play        
-    ButtonLower8                Record
 
-    Hold+ButtonLower3           Reaper "40042"              //Transport: Go to start of project  
-    Hold+ButtonLower4           Reaper "40043"              //Transport: Go to end of project
-    Hold+ButtonLower6           ToggleVCAMode
+  LayerA						              Control
+  LayerB						              Shift
 
-    LayerA                      GoZone "SelectedTrack"
+  ButtonLower1                    TrackBank "-8"
+  ButtonLower1                    SelectedTrackBank "-8"
+  Shift+ButtonLower1              TrackBank "-1"
+  Shift+ButtonLower1              SelectedTrackBank "-1"
+  Control+ButtonLower1            Reaper "_S&M_DUMMY_TGL1"    // SWS/S&M: Dummy toggle 1
+  Control+ButtonLower1            GoZone "SelectedTrack"
+  Shift+Control+ButtonLower1      Reaper "41743"              // Control surface: Refresh all surfaces
 
-/    Control+ButtonLower1        GoZone "Home"  
-/    Control+ButtonLower2        GoZone "SelectedTrack"
-/    Control+ButtonLower3        MapSelectedTrackFXMenusToWidgets
-/    Control+ButtonLower4        MapFocusedFXToWidgets
-/    Control+ButtonLower5        NoAction
-/    Control+ButtonLower6        NoAction
-/    Control+ButtonLower7        NoAction
-/    Control+ButtonLower8        NoAction
+  ButtonLower2                    TrackBank "8"
+  ButtonLower2                    SelectedTrackBank "8"
+  Shift+ButtonLower2              TrackBank "1"
+  Shift+ButtonLower2              SelectedTrackBank "1"
+  Control+ButtonLower2            Reaper "_S&M_WNCLS3"			  //SWS/S&M: Close all floating FX windows
+  Property+Control+ButtonLower2   NoFeedback 
+	Control+ButtonLower2            Reaper "_S&M_HIDEFXCHAIN"   //SWS/S&M: Hide FX chain windows for selected tracks
+  Property+Control+ButtonLower2   NoFeedback 
 
-/    Shift+ButtonLower1          TrackBank "-1"
-/    Shift+ButtonLower2          TrackBank "1"
-/    Shift+ButtonLower3          Rewind
-/    Shift+ButtonLower4          FastForward
-/    Shift+ButtonLower5          Reaper "40364"              // Toggle metronome
-/	Shift+ButtonLower6          ToggleVCAMode
-/	Shift+ButtonLower7			"40157"						// Markers: Insert marker at current position
-/	Shift+ButtonLower8          CycleTrackAutoMode
+  ButtonLower3                    Reaper "40172"              // Go to previous marker/project start
+  Shift+ButtonLower3              Reaper "40646"              // Move cursor left to grid division
+  Control+ButtonLower3            NoAction
 
-/   Hold+Shift+ButtonLower5     Reaper "40363"              // Show metronome settings
-	
+  ButtonLower4                    Reaper "40173"              // Go to next marker/project end
+  Shift+ButtonLower4              Reaper "40647"              // Move cursor right to grid division
+  Control+ButtonLower4            NoAction
+
+  ButtonLower5                    CycleTimeline
+  Shift+ButtonLower5              Reaper "40364"              // Toggle metronome
+  Shift+Hold+ButtonLower5         Reaper "40363"              // Show metronome settings
+  Control+ButtonLower5            Reaper "_SWS_AWCOUNTRECTOG" // Toggle count-in before recording
+
+  ButtonLower6                    Stop
+  Shift+ButtonLower6              ToggleVCAMode
+  Control+ButtonLower6            NoAction
+
+  ButtonLower7                    Play
+  Shift+ButtonLower7              Reaper "40745"              // Options: Solo in front
+  Control+ButtonLower7            ClearAllSolo
+
+  ButtonLower8                    Record
+  Shift+ButtonLower8              Reaper "40157"              // Markers: Insert marker at current position
+  Property+Shift+ButtonLower8     NoFeedback 
+  Control+ButtonLower8            Reaper "40613"              // Markers: Delete marker near cursor
+  Property+Control+ButtonLower8   NoFeedback 
+
 ZoneEnd

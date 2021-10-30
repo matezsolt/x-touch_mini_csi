@@ -2,14 +2,6 @@ Zone "VST: ReaEQ (Cockos)"
 
 	FocusedFXNavigator
 	
-	IncludedZones
-		"Default FX Zone"
-	IncludedZonesEnd    	
-
-	LayerA												Reaper "_S&M_WNCLS3"			//SWS/S&M: Close all floating FX windows
-	LayerA												Reaper "_S&M_HIDEFXCHAIN" //SWS/S&M: Hide FX chain windows for selected tracks
-	LayerA												GoZone "Home"
-
 	Rotary1												FXParam 0 "Freq-Low Shelf"
 	Rotary2												FXParam 1 "Gain-Low Shelf"
 	Rotary3												FXParam 3 "Freq-Band 2"
@@ -64,16 +56,16 @@ Zone "VST: ReaEQ (Cockos)"
 	Shift+RotaryPush7 						NoAction
 	Shift+RotaryPush8 						NoAction
 
-	Control+Rotary1		 						FXParam 0 "Freq-Low Shelf"
-	Control+Rotary2		 						FXParam 1 "Gain-Low Shelf"
-	Control+Rotary3		 						FXParam 3 "Freq-Band 2"
-	Control+Rotary4		 						FXParam 4 "Gain-Band 2"
-	Control+Rotary5		 						FXParam 6 "Freq-Band 3"
-	Control+Rotary6		 						FXParam 7 "Gain-Band 3"
-	Control+Rotary7		 						FXParam 9 "Freq-High Shelf"
-	Control+Rotary8		 						FXParam 10 "Gain-High Shelf"
+	Control+Rotary1		 						NoAction
+	Control+Rotary2		 						NoAction
+	Control+Rotary3		 						NoAction
+	Control+Rotary4		 						NoAction
+	Control+Rotary5		 						NoAction
+	Control+Rotary6		 						NoAction
+	Control+Rotary7		 						NoAction
+	Control+Rotary8		 						NoAction
 
-	InvertFB+Control+ButtonUpper1 FXParam 12 "Bypass" [ 0.0 1.0 ]
+	Control+ButtonUpper1 					NoAction
 	Control+ButtonUpper2 					NoAction
 	Control+ButtonUpper3 					NoAction
 	Control+ButtonUpper4 					NoAction
@@ -82,22 +74,22 @@ Zone "VST: ReaEQ (Cockos)"
 	Control+ButtonUpper7 					NoAction
 	Control+ButtonUpper8 					NoAction
 
-	Control+RotaryPush1           Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
-  Control+RotaryPush2           Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
-  Control+RotaryPush3           Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
-  Control+RotaryPush4           Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
-  Control+RotaryPush5           Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
-  Control+RotaryPush6           Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
-  Control+RotaryPush7           Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
-  Control+RotaryPush8           Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+	Control+RotaryPush1           NoAction
+  Control+RotaryPush2           NoAction
+  Control+RotaryPush3           NoAction
+  Control+RotaryPush4           NoAction
+  Control+RotaryPush5           NoAction
+  Control+RotaryPush6           NoAction
+  Control+RotaryPush7           NoAction
+  Control+RotaryPush8           NoAction
 
-	Control+Shift+Rotary1					FXParam 2 "Q-Low Shelf"
+	Control+Shift+Rotary1					NoAction
 	Control+Shift+Rotary2					NoAction
-	Control+Shift+Rotary3					FXParam 5 "Q-Band 2"
+	Control+Shift+Rotary3					NoAction
 	Control+Shift+Rotary4					NoAction
-	Control+Shift+Rotary5					FXParam 8 "Q-Band 3"
+	Control+Shift+Rotary5					NoAction
 	Control+Shift+Rotary6					NoAction
-	Control+Shift+Rotary7					FXParam 11 "Q-High Shelf"
+	Control+Shift+Rotary7					NoAction
 	Control+Shift+Rotary8					NoAction
 
 	Control+Shift+ButtonUpper1 		NoAction

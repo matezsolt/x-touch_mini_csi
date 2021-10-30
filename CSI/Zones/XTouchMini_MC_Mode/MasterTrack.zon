@@ -1,6 +1,7 @@
 Zone "MasterTrack"
-    MasterTrackNavigator
-    
-	Fader                 TrackVolume
-	
+  MasterTrackNavigator
+
+  Fader                 TrackVolume
+  Control+Fader         FocusedFXParam
+
 ZoneEnd

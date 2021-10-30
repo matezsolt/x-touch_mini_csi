@@ -1,18 +1,17 @@
 Zone "Home"
-	
-	OnInitialization SetBroadcastGoZone													//The 'OnInitialization SetBroadcast' lines are
-	OnInitialization SetBroadcastMapTrackSendsSlotToWidgets			//only relevant if you are using additional 
-	OnInitialization SetBroadcastMapTrackFXMenusSlotToWidgets		//surfaces with the MCU.
-	OnInitialization SetBroadcastMapTrackReceivesSlotToWidgets
-	OnInitialization SetBroadcastGoFXSlot 
-	OnTrackSelection MapSelectedTrackFXToMenu
+  
+  OnInitialization SetBroadcastGoZone													//The 'OnInitialization SetBroadcast' lines are
+  OnInitialization SetBroadcastMapTrackSendsSlotToWidgets			//only relevant if you are using additional 
+  OnInitialization SetBroadcastMapTrackFXMenusSlotToWidgets		//surfaces with the MCU.
+  OnInitialization SetBroadcastMapTrackReceivesSlotToWidgets
+  OnInitialization SetBroadcastGoFXSlot 
 
-	OnFXFocus        MapFocusedFXToWidgets
+  OnFXFocus        MapFocusedFXToWidgets
 
-	IncludedZones
-		"Buttons"
-		"Channel"
-		"MasterTrack"
-		"SelectedTrackFXMenu"
-	IncludedZonesEnd    	
+  IncludedZones
+    "Buttons"
+    "Channel"
+    "MasterTrack"
+  IncludedZonesEnd
+  
 ZoneEnd

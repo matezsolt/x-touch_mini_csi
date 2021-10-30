@@ -1,17 +1,17 @@
-Zone "VST: TR5 One (IK Multimedia)"
+Zone "VST: TR5 Stealth Limiter (IK Multimedia)"
 
 	FocusedFXNavigator
 	
-	Rotary1												FXParam 1 "Focus"
-	Rotary2												FXParam 0 "Air"
-	Rotary3												FXParam 3 "Body"
-	Rotary4 											FXParam 2 "Push"
-	Rotary5												FXParam 4 "Width"
-	Rotary6												FXParam 5 "Volume"
-	Rotary7												FXParam 6 "Transient"
-	Rotary8												FXParam 7 "Analog"
+	Rotary1												FXParam 0 "Input Gain"
+	Rotary2												FXParam 1 "Output Gain"
+	Rotary3												NoAction
+	Rotary4 											NoAction
+	Rotary5												NoAction
+	Rotary6												NoAction
+	Rotary7												NoAction
+	Rotary8												NoAction
 
-	InvertFB+ButtonUpper1 				FXParam 9 "Bypass" [ 0.0 1.0 ]
+	InvertFB+ButtonUpper1 				FXParam 2 "Bypass"
 	ButtonUpper2 									NoAction
 	ButtonUpper3 									NoAction
 	ButtonUpper4 									NoAction
@@ -29,7 +29,7 @@ Zone "VST: TR5 One (IK Multimedia)"
 	RotaryPush7 									Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
 	RotaryPush8 									Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-	Shift+Rotary1									FXParam 8 "Bass Punch"
+	Shift+Rotary1									NoAction
 	Shift+Rotary2									NoAction
 	Shift+Rotary3									NoAction
 	Shift+Rotary4									NoAction

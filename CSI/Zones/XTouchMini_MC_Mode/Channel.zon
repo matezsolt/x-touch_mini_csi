@@ -1,11 +1,12 @@
 Zone "Channel"
-    TrackNavigator
-	
-		Rotary|											TrackVolume
-		Shift+Rotary|								MCUTrackPan
-    ButtonUpper|            		TrackSolo
-		Shift+ButtonUpper|					TrackMute
-/		Control+ButtonUpper|				TrackRecordArm
-/		Shift+Control+ButtonUpper|	TrackUniqueSelect
-	
+  TrackNavigator
+
+  Rotary|                         TrackVolume
+  Shift+Rotary|                   MCUTrackPan
+
+  ButtonUpper|                    TrackSolo    
+  Shift+ButtonUpper|              TrackMute
+  Control+ButtonUpper|            TrackSelect
+  Shift+Control+ButtonUpper|      TrackRecordArm
+
 ZoneEnd	

@@ -2,14 +2,6 @@ Zone "VST: Sonarworks Reference 4 (Sonarworks)"
 
 	FocusedFXNavigator
 	
-	IncludedZones
-		"Default FX Zone"
-	IncludedZonesEnd    	
-
-	LayerA												Reaper "_S&M_WNCLS3"			//SWS/S&M: Close all floating FX windows
-	LayerA												Reaper "_S&M_HIDEFXCHAIN" //SWS/S&M: Hide FX chain windows for selected tracks
-	LayerA												GoZone "Home"
-
 	Rotary1												NoAction
 	Rotary2												NoAction
 	Rotary3												NoAction
@@ -73,23 +65,23 @@ Zone "VST: Sonarworks Reference 4 (Sonarworks)"
 	Control+Rotary7		 						NoAction
 	Control+Rotary8		 						NoAction
 
-	Control+InvertFB+ButtonUpper1 		FXParam 3 "Bypass" [ 0.0 1.0 ]
-	Control+ButtonUpper2 					FXParam 0 "Calibration byp" [ 0.0 1.0 ]
-	Control+ButtonUpper3 					FXParam 1 "Mono monitoring" [ 0.0 1.0 ]
-	Control+ButtonUpper4 					FXParam 2 "Plugin mode" [ 0.0 1.0 ]
+	Control+ButtonUpper1 					NoAction
+	Control+ButtonUpper2 					NoAction
+	Control+ButtonUpper3 					NoAction
+	Control+ButtonUpper4 					NoAction
 	Control+ButtonUpper5 					NoAction
 	Control+ButtonUpper6 					NoAction
 	Control+ButtonUpper7 					NoAction
 	Control+ButtonUpper8 					NoAction
 
-	Control+RotaryPush1           Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
-  Control+RotaryPush2           Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
-  Control+RotaryPush3           Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
-  Control+RotaryPush4           Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
-  Control+RotaryPush5           Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
-  Control+RotaryPush6           Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
-  Control+RotaryPush7           Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
-  Control+RotaryPush8           Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+	Control+RotaryPush1           NoAction
+  Control+RotaryPush2           NoAction
+  Control+RotaryPush3           NoAction
+  Control+RotaryPush4           NoAction
+  Control+RotaryPush5           NoAction
+  Control+RotaryPush6           NoAction
+  Control+RotaryPush7           NoAction
+  Control+RotaryPush8           NoAction
 
 	Control+Shift+Rotary1					NoAction
 	Control+Shift+Rotary2					NoAction
