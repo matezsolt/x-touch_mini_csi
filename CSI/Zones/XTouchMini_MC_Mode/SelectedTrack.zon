@@ -20,17 +20,14 @@ Zone "SelectedTrack"
   ButtonLower2                    SelectedTrackBank "1"
 
   Control+ButtonLower1            Reaper "_S&M_DUMMY_TGL1"    // SWS/S&M: Dummy toggle 1
-  Control+ButtonLower1            GoZone "Home"
-  Control+ButtonLower1            Reaper "_S&M_WNCLS3"			  //SWS/S&M: Close all floating FX windows
-  Property+Control+ButtonLower1   NoFeedback 
-	Control+ButtonLower1            Reaper "_S&M_HIDEFXCHAIN"   //SWS/S&M: Hide FX chain windows for selected tracks
-  Property+Control+ButtonLower1   NoFeedback 
-
+  Control+ButtonLower1            GoZone "Home"  
   Control+ButtonLower2            Reaper "_S&M_WNCLS3"			  //SWS/S&M: Close all floating FX windows
   Property+Control+ButtonLower2   NoFeedback 
 	Control+ButtonLower2            Reaper "_S&M_HIDEFXCHAIN"   //SWS/S&M: Hide FX chain windows for selected tracks
   Property+Control+ButtonLower2   NoFeedback 
-	
+  Control+ButtonLower2            GoZone "SelectedTrack"
+	Property+Control+ButtonLower2   NoFeedback 
+
   IncludedZones
     "SelectedTrackSend"
     "SelectedTrackReceive"
