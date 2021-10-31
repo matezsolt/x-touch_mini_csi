@@ -3,10 +3,12 @@ Zone "Channel"
 
   Rotary|                         TrackVolume
   RotaryPush|                     TrackVolume [ 0.716 ]
-  Shift+Rotary|                   MCUTrackPan
-
   ButtonUpper|                    TrackSolo    
+
+  Shift+Rotary|                   MCUTrackPan
+  Shift+RotaryPush|               NoAction
   Shift+ButtonUpper|              TrackMute
+
   Control+ButtonUpper|            TrackSelect
   Shift+Control+ButtonUpper|      TrackRecordArm
 

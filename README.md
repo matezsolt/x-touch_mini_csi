@@ -1,12 +1,13 @@
 # Behringer X-Touch Mini Reaper CSI Template
-
 ## Things You need
+---
 
 - [Cockos Reaper](https://www.reaper.fm/)
 - [Control Surface Integrator - CSI Reaper Plugin](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki)
 - [Behringer X-Touch Mini](https://www.behringer.com/product.html?modelCode=P0B3M) control surface
 
 ## Installation
+---
 
 1. Install Reaper
 2. Install CSI, [see documentation](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Installation)
@@ -23,6 +24,7 @@
 5. X-Touch Mini needs to be in MC mode (MC MODE LED is lit). You can change from normal mode with powering up and holding down MC button, until the LEDs flash.
 
 ## Layouts
+---
 
 1. **"Home"** zone, banks of 8 channels vcontrols are accessible.
 2. **"Selected Track"** zone, the selected track's parameters are accessible.
@@ -31,7 +33,6 @@
 - The layouts altered by the _Shift (LayerB)_ and _Control (LayerA)_ modifiers.
 - Change between **"Home"** and **"Selected Track"** layout by _Control+ButtonLower1_ button.
 - **"FX zones"** are activated automatically by focusing on the effect window. Last touched track's effects slots can be opened/closed with encoder push.
-
 ### "Home" zone layout
 
 | - | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | Fader | Modifier |
@@ -96,7 +97,7 @@
 
 | - | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | Fader | Modifier |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Encoder** | Send 1 volume | Send 2 volume | Send 3 volume | Send 4 volume | Send 5 volume | Send 6 volume | Send 7 volume | Send 8 volumme | Selected Track Volume | - |
+| **Encoder** | Receive 1 volume | Receive 2 volume | Receive 3 volume | Receive 4 volume | Receive 5 volume | Receive 6 volume | Receive 7 volume | Receive 8 volumme | Selected Track Volume | - |
 | **Encoder push** | Offline FX slot 1 | Offline FX slot 2 | Offline FX slot 3 | Offline FX slot 4 | Offline FX slot 5 | Offline FX slot 6 | Offline FX slot 7 | Offline FX slot 8 | - | - |
 | **Button upper** | Record Arm | Mute | Solo | Clear All Solo | Invert polarity | [VCA Spill](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/VCA's-and-VCA-Spill) | [Cycle Track Auto Mode](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Automation-Actions) | [Toggle Pin](<https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/TogglePin-(Pinning-Tacks)>) | - | **Control [X]** |
 | **Button lower** | GoZone "Home" | Close all FX windows | - | - | Toggle count-in | - | Clear All Solo | Delete marker |  | Shift [-] |
@@ -106,10 +107,10 @@
 
 | - | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | Fader | Modifier |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Encoder** | Send 1 volume | Send 2 volume | Send 3 volume | Send 4 volume | Send 5 volume | Send 6 volume | Send 7 volume | Send 8 volumme | Selected Track Volume | - |
+| **Encoder** | Receive 1 Pan | Receive 2 Pan | Receive 3 Pan | Receive 4 Pan | Receive 5 Pan | Receive 6 Pan | Receive 7 Pan | Receive 8 Pan | Selected Track Volume | - |
 | **Encoder push** | Open/Close FX slot 1 | Open/Close FX slot 2 | Open/Close FX slot 3 | Open/Close FX slot 4 | Open/Close FX slot 5 | Open/Close FX slot 6 | Open/Close FX slot 7 | Open/Close FX slot 8 | - | - |
 | **Button upper** | Record Arm | Mute | Solo | Clear All Solo | Invert polarity | [VCA Spill](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/VCA's-and-VCA-Spill) | [Cycle Track Auto Mode](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Automation-Actions) | [Toggle Pin](<https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/TogglePin-(Pinning-Tacks)>) | - | **Control [X]** |
 | **Button lower** | Refresh all surfaces | - | Zoom out vertical | Zoom in vertical | Zoom out horizontal | Zoom in horizontal | Unsolo all tracks | Show region/marker manager window | - | **Shift [X]** |
 | **Hold+Button lower** | - | - | Minimize all tracks | Toggle track height to maximum | Zoom out project | Set horizontal zoom to default project setting | - | - | - | - |
 
-Enjoy! łv
+Enjoy!
