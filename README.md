@@ -24,13 +24,13 @@
 
 ## Layouts
 
-1. **"Home"** zone, where banks of 8 channels controls are accessible.
-2. **"Selected Track"** zone, where the selected track's parameters are accessible.
-3. **"FX zones"** where the focused effect parameters are accessible.
+1. **"Home"** zone, banks of 8 channels controls are accessible.
+2. **"Selected Track"** zone, the selected track's parameters are accessible.
+3. **"FX zones"**, the focused effect parameters are accessible.
 
 - The layouts altered by the _Shift (LayerB)_ and _Control (LayerA)_ modifiers.
-- Change between **"Home"** and **"Selected Track"** layout by Control+ButtonLower1 button.
-- **"FX zones"** are activated automatically by focusing on the effect window.
+- Change between **"Home"** and **"Selected Track"** layout by _Control+ButtonLower1_ button.
+- **"FX zones"** are activated automatically by focusing on the effect window. Last touched track's effects slots can be opened/closed with encoder push.
 
 ### "Home" zone layout
 
