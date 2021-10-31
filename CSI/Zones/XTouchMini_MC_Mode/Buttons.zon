@@ -25,33 +25,55 @@ Zone "Buttons"
   Shift+ButtonLower5              Reaper "40364"              // Toggle metronome
   Shift+Hold+ButtonLower5         Reaper "40363"              // Show metronome settings
   Shift+ButtonLower6              ToggleVCAMode
-  Shift+ButtonLower7              Reaper "40745"              // Options: Solo in front
-  Shift+ButtonLower8              Reaper "40157"              // Markers: Insert marker at current position
-  Property+Shift+ButtonLower8     NoFeedback 
+  Shift+ButtonLower7              Reaper "40745"              // Solo in front
+  Shift+ButtonLower8              Reaper "40157"              // Insert marker at current position
+  Property+Shift+ButtonLower8     NoFeedback                  // Turns off the button light
 
   Control+ButtonLower1            Reaper "_S&M_DUMMY_TGL1"    // SWS/S&M: Dummy toggle 1
   Control+ButtonLower1            GoZone "SelectedTrack"
+  Control+ButtonLower2            Reaper "_S&M_WNCLS3"			  // SWS/S&M: Close all floating FX windows
+  Property+Control+ButtonLower2   NoFeedback 
+	Control+ButtonLower2            Reaper "_S&M_HIDEFXCHAIN"   // SWS/S&M: Hide FX chain windows for selected tracks
+  Property+Control+ButtonLower2   NoFeedback 
+  Control+ButtonLower2            GoZone "Home"
+	Property+Control+ButtonLower2   NoFeedback 
   Control+ButtonLower3            NoAction
   Control+ButtonLower4            NoAction
   Control+ButtonLower5            Reaper "_SWS_AWCOUNTRECTOG" // Toggle count-in before recording
   Control+ButtonLower6            NoAction
   Control+ButtonLower7            ClearAllSolo
-  Control+ButtonLower8            Reaper "40613"              // Markers: Delete marker near cursor
-  Property+Control+ButtonLower8   NoFeedback 
+  Control+ButtonLower8            Reaper "40613"              // Delete marker near cursor
+  Property+Control+ButtonLower8   NoFeedback                  // Turns off the button light
 
-  Shift+Control+ButtonLower1            Reaper "41743"        // Control surface: Refresh all surfaces
-  Property+Control+ButtonLower1         NoFeedback 
-  Shift+Control+ButtonLower2            NoAction
-  Shift+Control+ButtonLower3            Reaper "40111"        // Zoom in vertical
-  Property+Shift+Control+ButtonLower3   NoFeedback            // Turns off the button light
-  Shift+Control+ButtonLower4            Reaper "40112"        // Zoom out vertical
-  Property+Shift+Control+ButtonLower4   NoFeedback            // Turns off the button light
-  Shift+Control+ButtonLower5            Reaper "1012"         // Zoom in horizontal
-  Property+Shift+Control+ButtonLower5   NoFeedback            // Turns off the button light
-  Shift+Control+ButtonLower6            Reaper "1011"         // Zoom out horizontal
-  Property+Shift+Control+ButtonLower6   NoFeedback            // Turns off the button light 
-  Shift+Control+ButtonLower7            Reaper "40113"        // Toggle track height to maximum
-  Shift+Control+ButtonLower8            Reaper "40727"        // Minimize all tracks
-  Property+Shift+Control+ButtonLower8   NoFeedback
+  Shift+Control+ButtonLower1                Reaper "41743"        // Control surface: Refresh all surfaces
+  Property+Control+ButtonLower1             NoFeedback            // Turns off the button light
+
+  Shift+Control+ButtonLower2                NoAction
+
+  Shift+Control+ButtonLower3                Reaper "40112"        // Zoom out vertical
+  Property+Shift+Control+ButtonLower3       NoFeedback            // Turns off the button light
+  Hold+Shift+Control+ButtonLower3           Reaper "40727"        // Minimize all tracks
+  Hold+Property+Shift+Control+ButtonLower3  NoFeedback            // Turns off the button light
+
+  Shift+Control+ButtonLower4                Reaper "40111"        // Zoom in vertical
+  Property+Shift+Control+ButtonLower4       NoFeedback            // Turns off the button light
+  Hold+Shift+Control+ButtonLower4           Reaper "40113"        // Toggle track height to maximum
+  Hold+Property+Shift+Control+ButtonLower4  NoFeedback            // Turns off the button light
+
+  Shift+Control+ButtonLower5                Reaper "1011"         // Zoom out horizontal
+  Property+Shift+Control+ButtonLower5       NoFeedback            // Turns off the button light
+  Hold+Shift+Control+ButtonLower5           Reaper "40295"        // Zoom out project
+  Hold+Property+Shift+Control+ButtonLower5  NoFeedback            // Turns off the button light
+
+  Shift+Control+ButtonLower6                Reaper "1012"         // Zoom in horizontal
+  Property+Shift+Control+ButtonLower6       NoFeedback            // Turns off the button light
+  Hold+Shift+Control+ButtonLower6           Reaper "41190"        // Set horizontal zoom to default project setting
+  Hold+Property+Shift+Control+ButtonLower6  NoFeedback            // Turns off the button light
+
+  Shift+Control+ButtonLower7                Reaper "40340"        // Unsolo all tracks
+  Property+Shift+Control+ButtonLower7       NoFeedback            // Turns off the button light
+
+  Shift+Control+ButtonLower8                Reaper "40326"        // Show region/marker manager window
+  Property+Shift+Control+ButtonLower8       NoFeedback            // Turns off the button light
   
 ZoneEnd

@@ -59,7 +59,7 @@
 | **Encoder** | Track 1 Volume | Track 2 Volume | Track 3 Volume | Track 4 Volume | Track 5 Volume | Track 6 Volume | Track 7 Volume | Track 8 Volume | [FocusedFXParam](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/FocusedFXParam) | - |
 | **Encoder push** | Show/Hide FX slot 1 | Show/Hide FX slot 2 | Show/Hide FX slot 3 | Show/Hide FX slot 4 | Show/Hide FX slot 5 | Show/Hide FX slot 6 | Show/Hide FX slot 7 | Show/Hide FX slot 8 | - | - |
 | **Button upper** | Track 1 Select | Track 2 Select | Track 3 Select | Track 4 Select | Track 5 Select | Track 6 Select | Track 7 Select | Track 8 Select |  | **Control [X]** |
-| **Button lower** | GoZone "Selected track" | Close all FX windows | - | - | Toggle count-in | - | Clear All Solo | Delete marker |  | Shift [-] |
+| **Button lower** | GoZone "Selected Track" | Close all FX windows | - | - | Toggle count-in | - | Clear All Solo | Delete marker |  | Shift [-] |
 | **Hold+Button lower** | - | - | - | - | - | - | - | - | - | - |
 
 ## Control+Shift+"Home" zone layout
@@ -69,8 +69,8 @@
 | **Encoder** | Track 1 Volume | Track 2 Volume | Track 3 Volume | Track 4 Volume | Track 5 Volume | Track 6 Volume | Track 7 Volume | Track 8 Volume | Master Track Volume | - |
 | **Encoder push** | - | - | - | - | - | - | - | - | - | - |
 | **Button upper** | Track 1 Record | Track 2 Record | Track 3 Record | Track 4 Record | Track 5 Record | Track 6 Record | Track 7 Record | Track 8 Record | - | **Control [X]** |
-| **Button lower** | Refresh all surfaces | - | Zoom in vertical | Zoom out vertical | Zoom in horizontal | Zoom out horizontal | Toggle track height to maximum | Minimize all tracks | - | **Shift [X]** |
-| **Hold+Button lower** | - | - | - | - | - | - | - | - | - | - |
+| **Button lower** | Refresh all surfaces | - | Zoom out vertical | Zoom in vertical | Zoom out horizontal | Zoom in horizontal | Unsolo all tracks | Show region/marker manager window | - | **Shift [X]** |
+| **Hold+Button lower** | - | - | Minimize all tracks | Toggle track height to maximum | Zoom out project | Set horizontal zoom to default project setting | - | - | - | - |
 
 ### "Selected Track" zone layout
 
@@ -109,7 +109,7 @@
 | **Encoder** | Send 1 volume | Send 2 volume | Send 3 volume | Send 4 volume | Send 5 volume | Send 6 volume | Send 7 volume | Send 8 volumme | Selected Track Volume | - |
 | **Encoder push** | Open FX slot 1 | Open FX slot 2 | Open FX slot 3 | Open FX slot 4 | Open FX slot 5 | Open FX slot 6 | Open FX slot 7 | Open FX slot 8 | - | - |
 | **Button upper** | Record Arm | Mute | Solo | Clear All Solo | Invert polarity | [VCA Spill](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/VCA's-and-VCA-Spill) | [Cycle Track Auto Mode](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Automation-Actions) | [Toggle Pin](<https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/TogglePin-(Pinning-Tacks)>) | - | **Control [X]** |
-| **Button lower** | Refresh all surfaces | - | Zoom in vertical | Zoom out vertical | Zoom in horizontal | Zoom out horizontal | Toggle track height to maximum | Minimize all tracks | - | **Shift [X]** |
-| **Hold+Button lower** | - | - | - | - | - | - | - | - | - | - |
+| **Button lower** | Refresh all surfaces | - | Zoom out vertical | Zoom in vertical | Zoom out horizontal | Zoom in horizontal | Unsolo all tracks | Show region/marker manager window | - | **Shift [X]** |
+| **Hold+Button lower** | - | - | Minimize all tracks | Toggle track height to maximum | Zoom out project | Set horizontal zoom to default project setting | - | - | - | - |
 
-Enjoy!
+Enjoy! łv
