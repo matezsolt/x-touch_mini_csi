@@ -1,13 +1,12 @@
 # Behringer X-Touch Mini Reaper CSI Template
+
 ## Things You need
----
 
 - [Cockos Reaper](https://www.reaper.fm/)
 - [Control Surface Integrator - CSI Reaper Plugin](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki)
 - [Behringer X-Touch Mini](https://www.behringer.com/product.html?modelCode=P0B3M) control surface
 
 ## Installation
----
 
 1. Install Reaper
 2. Install CSI, [see documentation](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Installation)
@@ -24,7 +23,6 @@
 5. X-Touch Mini needs to be in MC mode (MC MODE LED is lit). You can change from normal mode with powering up and holding down MC button, until the LEDs flash.
 
 ## Layouts
----
 
 1. **"Home"** zone, banks of 8 channels vcontrols are accessible.
 2. **"Selected Track"** zone, the selected track's parameters are accessible.
@@ -33,6 +31,7 @@
 - The layouts altered by the _Shift (LayerB)_ and _Control (LayerA)_ modifiers.
 - Change between **"Home"** and **"Selected Track"** layout by _Control+ButtonLower1_ button.
 - **"FX zones"** are activated automatically by focusing on the effect window. Last touched track's effects slots can be opened/closed with encoder push.
+
 ### "Home" zone layout
 
 | - | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | Fader | Modifier |
