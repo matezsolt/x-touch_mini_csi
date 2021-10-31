@@ -2,6 +2,7 @@ Zone "Channel"
   TrackNavigator
 
   Rotary|                         TrackVolume
+  RotaryPush|                     TrackVolume [ 0.716 ]
   Shift+Rotary|                   MCUTrackPan
 
   ButtonUpper|                    TrackSolo    
