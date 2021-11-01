@@ -1,18 +1,19 @@
-Zone "Dummy"
+Zone "VST: Neutrino (iZotope, Inc.)"
 
   FocusedFXNavigator
   
-  Rotary1                       NoAction
-  Rotary2                       NoAction
-  Rotary3                       NoAction
+  Rotary1                       FXParam 1 "Mode" [ (2) 0.00 0.33 0.66 1.0 ]
+  Rotary2                       FXParam 2 "Amount"
+  Rotary3                       FXParam 3 "Detail"
   Rotary4                       NoAction
   Rotary5                       NoAction
   Rotary6                       NoAction
   Rotary7                       NoAction
   Rotary8                       NoAction
 
-  InvertFB+ButtonUpper1         NoAction
-  ButtonUpper2                  NoAction
+  InvertFB+ButtonUpper1         FXParam 4 "Bypass" [ 0.0 1.0 ]
+  ButtonUpper2                  FXParam 1 "Mode" [ 0.00 0.33 0.66 1.0 ]
+  Property+ButtonUpper2         NoFeedback
   ButtonUpper3                  NoAction
   ButtonUpper4                  NoAction
   ButtonUpper5                  NoAction

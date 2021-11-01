@@ -1,9 +1,9 @@
-Zone "Dummy"
+Zone "VST: RX 7 Breath Control (iZotope, Inc.)"
 
   FocusedFXNavigator
   
-  Rotary1                       NoAction
-  Rotary2                       NoAction
+  Rotary1                       FXParam 1 "Gain"
+  Rotary2                       FXParam 2 "Sensitivity"
   Rotary3                       NoAction
   Rotary4                       NoAction
   Rotary5                       NoAction
@@ -11,8 +11,8 @@ Zone "Dummy"
   Rotary7                       NoAction
   Rotary8                       NoAction
 
-  InvertFB+ButtonUpper1         NoAction
-  ButtonUpper2                  NoAction
+  InvertFB+ButtonUpper1         FXParam 4 "Bypass" [ 0.0 1.0 ]
+  ButtonUpper2                  FXParam 0 "Algorithm" [ 0.0 1.0 ]
   ButtonUpper3                  NoAction
   ButtonUpper4                  NoAction
   ButtonUpper5                  NoAction
@@ -45,7 +45,7 @@ Zone "Dummy"
   Shift+ButtonUpper5            NoAction
   Shift+ButtonUpper6            NoAction
   Shift+ButtonUpper7            NoAction
-  Shift+ButtonUpper8            NoAction
+  Shift+ButtonUpper8            FXParam 6 "Delta" [ 0.0 1.0 ] 
 
   Shift+RotaryPush1             NoAction
   Shift+RotaryPush2             NoAction
