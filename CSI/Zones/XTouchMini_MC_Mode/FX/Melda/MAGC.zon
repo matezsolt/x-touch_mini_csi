@@ -1,32 +1,32 @@
 Zone "VST: MAGC (MeldaProduction)"
 
-	FocusedFXNavigator
+  FocusedFXNavigator
 
 / Not mapped:
-/	FXParam 5 "PresetTrigger-Previous"
-/	FXParam 6 "Preset trigger - next"
-		
-	Rotary1												FXParam 0 "Gain In"
-	Rotary2												FXParam 1 "Gain Out"
-	Rotary3												FXParam 2 "Range"
-	Rotary4 											FXParam 3 "Speed"
-	Rotary5												NoAction
-	Rotary6												NoAction
-	Rotary7												NoAction
-	Rotary8												NoAction
+/  FXParam 5 "PresetTrigger-Previous"
+/  FXParam 6 "Preset trigger - next"
+    
+  Rotary1                        FXParam 0 "Gain In"
+  Rotary2                        FXParam 1 "Gain Out"
+  Rotary3                        FXParam 2 "Range"
+  Rotary4                       FXParam 3 "Speed"
+  Rotary5                        NoAction
+  Rotary6                        NoAction
+  Rotary7                        NoAction
+  Rotary8                        NoAction
 
-	InvertFB+ButtonUpper1 				FXParam 8 "Bypass" [ 0.0 1.0 ]	
-	ButtonUpper2 									FXParam 4 "Psycho-acousPrefiltering" [ 0.0 1.0 ]
-	ButtonUpper3 									FXParam 7 "Set output gain" [ 0.0 1.0 ]
-	ButtonUpper4 									NoAction
-	ButtonUpper5 									NoAction
-	ButtonUpper6 									NoAction
-	ButtonUpper7 									NoAction
-	ButtonUpper8 									NoAction
+  InvertFB+ButtonUpper1         FXParam 8 "Bypass" [ 0.0 1.0 ]  
+  ButtonUpper2                   FXParam 4 "Psycho-acousPrefiltering" [ 0.0 1.0 ]
+  ButtonUpper3                   FXParam 7 "Set output gain" [ 0.0 1.0 ]
+  ButtonUpper4                   NoAction
+  ButtonUpper5                   NoAction
+  ButtonUpper6                   NoAction
+  ButtonUpper7                   NoAction
+  ButtonUpper8                   NoAction
 
-	RotaryPush1 									Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
-	RotaryPush2 									Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
-	RotaryPush3 									Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+  RotaryPush1                   Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+  RotaryPush2                   Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+  RotaryPush3                   Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
 	RotaryPush4 									Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
 	RotaryPush5 									Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
 	RotaryPush6 									Reaper "41754" //Track: Open/close UI for FX #6 on last touched track

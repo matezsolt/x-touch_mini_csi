@@ -1,8 +1,8 @@
 Zone "SelectedTrackReceive"
   SelectedTrackReceiveNavigator
 
-	Control+Rotary|               TrackReceiveVolume
-	Control+Shift+Rotary|       	TrackReceivePan
-	Control+Shift+ButtonUpper|    TrackReceiveMute
+  Control+Rotary|               TrackReceiveVolume
+  Control+Shift+Rotary|         TrackReceivePan
+  Control+Shift+ButtonUpper|    TrackReceiveMute
 
 ZoneEnd

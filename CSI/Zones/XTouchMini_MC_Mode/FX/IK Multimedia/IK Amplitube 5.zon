@@ -11,7 +11,7 @@ Zone "VST: AmpliTube 5 (IK Multimedia)"
 	Rotary7												FXParam 6 "Param 7"
 	Rotary8												FXParam 7 "Param 8"
 
-	InvertFB+ButtonUpper1 				FXParam 16 "Bypass" [ 0.0 1.0 ]		
+	InvertFB+ButtonUpper1 				FXParam 16 "Bypass" [ 0.0 1.0 ]
 	ButtonUpper2 									NoAction
 	ButtonUpper3 									NoAction
 	ButtonUpper4 									NoAction

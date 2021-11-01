@@ -1,84 +1,84 @@
 Zone "VST: MCharmVerb (MeldaProduction)"
-	FocusedFXNavigator
+  FocusedFXNavigator
 
 /Not mapped:
-/	FXParam 29 "PresetTrigger-Previous"
-/	FXParam 30 "Preset trigger - next"
-/	FXParam 32 "Wet"
-	
-	Rotary1												FXParam 4 "Globals - Dry/Wet"
-	Rotary2												FXParam 5 "Globals - Length"
-	Rotary3												FXParam 6 "Globals - Size"
-	Rotary4 											FXParam 7 "Globals - Low-cut"
-	Rotary5												FXParam 8 "Globals - High-cut"
-	Rotary6												FXParam 9 "Globals - Predelay"
-	Rotary7												FXParam 10 "Globals - Gain"
-	Rotary8												FXParam 11 "Globals - Widening"
+/  FXParam 29 "PresetTrigger-Previous"
+/  FXParam 30 "Preset trigger - next"
+/  FXParam 32 "Wet"
+  
+  Rotary1                        FXParam 4 "Globals - Dry/Wet"
+  Rotary2                        FXParam 5 "Globals - Length"
+  Rotary3                        FXParam 6 "Globals - Size"
+  Rotary4                       FXParam 7 "Globals - Low-cut"
+  Rotary5                        FXParam 8 "Globals - High-cut"
+  Rotary6                        FXParam 9 "Globals - Predelay"
+  Rotary7                        FXParam 10 "Globals - Gain"
+  Rotary8                        FXParam 11 "Globals - Widening"
 
-	InvertFB+ButtonUpper1 				FXParam 31 "Bypass" [ 0.0 1.0 ]
-	ButtonUpper2 									NoAction
-	ButtonUpper3 									NoAction
-	ButtonUpper4 									NoAction
-	ButtonUpper5 									NoAction
-	ButtonUpper6 									NoAction
-	ButtonUpper7 									NoAction
-	ButtonUpper8 									NoAction
+  InvertFB+ButtonUpper1         FXParam 31 "Bypass" [ 0.0 1.0 ]
+  ButtonUpper2                   NoAction
+  ButtonUpper3                   NoAction
+  ButtonUpper4                   NoAction
+  ButtonUpper5                   NoAction
+  ButtonUpper6                   NoAction
+  ButtonUpper7                   NoAction
+  ButtonUpper8                   NoAction
 
-	RotaryPush1 									Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
-	RotaryPush2 									Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
-	RotaryPush3 									Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
-	RotaryPush4 									Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
-	RotaryPush5 									Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
-	RotaryPush6 									Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
-	RotaryPush7 									Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
-	RotaryPush8 									Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+  RotaryPush1                   Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+  RotaryPush2                   Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+  RotaryPush3                   Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+  RotaryPush4                   Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+  RotaryPush5                   Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+  RotaryPush6                   Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+  RotaryPush7                   Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+  RotaryPush8                   Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-	Shift+Rotary1									FXParam 13 "Globals-DampLow-Frequenc"
-	Shift+Rotary2									FXParam 14 "Globals-DampLow-Gain"
-	Shift+Rotary3									FXParam 15 "Globals - Damp Low - Q"
-	Shift+Rotary4									FXParam 17 "Globals-DampHigh-Frequen"
-	Shift+Rotary5									FXParam 18 "Globals-DampHigh-Gain"
-	Shift+Rotary6									FXParam 19 "Globals - Damp High - Q"
-	Shift+Rotary7									FXParam 20 "Globals-Designe-Complex"
-	Shift+Rotary8									FXParam 21 "Globals-Designe-Modulat"
+  Shift+Rotary1                  FXParam 13 "Globals-DampLow-Frequenc"
+  Shift+Rotary2                  FXParam 14 "Globals-DampLow-Gain"
+  Shift+Rotary3                  FXParam 15 "Globals - Damp Low - Q"
+  Shift+Rotary4                  FXParam 17 "Globals-DampHigh-Frequen"
+  Shift+Rotary5                  FXParam 18 "Globals-DampHigh-Gain"
+  Shift+Rotary6                  FXParam 19 "Globals - Damp High - Q"
+  Shift+Rotary7                  FXParam 20 "Globals-Designe-Complex"
+  Shift+Rotary8                  FXParam 21 "Globals-Designe-Modulat"
 
-	Shift+ButtonUpper1 						FXParam 12 "Globals-DampLow-DampLow" [ 0.0 1.0 ]
-	Shift+ButtonUpper2 						NoAction
-	Shift+ButtonUpper3 						NoAction
-	Shift+ButtonUpper4 						FXParam 16 "Global-DampHigh-DampHigh" [ 0.0 1.0 ]
-	Shift+ButtonUpper5 						NoAction
-	Shift+ButtonUpper6 						NoAction
-	Shift+ButtonUpper7 						NoAction
-	Shift+ButtonUpper8 						NoAction
+  Shift+ButtonUpper1             FXParam 12 "Globals-DampLow-DampLow" [ 0.0 1.0 ]
+  Shift+ButtonUpper2             NoAction
+  Shift+ButtonUpper3             NoAction
+  Shift+ButtonUpper4             FXParam 16 "Global-DampHigh-DampHigh" [ 0.0 1.0 ]
+  Shift+ButtonUpper5             NoAction
+  Shift+ButtonUpper6             NoAction
+  Shift+ButtonUpper7             NoAction
+  Shift+ButtonUpper8             NoAction
 
-	Shift+RotaryPush1 						NoAction
-	Shift+RotaryPush2 						NoAction
-	Shift+RotaryPush3 						NoAction
-	Shift+RotaryPush4 						NoAction
-	Shift+RotaryPush5 						NoAction
-	Shift+RotaryPush6 						NoAction
-	Shift+RotaryPush7 						NoAction
-	Shift+RotaryPush8 						NoAction
+  Shift+RotaryPush1             NoAction
+  Shift+RotaryPush2             NoAction
+  Shift+RotaryPush3             NoAction
+  Shift+RotaryPush4             NoAction
+  Shift+RotaryPush5             NoAction
+  Shift+RotaryPush6             NoAction
+  Shift+RotaryPush7             NoAction
+  Shift+RotaryPush8             NoAction
 
-	Control+Rotary1		 						FXParam 0 "Param 1"
-	Control+Rotary2		 						FXParam 1 "Param 2"
-	Control+Rotary3		 						FXParam 2 "Param 3"
-	Control+Rotary4		 						FXParam 3 "Param 4"
-	Control+Rotary5		 						NoAction
-	Control+Rotary6		 						NoAction
-	Control+Rotary7		 						NoAction
-	Control+Rotary8		 						NoAction
+  Control+Rotary1                 FXParam 0 "Param 1"
+  Control+Rotary2                 FXParam 1 "Param 2"
+  Control+Rotary3                 FXParam 2 "Param 3"
+  Control+Rotary4                 FXParam 3 "Param 4"
+  Control+Rotary5                 NoAction
+  Control+Rotary6                 NoAction
+  Control+Rotary7                 NoAction
+  Control+Rotary8                 NoAction
 
-	Control+ButtonUpper1 					NoAction
-	Control+ButtonUpper2 					NoAction
-	Control+ButtonUpper3 					NoAction
-	Control+ButtonUpper4 					NoAction
-	Control+ButtonUpper5 					NoAction
-	Control+ButtonUpper6 					NoAction
-	Control+ButtonUpper7 					NoAction
-	Control+ButtonUpper8 					NoAction
+  Control+ButtonUpper1           NoAction
+  Control+ButtonUpper2           NoAction
+  Control+ButtonUpper3           NoAction
+  Control+ButtonUpper4           NoAction
+  Control+ButtonUpper5           NoAction
+  Control+ButtonUpper6           NoAction
+  Control+ButtonUpper7           NoAction
+  Control+ButtonUpper8           NoAction
 
-	Control+RotaryPush1           NoAction
+  Control+RotaryPush1           NoAction
   Control+RotaryPush2           NoAction
   Control+RotaryPush3           NoAction
   Control+RotaryPush4           NoAction
@@ -87,31 +87,31 @@ Zone "VST: MCharmVerb (MeldaProduction)"
   Control+RotaryPush7           NoAction
   Control+RotaryPush8           NoAction
 
-	Control+Shift+Rotary1					FXParam 22 "Globals-Designer-Seed"
-	Control+Shift+Rotary2					FXParam 23 "Globals-Designe-DelayMin"
-	Control+Shift+Rotary3					FXParam 24 "Globals-Designe-DelayMax"
-	Control+Shift+Rotary4					FXParam 25 "Global-Design-DelayFocus"
-	Control+Shift+Rotary5					FXParam 26 "Global-Design-DelayWidth"
-	Control+Shift+Rotary6					FXParam 27 "Global-Design-DelayOrder"
-	Control+Shift+Rotary7					FXParam 28 "Global-Design-ModulaRate"
-	Control+Shift+Rotary8					NoAction
+  Control+Shift+Rotary1          FXParam 22 "Globals-Designer-Seed"
+  Control+Shift+Rotary2          FXParam 23 "Globals-Designe-DelayMin"
+  Control+Shift+Rotary3          FXParam 24 "Globals-Designe-DelayMax"
+  Control+Shift+Rotary4          FXParam 25 "Global-Design-DelayFocus"
+  Control+Shift+Rotary5          FXParam 26 "Global-Design-DelayWidth"
+  Control+Shift+Rotary6          FXParam 27 "Global-Design-DelayOrder"
+  Control+Shift+Rotary7          FXParam 28 "Global-Design-ModulaRate"
+  Control+Shift+Rotary8          NoAction
 
-	Control+Shift+ButtonUpper1 		NoAction
-	Control+Shift+ButtonUpper2 		NoAction
-	Control+Shift+ButtonUpper3 		NoAction
-	Control+Shift+ButtonUpper4 		NoAction
-	Control+Shift+ButtonUpper5 		NoAction
-	Control+Shift+ButtonUpper6 		NoAction
-	Control+Shift+ButtonUpper7 		NoAction
-	Control+Shift+ButtonUpper8 		NoAction
+  Control+Shift+ButtonUpper1     NoAction
+  Control+Shift+ButtonUpper2     NoAction
+  Control+Shift+ButtonUpper3     NoAction
+  Control+Shift+ButtonUpper4     NoAction
+  Control+Shift+ButtonUpper5     NoAction
+  Control+Shift+ButtonUpper6     NoAction
+  Control+Shift+ButtonUpper7     NoAction
+  Control+Shift+ButtonUpper8     NoAction
 
-	Control+Shift+RotaryPush1 		NoAction
-	Control+Shift+RotaryPush2 		NoAction
-	Control+Shift+RotaryPush3 		NoAction
-	Control+Shift+RotaryPush4 		NoAction
-	Control+Shift+RotaryPush5 		NoAction
-	Control+Shift+RotaryPush6 		NoAction
-	Control+Shift+RotaryPush7 		NoAction
-	Control+Shift+RotaryPush8 		NoAction
+  Control+Shift+RotaryPush1     NoAction
+  Control+Shift+RotaryPush2     NoAction
+  Control+Shift+RotaryPush3     NoAction
+  Control+Shift+RotaryPush4     NoAction
+  Control+Shift+RotaryPush5     NoAction
+  Control+Shift+RotaryPush6     NoAction
+  Control+Shift+RotaryPush7     NoAction
+  Control+Shift+RotaryPush8     NoAction
 
 ZoneEnd

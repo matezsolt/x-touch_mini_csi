@@ -1,8 +1,8 @@
 Zone "SelectedTrackFXMenu"
   SelectedTrackFXMenuNavigator
     
-  RotaryPush|           Reaper "_S&M_FLOATFX|"		//SWS/S&M: Float FX | for selected tracks
-  RotaryPush|           Reaper "_S&M_SELFX|" 			//SWS/S&M: Select FX | for selected tracks
+  RotaryPush|           Reaper "_S&M_FLOATFX|"    //SWS/S&M: Float FX | for selected tracks
+  RotaryPush|           Reaper "_S&M_SELFX|"       //SWS/S&M: Select FX | for selected tracks
   RotaryPush|           GoFXSlot |
   Shift+RotaryPush|     Reaper "_S&M_FXBYP|"      //Bypass FX Slot
   Control+RotaryPush|   Reaper "_S&M_FXOFF|"      //Offline FX slot 
