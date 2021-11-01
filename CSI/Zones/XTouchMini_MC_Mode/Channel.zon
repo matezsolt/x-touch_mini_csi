@@ -12,4 +12,4 @@ Zone "Channel"
   Control+ButtonUpper|            TrackSelect
   Shift+Control+ButtonUpper|      TrackRecordArm
 
-ZoneEnd	
+ZoneEnd  
