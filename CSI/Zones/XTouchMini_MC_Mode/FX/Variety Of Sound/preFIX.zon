@@ -1,0 +1,113 @@
+Zone "VST: preFIX (Variety Of Sound)"
+
+  FocusedFXNavigator
+  
+  Rotary1                       FXParam 28 "EQ-HP"
+  Rotary2                       FXParam 24 "EQ-LP"
+  Rotary3                       FXParam 26 "EQ-LO-SHELF"
+  Rotary4                       FXParam 25 "EQ-HI-SHELF"
+  Rotary5                       FXParam 27 "EQ-LO-GAIN"
+  Rotary6                       FXParam 29 "EQ-HI-GAIN"
+  Rotary7                       FXParam 4 "OUT-L"
+  Rotary8                       FXParam 13 "OUT-R"
+
+  InvertFB+ButtonUpper1         FXParam 43 "Bypass" [ 0.0 1.0 ]
+  ButtonUpper2                  FXParam 10 "EQ-12-24" [ 0.0 1.0 ]
+  ButtonUpper3                  FXParam 14 "OUT-LINK" [ 0.0 1.0 ]
+  ButtonUpper4                  FXParam 39 "EQ-IN" [ 0.0 1.0 ]
+  ButtonUpper5                  NoAction
+  ButtonUpper6                  NoAction
+  ButtonUpper7                  NoAction
+  ButtonUpper8                  NoAction
+
+  RotaryPush1                   Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+  RotaryPush2                   Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+  RotaryPush3                   Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+  RotaryPush4                   Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+  RotaryPush5                   Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+  RotaryPush6                   Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+  RotaryPush7                   Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+  RotaryPush8                   Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+
+  Shift+Rotary1                 FXParam 31 "SC-HP"
+  Shift+Rotary2                 FXParam 30 "SC-LP"
+  Shift+Rotary3                 FXParam 35 "SC-PEAK-FREQ"
+  Shift+Rotary4                 FXParam 33 "SC-TONE-FREQ"
+  Shift+Rotary5                 FXParam 34 "SC-PEAK-GAIN"
+  Shift+Rotary6                 FXParam 32 "SC-TONE-GAIN"
+  Shift+Rotary7                 FXParam 16 "PHASE-DELAY"
+  Shift+Rotary8                 FXParam 15 "PHASE-PHASE"
+
+  Shift+ButtonUpper1            FXParam 11 "SC-12-24" [ 0.0 1.0 ]
+  Shift+ButtonUpper2            FXParam 12 "SC-INT-EXT" [ 0.0 1.0 ]
+  Shift+ButtonUpper3            FXParam 3 "PHASE-CHANNEL" [ 0.0 1.0 ]
+  Shift+ButtonUpper4            FXParam 0 "PHASE-LO-HI" [ 0.0 1.0 ]
+  Shift+ButtonUpper5            FXParam 2 "PHASE-INV" [ 0.0 1.0 ]
+  Shift+ButtonUpper6            FXParam 1 "PHASE-90-180" [ 0.0 1.0 ]
+  Shift+ButtonUpper7            FXParam 37 "PHASE-IN" [ 0.0 1.0 ]
+  Shift+ButtonUpper8            FXParam 40 "SC-IN" [ 0.0 1.0 ]
+
+  Shift+RotaryPush1             NoAction
+  Shift+RotaryPush2             NoAction
+  Shift+RotaryPush3             NoAction
+  Shift+RotaryPush4             NoAction
+  Shift+RotaryPush5             NoAction
+  Shift+RotaryPush6             NoAction
+  Shift+RotaryPush7             NoAction
+  Shift+RotaryPush8             NoAction
+
+  Control+Rotary1               FXParam 7 "GATE-THR"
+  Control+Rotary2               FXParam 9 "GATE-RNG"
+  Control+Rotary3               FXParam 6 "GATE-KNEE"
+  Control+Rotary4               FXParam 21 "GATE-ATT" [ (2) 0.0 0.15 0.29 0.43 0.58 0.72 0.86 1.0 ]
+  Control+Rotary5               FXParam 19 "GATE-HOLD"
+  Control+Rotary6               FXParam 20 "GATE-RELEASE"
+  Control+Rotary7               FXParam 36 "GATE-PRE-OPEN"
+  Control+Rotary8               NoAction
+
+  Control+ButtonUpper1          FXParam 5 "GATE-40-80" [ 0.0 1.0 ]
+  Control+ButtonUpper2          FXParam 38 "GATE-IN" [ 0.0 1.0 ]
+  Control+ButtonUpper3          FXParam 8 "GATE-LINK" [ 0.0 1.0 ]
+  Control+ButtonUpper4          FXParam 41 "SC-LISTEN" [ 0.0 1.0 ]
+  Control+ButtonUpper5          NoAction
+  Control+ButtonUpper6          NoAction
+  Control+ButtonUpper7          NoAction
+  Control+ButtonUpper8          NoAction
+
+  Control+RotaryPush1           NoAction
+  Control+RotaryPush2           NoAction
+  Control+RotaryPush3           NoAction
+  Control+RotaryPush4           NoAction
+  Control+RotaryPush5           NoAction
+  Control+RotaryPush6           NoAction
+  Control+RotaryPush7           NoAction
+  Control+RotaryPush8           NoAction
+
+  Control+Shift+Rotary1         FXParam 18 "POS-SIZE"
+  Control+Shift+Rotary2         FXParam 17 "POS-GLUE"
+  Control+Shift+Rotary3         FXParam 22 "POS-OUT" [ (2) 0.0 0.2 0.4 0.6 0.8 1.0 ]
+  Control+Shift+Rotary4         FXParam 23 "POS-ROT"
+  Control+Shift+Rotary5         NoAction
+  Control+Shift+Rotary6         NoAction
+  Control+Shift+Rotary7         NoAction
+  Control+Shift+Rotary8         NoAction
+
+  Control+Shift+ButtonUpper1    FXParam 42 "POS-IN"  [ 0.0 1.0 ]
+  Control+Shift+ButtonUpper2    NoAction
+  Control+Shift+ButtonUpper3    NoAction
+  Control+Shift+ButtonUpper4    NoAction
+  Control+Shift+ButtonUpper5    NoAction
+  Control+Shift+ButtonUpper6    NoAction
+  Control+Shift+ButtonUpper7    NoAction
+  Control+Shift+ButtonUpper8    NoAction
+
+  Control+Shift+RotaryPush1     NoAction
+  Control+Shift+RotaryPush2     NoAction
+  Control+Shift+RotaryPush3     NoAction
+  Control+Shift+RotaryPush4     NoAction
+  Control+Shift+RotaryPush5     NoAction
+  Control+Shift+RotaryPush6     NoAction
+  Control+Shift+RotaryPush7     NoAction
+  Control+Shift+RotaryPush8     NoAction
+
+ZoneEnd

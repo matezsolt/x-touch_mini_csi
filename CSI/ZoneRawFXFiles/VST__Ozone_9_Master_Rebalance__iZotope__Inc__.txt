@@ -1,0 +1,15 @@
+Zone "VST: Ozone 9 Master Rebalance (iZotope, Inc.)"
+	SelectedTrackNavigator
+	FXParam 0 "GAIN: Input L (Locked)"
+	FXParam 1 "GAIN: Input L (Unlocked"
+	FXParam 2 "GAIN: Input R (Unlocked"
+	FXParam 3 "GAIN: Output L (Locked)"
+	FXParam 4 "GAIN: Ouput L (Unlocked"
+	FXParam 5 "GAIN: Output R (Unlocke"
+	FXParam 6 "Global Bypass"
+	FXParam 7 "MRB: Bypass"
+	FXParam 8 "MRB: Gain"
+	FXParam 9 "Bypass"
+	FXParam 10 "Wet"
+	FXParam 11 "Delta"
+ZoneEnd
