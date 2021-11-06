@@ -1,23 +1,23 @@
-Zone "VST: NastyDLAmkII (Variety Of Sound)"
+Zone "VST: NastyVCS (Variety Of Sound)"
 
   FocusedFXNavigator
   
-  Rotary1                       FXParam 1 "INPUT"
-  Rotary2                       FXParam 3 "CHORUS"
-  Rotary3                       FXParam 4 "RATE"
-  Rotary4                       FXParam 5 "COLOR"
-  Rotary5                       FXParam 7 "FEEDBACK"
-  Rotary6                       FXParam 19 "MODULATION"
-  Rotary7                       FXParam 21 "DRY"
-  Rotary8                       FXParam 23 "WET"
+  Rotary1                       FXParam 2 "Preamp Input Level"
+  Rotary2                       FXParam 7 "Filters LP Freq"
+  Rotary3                       FXParam 1 "Preamp Sat Level"
+  Rotary4                       FXParam 5 "Filters HP Freq"
+  Rotary5                       NoAction
+  Rotary6                       NoAction
+  Rotary7                       NoAction
+  Rotary8                       FXParam 36 "Output level"
 
-  InvertFB+ButtonUpper1         FXParam 24 "Bypass" [ 0.0 1.0 ]
-  ButtonUpper2                  FXParam 2 "SAT" [ 0.0 1.0 ]
-  ButtonUpper3                  FXParam 6 "COLOR-I-II" [ 0.0 1.0 ]
-  ButtonUpper4                  FXParam 20 "MODULATION-I-II" [ 0.0 1.0 ]
-  ButtonUpper5                  FXParam 22 "WET-ONLY" [ 0.0 1.0 ]
-  ButtonUpper6                  NoAction 
-  ButtonUpper7                  NoAction
+  InvertFB+ButtonUpper1         FXParam 38 "Bypass" [ 0.0 1.0 ]
+  ButtonUpper2                  FXParam 6 "Filters HP HiQ" [ 0.0 1.0 ]
+  ButtonUpper3                  FXParam 8 "Filters LP HiQ" [ 0.0 1.0 ]
+  ButtonUpper4                  FXParam 0 "Preamp In" [ 0.0 1.0 ] 
+  ButtonUpper5                  FXParam 3 "Filters In" [ 0.0 1.0 ]
+  ButtonUpper6                  FXParam 4 "Filters to SC" [ 0.0 1.0 ]
+  ButtonUpper7                  FXParam 9 "External SC" [ 0.0 1.0 ]
   ButtonUpper8                  NoAction
 
   RotaryPush1                   Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
@@ -29,20 +29,20 @@ Zone "VST: NastyDLAmkII (Variety Of Sound)"
   RotaryPush7                   Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
   RotaryPush8                   Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-  Shift+Rotary1                 FXParam 8 "HP"
-  Shift+Rotary2                 FXParam 9 "LP"
-  Shift+Rotary3                 FXParam 10 "MODE" [ (3) 0.0 0.17 0.34 0.5 0.67 0.84 1.0 ]
-  Shift+Rotary4                 FXParam 11 "NOISE"
-  Shift+Rotary5                 FXParam 12 "FEEL"
-  Shift+Rotary6                 FXParam 14 "ECHO1"
-  Shift+Rotary7                 FXParam 17 "ECHO2"
-  Shift+Rotary8                 NoAction
+  Shift+Rotary1                 FXParam 12 "LF EQ Boost"
+  Shift+Rotary2                 FXParam 13 "LF EQ Cut"
+  Shift+Rotary3                 FXParam 16 "LMF Gain"
+  Shift+Rotary4                 FXParam 19 "HMF Gain"
+  Shift+Rotary5                 FXParam 22 "AiR Gain"
+  Shift+Rotary6                 FXParam 14 "LF Freq"
+  Shift+Rotary7                 FXParam 17 "LMF Freq"
+  Shift+Rotary8                 FXParam 20 "HMF Freq"
 
-  Shift+ButtonUpper1            FXParam 13 "DUCK" [ 0.0 1.0 ]
-  Shift+ButtonUpper2            FXParam 15 "SYNC1" [ 0.0 1.0 ]
-  Shift+ButtonUpper3            FXParam 16 "SYNC2" [ 0.0 1.0 ]
-  Shift+ButtonUpper4            FXParam 18 "AGED" [ 0.0 1.0 ]
-  Shift+ButtonUpper5            NoAction
+  Shift+ButtonUpper1            FXParam 15 "LF HiQ" [ 0.0 1.0 ]
+  Shift+ButtonUpper2            FXParam 18 "LMF HiQ" [ 0.0 1.0 ]
+  Shift+ButtonUpper3            FXParam 21 "HMF HiQ" [ 0.0 1.0 ]
+  Shift+ButtonUpper4            FXParam 10 "EQ In" [ 0.0 1.0 ]
+  Shift+ButtonUpper5            FXParam 11 "EQ Post Comp" [ 0.0 1.0 ]
   Shift+ButtonUpper6            NoAction
   Shift+ButtonUpper7            NoAction
   Shift+ButtonUpper8            NoAction
@@ -56,22 +56,22 @@ Zone "VST: NastyDLAmkII (Variety Of Sound)"
   Shift+RotaryPush7             NoAction
   Shift+RotaryPush8             NoAction
 
-  Control+Rotary1               NoAction
-  Control+Rotary2               NoAction
-  Control+Rotary3               NoAction
-  Control+Rotary4               NoAction
-  Control+Rotary5               NoAction
-  Control+Rotary6               NoAction
-  Control+Rotary7               NoAction
+  Control+Rotary1               FXParam 26 "Phase Shift"
+  Control+Rotary2               FXParam 32 "Comp Makeup"
+  Control+Rotary3               FXParam 36 "Output level"
+  Control+Rotary4               FXParam 30 "Comp Attack" [ (2) 0.0 0.5 1.0 ]
+  Control+Rotary5               FXParam 31 "Comp Release" [ (2) 0.0 0.25 0.5 0.75 1.0 ]
+  Control+Rotary6               FXParam 29 "Comp Level"
+  Control+Rotary7               FXParam 35 "Limiter Level"
   Control+Rotary8               NoAction
 
-  Control+ButtonUpper1          NoAction
-  Control+ButtonUpper2          NoAction
-  Control+ButtonUpper3          NoAction
-  Control+ButtonUpper4          NoAction
-  Control+ButtonUpper5          NoAction
-  Control+ButtonUpper6          NoAction
-  Control+ButtonUpper7          NoAction
+  Control+ButtonUpper1          FXParam 23 "Phase In" [ 0.0 1.0 ]
+  Control+ButtonUpper2          FXParam 24 "Phase Invert" [ 0.0 1.0 ]
+  Control+ButtonUpper3          FXParam 25 "Phase 90/180" [ 0.0 1.0 ]
+  Control+ButtonUpper4          FXParam 27 "Comp In" [ 0.0 1.0 ]
+  Control+ButtonUpper5          FXParam 28 "Comp Input +12dB" [ 0.0 1.0 ]
+  Control+ButtonUpper6          FXParam 33 "Limiter In" [ 0.0 1.0 ]
+  Control+ButtonUpper7          FXParam 34 "Limiter Fast Release" [ 0.0 1.0 ]
   Control+ButtonUpper8          NoAction
 
   Control+RotaryPush1           NoAction

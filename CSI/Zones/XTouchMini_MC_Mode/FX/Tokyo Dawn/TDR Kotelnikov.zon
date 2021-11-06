@@ -1,22 +1,22 @@
-Zone "VST: NastyDLAmkII (Variety Of Sound)"
+Zone "VST: TDR Kotelnikov (Tokyo Dawn Labs)"
 
   FocusedFXNavigator
   
-  Rotary1                       FXParam 1 "INPUT"
-  Rotary2                       FXParam 3 "CHORUS"
-  Rotary3                       FXParam 4 "RATE"
-  Rotary4                       FXParam 5 "COLOR"
-  Rotary5                       FXParam 7 "FEEDBACK"
-  Rotary6                       FXParam 19 "MODULATION"
-  Rotary7                       FXParam 21 "DRY"
-  Rotary8                       FXParam 23 "WET"
+  Rotary1                       FXParam 0 "Threshold"
+  Rotary2                       FXParam 1 "Peak Crest"
+  Rotary3                       FXParam 2 "Soft Knee"
+  Rotary4                       FXParam 3 "Ratio"
+  Rotary5                       FXParam 4 "Attack"
+  Rotary6                       FXParam 5 "Release Peak"
+  Rotary7                       FXParam 6 "Release RMS"
+  Rotary8                       FXParam 7 "Makeup"
 
-  InvertFB+ButtonUpper1         FXParam 24 "Bypass" [ 0.0 1.0 ]
-  ButtonUpper2                  FXParam 2 "SAT" [ 0.0 1.0 ]
-  ButtonUpper3                  FXParam 6 "COLOR-I-II" [ 0.0 1.0 ]
-  ButtonUpper4                  FXParam 20 "MODULATION-I-II" [ 0.0 1.0 ]
-  ButtonUpper5                  FXParam 22 "WET-ONLY" [ 0.0 1.0 ]
-  ButtonUpper6                  NoAction 
+  InvertFB+ButtonUpper1         FXParam 21 "Bypass" [ 0.0 1.0 ]
+  ButtonUpper2                  FXParam 15 "Delta" [ 0.0 1.0 ]
+  ButtonUpper3                  FXParam 17 "Quality" [ 0.0 1.0 ]
+  ButtonUpper4                  FXParam 18 "Mode" [ 0.0 0.2 0.4 0.6 0.8 1.0 ]
+  ButtonUpper5                  NoAction
+  ButtonUpper6                  NoAction
   ButtonUpper7                  NoAction
   ButtonUpper8                  NoAction
 
@@ -29,23 +29,23 @@ Zone "VST: NastyDLAmkII (Variety Of Sound)"
   RotaryPush7                   Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
   RotaryPush8                   Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-  Shift+Rotary1                 FXParam 8 "HP"
-  Shift+Rotary2                 FXParam 9 "LP"
-  Shift+Rotary3                 FXParam 10 "MODE" [ (3) 0.0 0.17 0.34 0.5 0.67 0.84 1.0 ]
-  Shift+Rotary4                 FXParam 11 "NOISE"
-  Shift+Rotary5                 FXParam 12 "FEEL"
-  Shift+Rotary6                 FXParam 14 "ECHO1"
-  Shift+Rotary7                 FXParam 17 "ECHO2"
-  Shift+Rotary8                 NoAction
+  Shift+Rotary1                 FXParam 8 "Dry Mix"
+  Shift+Rotary2                 FXParam 9 "Dry Wet"
+  Shift+Rotary3                 FXParam 11 "Out Gain"
+  Shift+Rotary4                 FXParam 12 "SC HP Freq"
+  Shift+Rotary5                 FXParam 13 "SC HP Slope" [ (3) 0.0 0.33 0.66 1.0 ]
+  Shift+Rotary6                 FXParam 14 "SC Stereo Diff"
+  Shift+Rotary7                 FXParam 19 "GR Disp Scale" [ (2) 0.0 0.15 0.29 0.43 0.58 0.72 0.86 1.0 ]
+  Shift+Rotary8                 FXParam 22 "Wet"
 
-  Shift+ButtonUpper1            FXParam 13 "DUCK" [ 0.0 1.0 ]
-  Shift+ButtonUpper2            FXParam 15 "SYNC1" [ 0.0 1.0 ]
-  Shift+ButtonUpper3            FXParam 16 "SYNC2" [ 0.0 1.0 ]
-  Shift+ButtonUpper4            FXParam 18 "AGED" [ 0.0 1.0 ]
+  Shift+ButtonUpper1            FXParam 10 "Dry Mix Mode" [ 0.0 1.0 ]
+  Shift+ButtonUpper2            FXParam 20 "GR Disp Mode" [ 0.0 1.0 ]
+  Shift+ButtonUpper3            NoAction
+  Shift+ButtonUpper4            NoAction
   Shift+ButtonUpper5            NoAction
   Shift+ButtonUpper6            NoAction
   Shift+ButtonUpper7            NoAction
-  Shift+ButtonUpper8            NoAction
+  Shift+ButtonUpper8            FXParam 23 "Delta" [ 0.0 1.0 ]
 
   Shift+RotaryPush1             NoAction
   Shift+RotaryPush2             NoAction
