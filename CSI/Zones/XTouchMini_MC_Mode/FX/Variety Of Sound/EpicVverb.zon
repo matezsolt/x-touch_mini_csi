@@ -2,23 +2,23 @@ Zone "VST: epicVerb (Variety Of Sound)"
 
   FocusedFXNavigator
 
-  Rotary1                       FXParam 21 "Predelay"
-  Rotary2                       FXParam 3 "Time"
-  Rotary3                       FXParam 13 "1stER"
+  Rotary1                        FXParam 21 "Predelay"
+  Rotary2                        FXParam 3 "Time"
+  Rotary3                        FXParam 13 "1stER"
   Rotary4                       FXParam 23 "1stLEVEL"
-  Rotary5                       FXParam 5 "Damp"
-  Rotary6                       FXParam 12 "MS"
-  Rotary7                       FXParam 2 "DryWet"
-  Rotary8                       FXParam 1 "Output"
+  Rotary5                        FXParam 5 "Damp"
+  Rotary6                        FXParam 12 "MS"
+  Rotary7                        FXParam 2 "DryWet"
+  Rotary8                        FXParam 1 "Output"
 
   InvertFB+ButtonUpper1         FXParam 25 "Bypass" [ 0.0 1.0 ]
-  ButtonUpper2                  FXParam 4 "10sec" [ 0.0 1.0 ]
-  ButtonUpper3                  FXParam 22 "AB" [ 0.0 1.0 ]
-  ButtonUpper4                  FXParam 15 "OnOff" [ 0.0 1.0 ]
-  ButtonUpper5                  NoAction
-  ButtonUpper6                  NoAction
-  ButtonUpper7                  NoAction
-  ButtonUpper8                  NoAction
+  ButtonUpper2                   FXParam 4 "10sec" [ 0.0 1.0 ]
+  ButtonUpper3                   FXParam 22 "AB" [ 0.0 1.0 ]
+  ButtonUpper4                   FXParam 15 "OnOff" [ 0.0 1.0 ]
+  ButtonUpper5                   NoAction
+  ButtonUpper6                   NoAction
+  ButtonUpper7                   NoAction
+  ButtonUpper8                   NoAction
 
   RotaryPush1                   Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
   RotaryPush2                   Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
@@ -29,23 +29,23 @@ Zone "VST: epicVerb (Variety Of Sound)"
   RotaryPush7                   Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
   RotaryPush8                   Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-  Shift+Rotary1                 FXParam 6 "HP"
-  Shift+Rotary2                 FXParam 7 "LP"
-  Shift+Rotary3                 FXParam 14 "2ndER"  
-  Shift+Rotary4                 FXParam 24 "2ndLEVEL"
-  Shift+Rotary5                 FXParam 11 "Modulation"
-  Shift+Rotary6                 FXParam 19 "RT-low" 
-  Shift+Rotary7                 FXParam 20 "RT-Xover"
-  Shift+Rotary8                 NoAction
+  Shift+Rotary1                  FXParam 6 "HP"
+  Shift+Rotary2                  FXParam 7 "LP"
+  Shift+Rotary3                  FXParam 14 "2ndER"  
+  Shift+Rotary4                  FXParam 24 "2ndLEVEL"
+  Shift+Rotary5                  FXParam 11 "Modulation"
+  Shift+Rotary6                  FXParam 19 "RT-low" 
+  Shift+Rotary7                  FXParam 20 "RT-Xover"
+  Shift+Rotary8                  NoAction
 
-  Shift+ButtonUpper1            NoAction
-  Shift+ButtonUpper2            NoAction
-  Shift+ButtonUpper3            NoAction
-  Shift+ButtonUpper4            NoAction
-  Shift+ButtonUpper5            NoAction
-  Shift+ButtonUpper6            NoAction
-  Shift+ButtonUpper7            NoAction
-  Shift+ButtonUpper8            NoAction
+  Shift+ButtonUpper1             NoAction
+  Shift+ButtonUpper2             NoAction
+  Shift+ButtonUpper3             NoAction
+  Shift+ButtonUpper4             NoAction
+  Shift+ButtonUpper5             NoAction
+  Shift+ButtonUpper6             NoAction
+  Shift+ButtonUpper7             NoAction
+  Shift+ButtonUpper8             NoAction
 
   Shift+RotaryPush1             NoAction
   Shift+RotaryPush2             NoAction
@@ -56,23 +56,23 @@ Zone "VST: epicVerb (Variety Of Sound)"
   Shift+RotaryPush7             NoAction
   Shift+RotaryPush8             NoAction
 
-  Control+Rotary1               FXParam 0 "Ratio"
-  Control+Rotary2               FXParam 8 "Gain1"
-  Control+Rotary3               FXParam 9 "Freq1"
-  Control+Rotary4               FXParam 10 "HiQ1"
-  Control+Rotary5               FXParam 16 "HiQ2"
-  Control+Rotary6               FXParam 17 "Gain2"
-  Control+Rotary7               FXParam 18 "Freq2"
-  Control+Rotary8               NoAction
+  Control+Rotary1                 FXParam 0 "Ratio"
+  Control+Rotary2                 FXParam 8 "Gain1"
+  Control+Rotary3                 FXParam 9 "Freq1"
+  Control+Rotary4                 FXParam 10 "HiQ1"
+  Control+Rotary5                 FXParam 16 "HiQ2"
+  Control+Rotary6                 FXParam 17 "Gain2"
+  Control+Rotary7                 FXParam 18 "Freq2"
+  Control+Rotary8                 NoAction
 
-  Control+ButtonUpper1          NoAction
-  Control+ButtonUpper2          NoAction
-  Control+ButtonUpper3          NoAction
-  Control+ButtonUpper4          NoAction
-  Control+ButtonUpper5          NoAction
-  Control+ButtonUpper6          NoAction
-  Control+ButtonUpper7          NoAction
-  Control+ButtonUpper8          NoAction
+  Control+ButtonUpper1           NoAction
+  Control+ButtonUpper2           NoAction
+  Control+ButtonUpper3           NoAction
+  Control+ButtonUpper4           NoAction
+  Control+ButtonUpper5           NoAction
+  Control+ButtonUpper6           NoAction
+  Control+ButtonUpper7           NoAction
+  Control+ButtonUpper8           NoAction
 
   Control+RotaryPush1           NoAction
   Control+RotaryPush2           NoAction
@@ -83,23 +83,23 @@ Zone "VST: epicVerb (Variety Of Sound)"
   Control+RotaryPush7           NoAction
   Control+RotaryPush8           NoAction
 
-  Control+Shift+Rotary1         NoAction
-  Control+Shift+Rotary2         NoAction
-  Control+Shift+Rotary3         NoAction
-  Control+Shift+Rotary4         NoAction
-  Control+Shift+Rotary5         NoAction
-  Control+Shift+Rotary6         NoAction
-  Control+Shift+Rotary7         NoAction
-  Control+Shift+Rotary8         NoAction
+  Control+Shift+Rotary1          NoAction
+  Control+Shift+Rotary2          NoAction
+  Control+Shift+Rotary3          NoAction
+  Control+Shift+Rotary4          NoAction
+  Control+Shift+Rotary5          NoAction
+  Control+Shift+Rotary6          NoAction
+  Control+Shift+Rotary7          NoAction
+  Control+Shift+Rotary8          NoAction
 
-  Control+Shift+ButtonUpper1    NoAction
-  Control+Shift+ButtonUpper2    NoAction
-  Control+Shift+ButtonUpper3    NoAction
-  Control+Shift+ButtonUpper4    NoAction
-  Control+Shift+ButtonUpper5    NoAction
-  Control+Shift+ButtonUpper6    NoAction
-  Control+Shift+ButtonUpper7    NoAction
-  Control+Shift+ButtonUpper8    NoAction
+  Control+Shift+ButtonUpper1     NoAction
+  Control+Shift+ButtonUpper2     NoAction
+  Control+Shift+ButtonUpper3     NoAction
+  Control+Shift+ButtonUpper4     NoAction
+  Control+Shift+ButtonUpper5     NoAction
+  Control+Shift+ButtonUpper6     NoAction
+  Control+Shift+ButtonUpper7     NoAction
+  Control+Shift+ButtonUpper8     NoAction
 
   Control+Shift+RotaryPush1     NoAction
   Control+Shift+RotaryPush2     NoAction

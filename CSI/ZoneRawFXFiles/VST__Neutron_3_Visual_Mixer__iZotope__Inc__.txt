@@ -1,6 +1,0 @@
-Zone "VST: Neutron 3 Visual Mixer (iZotope, Inc.)"
-	SelectedTrackNavigator
-	FXParam 0 "Bypass"
-	FXParam 1 "Wet"
-	FXParam 2 "Delta"
-ZoneEnd

@@ -2,23 +2,23 @@ Zone "VST: DensitymkIII (Variety Of Sound)"
 
   FocusedFXNavigator
   
-  Rotary1                       FXParam 0 "RANGE-1"
-  Rotary2                       FXParam 1 "DRIVE-1"
-  Rotary3                       FXParam 2 "TIMING-1" [ (3) 0.0 0.2 0.4 0.6 0.8 1.0 ]
+  Rotary1                        FXParam 0 "RANGE-1"
+  Rotary2                        FXParam 1 "DRIVE-1"
+  Rotary3                        FXParam 2 "TIMING-1"
   Rotary4                       FXParam 3 "MAKEUP-1"
-  Rotary5                       FXParam 8 "LINK"
-  Rotary6                       FXParam 9 "VCA-COLOR"
-  Rotary7                       FXParam 10 "WET"
-  Rotary8                       FXParam 11 "RELAX"
+  Rotary5                        FXParam 8 "LINK"
+  Rotary6                        FXParam 9 "VCA-COLOR"
+  Rotary7                        FXParam 10 "WET"
+  Rotary8                        FXParam 11 "RELAX"
 
   InvertFB+ButtonUpper1         FXParam 17 "Bypass" [ 0.0 1.0 ]
-  ButtonUpper2                  FXParam 14 "SC-FILTER" [ 0.0 1.0 ]
-  ButtonUpper3                  FXParam 15 "INT-EXT" [ 0.0 1.0 ]
-  ButtonUpper4                  FXParam 16 "COMP-LIM" [ 0.0 1.0 ]
-  ButtonUpper5                  NoAction
-  ButtonUpper6                  NoAction
-  ButtonUpper7                  NoAction
-  ButtonUpper8                  NoAction
+  ButtonUpper2                   FXParam 14 "SC-FILTER" [ 0.0 1.0 ]
+  ButtonUpper3                   FXParam 15 "INT-EXT" [ 0.0 1.0 ]
+  ButtonUpper4                   FXParam 16 "COMP-LIM" [ 0.0 1.0 ]
+  ButtonUpper5                   FXParam 12 "POWER" [ 0.0 1.0 ]
+  ButtonUpper6                   NoAction
+  ButtonUpper7                   NoAction
+  ButtonUpper8                   NoAction
 
   RotaryPush1                   Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
   RotaryPush2                   Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
@@ -29,23 +29,23 @@ Zone "VST: DensitymkIII (Variety Of Sound)"
   RotaryPush7                   Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
   RotaryPush8                   Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
 
-  Shift+Rotary1                 FXParam 4 "RANGE-2"
-  Shift+Rotary2                 FXParam 5 "DRIVE-2"
-  Shift+Rotary3                 FXParam 6 "TIMING-2" [ (3) 0.0 0.2 0.4 0.6 0.8 1.0 ]
-  Shift+Rotary4                 FXParam 7 "MAKEUP-2"
-  Shift+Rotary5                 FXParam 13 "LR-STEREO-MS" [ (3) 0.0 0.51 1.0 ]
-  Shift+Rotary6                 NoAction
-  Shift+Rotary7                 NoAction
-  Shift+Rotary8                 NoAction
+  Shift+Rotary1                  FXParam 4 "RANGE-2"
+  Shift+Rotary2                  FXParam 5 "DRIVE-2"
+  Shift+Rotary3                  FXParam 6 "TIMING-2"
+  Shift+Rotary4                  FXParam 7 "MAKEUP-2"
+  Shift+Rotary5                  FXParam 13 "LR-STEREO-MS" [ (3) 0.0 0.51 1.0 ]
+  Shift+Rotary6                  NoAction
+  Shift+Rotary7                  NoAction
+  Shift+Rotary8                  NoAction
 
-  Shift+ButtonUpper1            NoAction
-  Shift+ButtonUpper2            NoAction
-  Shift+ButtonUpper3            NoAction
-  Shift+ButtonUpper4            NoAction
-  Shift+ButtonUpper5            NoAction
-  Shift+ButtonUpper6            NoAction
-  Shift+ButtonUpper7            NoAction
-  Shift+ButtonUpper8            NoAction
+  Shift+ButtonUpper1             NoAction
+  Shift+ButtonUpper2             NoAction
+  Shift+ButtonUpper3             NoAction
+  Shift+ButtonUpper4             NoAction
+  Shift+ButtonUpper5             NoAction
+  Shift+ButtonUpper6             NoAction
+  Shift+ButtonUpper7             NoAction
+  Shift+ButtonUpper8             NoAction
 
   Shift+RotaryPush1             NoAction
   Shift+RotaryPush2             NoAction
@@ -56,23 +56,23 @@ Zone "VST: DensitymkIII (Variety Of Sound)"
   Shift+RotaryPush7             NoAction
   Shift+RotaryPush8             NoAction
 
-  Control+Rotary1               NoAction
-  Control+Rotary2               NoAction
-  Control+Rotary3               NoAction
-  Control+Rotary4               NoAction
-  Control+Rotary5               NoAction
-  Control+Rotary6               NoAction
-  Control+Rotary7               NoAction
-  Control+Rotary8               NoAction
+  Control+Rotary1                 NoAction
+  Control+Rotary2                 NoAction
+  Control+Rotary3                 NoAction
+  Control+Rotary4                 NoAction
+  Control+Rotary5                 NoAction
+  Control+Rotary6                 NoAction
+  Control+Rotary7                 NoAction
+  Control+Rotary8                 NoAction
 
-  Control+ButtonUpper1          NoAction
-  Control+ButtonUpper2          NoAction
-  Control+ButtonUpper3          NoAction
-  Control+ButtonUpper4          NoAction
-  Control+ButtonUpper5          NoAction
-  Control+ButtonUpper6          NoAction
-  Control+ButtonUpper7          NoAction
-  Control+ButtonUpper8          NoAction
+  Control+ButtonUpper1           NoAction
+  Control+ButtonUpper2           NoAction
+  Control+ButtonUpper3           NoAction
+  Control+ButtonUpper4           NoAction
+  Control+ButtonUpper5           NoAction
+  Control+ButtonUpper6           NoAction
+  Control+ButtonUpper7           NoAction
+  Control+ButtonUpper8           NoAction
 
   Control+RotaryPush1           NoAction
   Control+RotaryPush2           NoAction
@@ -83,23 +83,23 @@ Zone "VST: DensitymkIII (Variety Of Sound)"
   Control+RotaryPush7           NoAction
   Control+RotaryPush8           NoAction
 
-  Control+Shift+Rotary1         NoAction
-  Control+Shift+Rotary2         NoAction
-  Control+Shift+Rotary3         NoAction
-  Control+Shift+Rotary4         NoAction
-  Control+Shift+Rotary5         NoAction
-  Control+Shift+Rotary6         NoAction
-  Control+Shift+Rotary7         NoAction
-  Control+Shift+Rotary8         NoAction
+  Control+Shift+Rotary1          NoAction
+  Control+Shift+Rotary2          NoAction
+  Control+Shift+Rotary3          NoAction
+  Control+Shift+Rotary4          NoAction
+  Control+Shift+Rotary5          NoAction
+  Control+Shift+Rotary6          NoAction
+  Control+Shift+Rotary7          NoAction
+  Control+Shift+Rotary8          NoAction
 
-  Control+Shift+ButtonUpper1    NoAction
-  Control+Shift+ButtonUpper2    NoAction
-  Control+Shift+ButtonUpper3    NoAction
-  Control+Shift+ButtonUpper4    NoAction
-  Control+Shift+ButtonUpper5    NoAction
-  Control+Shift+ButtonUpper6    NoAction
-  Control+Shift+ButtonUpper7    NoAction
-  Control+Shift+ButtonUpper8    NoAction
+  Control+Shift+ButtonUpper1     NoAction
+  Control+Shift+ButtonUpper2     NoAction
+  Control+Shift+ButtonUpper3     NoAction
+  Control+Shift+ButtonUpper4     NoAction
+  Control+Shift+ButtonUpper5     NoAction
+  Control+Shift+ButtonUpper6     NoAction
+  Control+Shift+ButtonUpper7     NoAction
+  Control+Shift+ButtonUpper8     NoAction
 
   Control+Shift+RotaryPush1     NoAction
   Control+Shift+RotaryPush2     NoAction
