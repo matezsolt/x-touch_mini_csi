@@ -1,0 +1,113 @@
+Zone "VST: Nectar 3 (iZotope, Inc.)-5" //Global + SaturationFocusedFXNavigator
+
+  FocusedFXNavigator
+  
+  Rotary1                       FXParam 558 "INPUT: Gain"
+  Rotary2                       FXParam 559 "OUTPUT: Gain"
+  Rotary3                       FXParam 560 "OUTPUT: Pan"
+  Rotary4                       FXParam 561 "OUTPUT: Width"
+  Rotary5                       FXParam 552 "ALM: Target Level"
+  Rotary6                       FXParam 555 "LIMITER: Threshold"
+  Rotary7                       NoAction
+  Rotary8                       NoAction
+
+  InvertFB+ButtonUpper1         FXParam 556 "GLOBAL: Bypass" [ 0.0 1.0 ]
+  ButtonUpper2                  FXParam 557 "GLOBAL: Match" [ 0.0 1.0 ]
+  ButtonUpper3                  NoAction
+  ButtonUpper4                  NoAction
+  InvertFB+ButtonUpper5         FXParam 553 "ALM: Bypass" [ 0.0 1.0 ]
+  InvertFB+ButtonUpper6         FXParam 554 "LIMITER: Bypass" [ 0.0 1.0 ]
+  ButtonUpper7                  NoAction
+  ButtonUpper8                  NoAction
+
+  RotaryPush1                   Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+  RotaryPush2                   Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+  RotaryPush3                   Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+  RotaryPush4                   Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+  RotaryPush5                   Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+  RotaryPush6                   Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+  RotaryPush7                   Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+  RotaryPush8                   Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+
+  Shift+Rotary1                 FXParam 441 "SATURATION: Amount"
+  Shift+Rotary2                 FXParam 442 "SATURATION: High Shelf "
+  Shift+Rotary3                 FXParam 443 "SATURATION: High Shelf "
+  Shift+Rotary4                 FXParam 444 "SATURATION: High Shelf "
+  Shift+Rotary5                 NoAction
+  Shift+Rotary6                 NoAction
+  Shift+Rotary7                 NoAction
+  Shift+Rotary8                 FXParam 438 "SATURATION: Wet Mix"
+
+  InvertFB+Shift+ButtonUpper1   FXParam 439 "SATURATION: Bypass" [ 0.0 1.0 ]
+  Shift+ButtonUpper2            FXParam 440 "SATURATION: Mode" [ 0.0 0.25 0.5 0.75 1.0 ]
+  Shift+ButtonUpper3            NoAction
+  Shift+ButtonUpper4            NoAction
+  Shift+ButtonUpper5            NoAction
+  Shift+ButtonUpper6            NoAction
+  Shift+ButtonUpper7            NoAction
+  Shift+ButtonUpper8            NoAction
+
+  Shift+RotaryPush1             GoSubZone "VST: Nectar 3 (iZotope, Inc.)"   
+  Shift+RotaryPush2             GoSubZone "VST: Nectar 3 (iZotope, Inc.)-2" 
+  Shift+RotaryPush3             GoSubZone "VST: Nectar 3 (iZotope, Inc.)-3" 
+  Shift+RotaryPush4             GoSubZone "VST: Nectar 3 (iZotope, Inc.)-4" 
+  Shift+RotaryPush5             GoSubZone "VST: Nectar 3 (iZotope, Inc.)-5" 
+  Shift+RotaryPush6             GoSubZone "VST: Nectar 3 (iZotope, Inc.)-6" 
+  Shift+RotaryPush7             GoSubZone "VST: Nectar 3 (iZotope, Inc.)-7"   
+  Shift+RotaryPush8             GoSubZone "VST: Nectar 3 (iZotope, Inc.)-8"   
+
+  Control+Rotary1               NoAction
+  Control+Rotary2               NoAction
+  Control+Rotary3               NoAction
+  Control+Rotary4               NoAction
+  Control+Rotary5               NoAction
+  Control+Rotary6               NoAction
+  Control+Rotary7               NoAction
+  Control+Rotary8               NoAction
+
+  Control+ButtonUpper1          NoAction
+  Control+ButtonUpper2          NoAction
+  Control+ButtonUpper3          NoAction
+  Control+ButtonUpper4          NoAction
+  Control+ButtonUpper5          NoAction
+  Control+ButtonUpper6          NoAction
+  Control+ButtonUpper7          NoAction
+  Control+ButtonUpper8          NoAction
+
+  Control+RotaryPush1           NoAction
+  Control+RotaryPush2           NoAction
+  Control+RotaryPush3           NoAction
+  Control+RotaryPush4           NoAction
+  Control+RotaryPush5           NoAction
+  Control+RotaryPush6           NoAction
+  Control+RotaryPush7           NoAction
+  Control+RotaryPush8           NoAction
+
+  Control+Shift+Rotary1         NoAction
+  Control+Shift+Rotary2         NoAction
+  Control+Shift+Rotary3         NoAction
+  Control+Shift+Rotary4         NoAction
+  Control+Shift+Rotary5         NoAction
+  Control+Shift+Rotary6         NoAction
+  Control+Shift+Rotary7         NoAction
+  Control+Shift+Rotary8         NoAction
+
+  Control+Shift+ButtonUpper1    NoAction
+  Control+Shift+ButtonUpper2    NoAction
+  Control+Shift+ButtonUpper3    NoAction
+  Control+Shift+ButtonUpper4    NoAction
+  Control+Shift+ButtonUpper5    NoAction
+  Control+Shift+ButtonUpper6    NoAction
+  Control+Shift+ButtonUpper7    NoAction
+  Control+Shift+ButtonUpper8    NoAction
+
+  Control+Shift+RotaryPush1     NoAction
+  Control+Shift+RotaryPush2     NoAction
+  Control+Shift+RotaryPush3     NoAction
+  Control+Shift+RotaryPush4     NoAction
+  Control+Shift+RotaryPush5     NoAction
+  Control+Shift+RotaryPush6     NoAction
+  Control+Shift+RotaryPush7     NoAction
+  Control+Shift+RotaryPush8     NoAction
+
+ZoneEnd

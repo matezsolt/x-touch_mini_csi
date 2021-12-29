@@ -1,0 +1,113 @@
+Zone "VST: TrackPlug 5 (Wave Arts, Inc.)-2" //Gate + Comp1 + Comp2 + Master
+
+  FocusedFXNavigator
+  
+  Rotary1                       FXParam 52 "Gate Thr"
+  Rotary2                       FXParam 53 "Gate Rat"
+  Rotary3                       FXParam 54 "Gate Gai"
+  Rotary4                       FXParam 55 "Gate Att"
+  Rotary5                       FXParam 56 "Gate Rel"
+  Rotary6                       NoAction
+  Rotary7                       FXParam 62 "Gate SC "
+  Rotary8                       FXParam 63 "Gate SC "
+
+  ButtonUpper1                  FXParam 50 "Gate Ena" [ 0.0 1.0 ]
+  ButtonUpper2                  FXParam 57 "Gate Mod" [ 0.0 1.0 ]
+  ButtonUpper3                  FXParam 51 "Gate Kne" [ 0.0 0.5 1.0 ]
+  ButtonUpper4                  FXParam 59 "Gate SC " [ 0.0 1.0 ]
+  ButtonUpper5                  FXParam 58 "Gate Loo" [ 0.0 0.33 0.66 1.0 ]
+  ButtonUpper6                  FXParam 60 "Gate SC " [ 0.0 1.0 ]
+  ButtonUpper7                  FXParam 61 "Gate SC " [ 0.0 0.33 0.66 1.0 ]
+  ButtonUpper8                  NoAction
+
+  RotaryPush1                   Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+  RotaryPush2                   Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+  RotaryPush3                   Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+  RotaryPush4                   Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+  RotaryPush5                   Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+  RotaryPush6                   Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+  RotaryPush7                   Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+  RotaryPush8                   Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+
+  Shift+Rotary1                 FXParam 66 "Comp1 Th"
+  Shift+Rotary2                 FXParam 67 "Comp1 Ra"
+  Shift+Rotary3                 FXParam 68 "Comp1 Ga"
+  Shift+Rotary4                 FXParam 69 "Comp1 At"
+  Shift+Rotary5                 FXParam 70 "Comp1 Re"
+  Shift+Rotary6                 NoAction
+  Shift+Rotary7                 FXParam 76 "Comp1 SC"
+  Shift+Rotary8                 FXParam 77 "Comp1 SC"
+
+  Shift+ButtonUpper1            FXParam 64 "Comp1 En" [ 0.0 1.0 ]
+  Shift+ButtonUpper2            FXParam 71 "Comp1 Mo" [ 0.0 0.33 0.66 1.0 ]
+  Shift+ButtonUpper3            FXParam 65 "Comp1 Kn" [ 0.0 0.5 1.0 ]
+  Shift+ButtonUpper4            FXParam 73 "Comp1 SC" [ 0.0 0.16 0.33 0.5 0.66 0.83 1.0 ]
+  Shift+ButtonUpper5            FXParam 72 "Comp1 Lo" [ 0.0 0.33 0.66 1.0 ]
+  Shift+ButtonUpper6            FXParam 74 "Comp1 SC" [ 0.0 1.0 ]
+  Shift+ButtonUpper7            FXParam 75 "Comp1 SC" [ 0.0 0.33 0.66 1.0 ]
+  Shift+ButtonUpper8            NoAction
+
+  Shift+RotaryPush1             GoSubZone "VST: TrackPlug 5 (Wave Arts, Inc.)"   //EQ 
+  Shift+RotaryPush2             GoSubZone "VST: TrackPlug 5 (Wave Arts, Inc.)-2" //Gate + Comp1 + Comp2 + Master
+  Shift+RotaryPush3             NoAction
+  Shift+RotaryPush4             NoAction
+  Shift+RotaryPush5             NoAction
+  Shift+RotaryPush6             NoAction
+  Shift+RotaryPush7             NoAction
+  Shift+RotaryPush8             NoAction
+
+  Control+Rotary1               FXParam 80 "Comp2 Th"
+  Control+Rotary2               FXParam 81 "Comp2 Ra"
+  Control+Rotary3               FXParam 82 "Comp2 Ga"
+  Control+Rotary4               FXParam 83 "Comp2 At"
+  Control+Rotary5               FXParam 84 "Comp2 Re"
+  Control+Rotary6               NoAction
+  Control+Rotary7               FXParam 90 "Comp2 SC"
+  Control+Rotary8               FXParam 91 "Comp2 SC"
+
+  Control+ButtonUpper1          FXParam 78 "Comp2 En" [ 0.0 1.0 ]
+  Control+ButtonUpper2          FXParam 85 "Comp2 Mo" [ 0.0 0.33 0.66 1.0 ]
+  Control+ButtonUpper3          FXParam 79 "Comp2 Kn" [ 0.0 0.5 1.0 ]
+  Control+ButtonUpper4          FXParam 87 "Comp2 SC" [ 0.0 0.16 0.33 0.5 0.66 0.83 1.0 ]
+  Control+ButtonUpper5          FXParam 86 "Comp2 Lo" [ 0.0 0.33 0.66 1.0 ]
+  Control+ButtonUpper6          FXParam 88 "Comp2 SC" [ 0.0 1.0 ]
+  Control+ButtonUpper7          FXParam 89 "Comp2 SC" [ 0.0 0.33 0.66 1.0 ]
+  Control+ButtonUpper8          NoAction
+
+  Control+RotaryPush1           NoAction
+  Control+RotaryPush2           NoAction
+  Control+RotaryPush3           NoAction
+  Control+RotaryPush4           NoAction
+  Control+RotaryPush5           NoAction
+  Control+RotaryPush6           NoAction
+  Control+RotaryPush7           NoAction
+  Control+RotaryPush8           NoAction
+
+  Control+Shift+Rotary1         FXParam 99 "Output L"
+  Control+Shift+Rotary2         NoAction
+  Control+Shift+Rotary3         NoAction
+  Control+Shift+Rotary4         NoAction
+  Control+Shift+Rotary5         NoAction
+  Control+Shift+Rotary6         NoAction
+  Control+Shift+Rotary7         FXParam 102 "MAS Bus"
+  Control+Shift+Rotary8         FXParam 104 "Wet"
+
+  InvertFB+Control+Shift+ButtonUpper1    FXParam 103 "Bypass" [ 0.0 1.0 ]
+  Control+Shift+ButtonUpper2    FXParam 101 "Limiter " [ 0.0 1.0 ]
+  Control+Shift+ButtonUpper3    NoAction
+  Control+Shift+ButtonUpper4    NoAction
+  Control+Shift+ButtonUpper5    NoAction
+  Control+Shift+ButtonUpper6    NoAction
+  Control+Shift+ButtonUpper7    NoAction
+  Control+Shift+ButtonUpper8    NoAction
+
+  Control+Shift+RotaryPush1     NoAction
+  Control+Shift+RotaryPush2     NoAction
+  Control+Shift+RotaryPush3     NoAction
+  Control+Shift+RotaryPush4     NoAction
+  Control+Shift+RotaryPush5     NoAction
+  Control+Shift+RotaryPush6     NoAction
+  Control+Shift+RotaryPush7     NoAction
+  Control+Shift+RotaryPush8     NoAction
+
+ZoneEnd
