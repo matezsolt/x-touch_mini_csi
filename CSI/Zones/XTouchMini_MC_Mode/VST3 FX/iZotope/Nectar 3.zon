@@ -1,13 +1,13 @@
-Zone "VST3: Nectar 3 (iZotope, Inc.)" // EQ 1
+Zone "VST3: Nectar 3 (iZotope)" // EQ 1
 
   FocusedFXNavigator
 
   SubZones
-     "VST: Nectar 3 (iZotope, Inc.)-2" //Comp1 + Comp2 + Gate + Deesser
-     "VST: Nectar 3 (iZotope, Inc.)-3" //Delay
-     "VST: Nectar 3 (iZotope, Inc.)-4" //Reverb
-     "VST: Nectar 3 (iZotope, Inc.)-5" //Master + Saturation
-     "VST: Nectar 3 (iZotope, Inc.)-6" //Pitch + Dimension
+     "VST3: Nectar 3 (iZotope)-2" //Comp1 + Comp2 + Gate + Deesser
+     "VST3: Nectar 3 (iZotope)-3" //Delay
+     "VST3: Nectar 3 (iZotope)-4" //Reverb
+     "VST3: Nectar 3 (iZotope)-5" //Master + Saturation
+     "VST3: Nectar 3 (iZotope)-6" //Pitch + Dimension
   SubZonesEnd
 
   Rotary1                       FXParam 9 "EQ 1: B1 Frequency"

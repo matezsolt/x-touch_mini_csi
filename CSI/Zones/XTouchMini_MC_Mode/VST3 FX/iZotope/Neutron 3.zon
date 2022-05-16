@@ -1,14 +1,14 @@
-Zone "VST3: Neutron 3 (iZotope, Inc.)" //EQ
+Zone "VST3: Neutron 3 (iZotope)" //EQ
   
   FocusedFXNavigator
   
   SubZones
-    "VST: Neutron 3 (iZotope, Inc.)-2" //Comp1
-    "VST: Neutron 3 (iZotope, Inc.)-3" //Comp2
-    "VST: Neutron 3 (iZotope, Inc.)-4" //Exciter
-    "VST: Neutron 3 (iZotope, Inc.)-5" //Gate
-    "VST: Neutron 3 (iZotope, Inc.)-6" //Sculptor
-    "VST: Neutron 3 (iZotope, Inc.)-7" //Transient Shaper
+    "VST3: Neutron 3 (iZotope)-2" //Comp1
+    "VST3: Neutron 3 (iZotope)-3" //Comp2
+    "VST3: Neutron 3 (iZotope)-4" //Exciter
+    "VST3: Neutron 3 (iZotope)-5" //Gate
+    "VST3: Neutron 3 (iZotope)-6" //Sculptor
+    "VST3: Neutron 3 (iZotope)-7" //Transient Shaper
   SubZonesEnd
 
 // Not mapped:
