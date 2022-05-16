@@ -1,0 +1,248 @@
+Zone "VST3: Helix Native (Line 6)"
+
+  FocusedFXNavigator
+
+/ Not mapped:   
+/  FXParam 35 "(unused)"
+/  FXParam 37 "CC 0"
+/  FXParam 38 "CC 1"
+/  FXParam 39 "CC 2"
+/  FXParam 40 "CC 3"
+/  FXParam 41 "CC 4"
+/  FXParam 42 "CC 5"
+/  FXParam 43 "CC 6"
+/  FXParam 44 "CC 7"
+/  FXParam 45 "CC 8"
+/  FXParam 46 "CC 9"
+/  FXParam 47 "CC 10"
+/  FXParam 48 "CC 11"
+/  FXParam 49 "CC 12"
+/  FXParam 50 "CC 13"
+/  FXParam 51 "CC 14"
+/  FXParam 52 "CC 15"
+/  FXParam 53 "CC 16"
+/  FXParam 54 "CC 17"
+/  FXParam 55 "CC 18"
+/  FXParam 56 "CC 19"
+/  FXParam 57 "CC 20"
+/  FXParam 58 "CC 21"
+/  FXParam 59 "CC 22"
+/  FXParam 60 "CC 23"
+/  FXParam 61 "CC 24"
+/  FXParam 62 "CC 25"
+/  FXParam 63 "CC 26"
+/  FXParam 64 "CC 27"
+/  FXParam 65 "CC 28"
+/  FXParam 66 "CC 29"
+/  FXParam 67 "CC 30"
+/  FXParam 68 "CC 31"
+/  FXParam 69 "CC 32"
+/  FXParam 70 "CC 33"
+/  FXParam 71 "CC 34"
+/  FXParam 72 "CC 35"
+/  FXParam 73 "CC 36"
+/  FXParam 74 "CC 37"
+/  FXParam 75 "CC 38"
+/  FXParam 76 "CC 39"
+/  FXParam 77 "CC 40"
+/  FXParam 78 "CC 41"
+/  FXParam 79 "CC 42"
+/  FXParam 80 "CC 43"
+/  FXParam 81 "CC 44"
+/  FXParam 82 "CC 45"
+/  FXParam 83 "CC 46"
+/  FXParam 84 "CC 47"
+/  FXParam 85 "CC 48"
+/  FXParam 86 "CC 49"
+/  FXParam 87 "CC 50"
+/  FXParam 88 "CC 51"
+/  FXParam 89 "CC 52"
+/  FXParam 90 "CC 53"
+/  FXParam 91 "CC 54"
+/  FXParam 92 "CC 55"
+/  FXParam 93 "CC 56"
+/  FXParam 94 "CC 57"
+/  FXParam 95 "CC 58"
+/  FXParam 96 "CC 59"
+/  FXParam 97 "CC 60"
+/  FXParam 98 "CC 61"
+/  FXParam 99 "CC 62"
+/  FXParam 100 "CC 63"
+/  FXParam 101 "CC 64"
+/  FXParam 102 "CC 65"
+/  FXParam 103 "CC 66"
+/  FXParam 104 "CC 67"
+/  FXParam 105 "CC 68"
+/  FXParam 106 "CC 69"
+/  FXParam 107 "CC 70"
+/  FXParam 108 "CC 71"
+/  FXParam 109 "CC 72"
+/  FXParam 110 "CC 73"
+/  FXParam 111 "CC 74"
+/  FXParam 112 "CC 75"
+/  FXParam 113 "CC 76"
+/  FXParam 114 "CC 77"
+/  FXParam 115 "CC 78"
+/  FXParam 116 "CC 79"
+/  FXParam 117 "CC 80"
+/  FXParam 118 "CC 81"
+/  FXParam 119 "CC 82"
+/  FXParam 120 "CC 83"
+/  FXParam 121 "CC 84"
+/  FXParam 122 "CC 85"
+/  FXParam 123 "CC 86"
+/  FXParam 124 "CC 87"
+/  FXParam 125 "CC 88"
+/  FXParam 126 "CC 89"
+/  FXParam 127 "CC 90"
+/  FXParam 128 "CC 91"
+/  FXParam 129 "CC 92"
+/  FXParam 130 "CC 93"
+/  FXParam 131 "CC 94"
+/  FXParam 132 "CC 95"
+/  FXParam 133 "CC 96"
+/  FXParam 134 "CC 97"
+/  FXParam 135 "CC 98"
+/  FXParam 136 "CC 99"
+/  FXParam 137 "CC 100"
+/  FXParam 138 "CC 101"
+/  FXParam 139 "CC 102"
+/  FXParam 140 "CC 103"
+/  FXParam 141 "CC 104"
+/  FXParam 142 "CC 105"
+/  FXParam 143 "CC 106"
+/  FXParam 144 "CC 107"
+/  FXParam 145 "CC 108"
+/  FXParam 146 "CC 109"
+/  FXParam 147 "CC 110"
+/  FXParam 148 "CC 111"
+/  FXParam 149 "CC 112"
+/  FXParam 150 "CC 113"
+/  FXParam 151 "CC 114"
+/  FXParam 152 "CC 115"
+/  FXParam 153 "CC 116"
+/  FXParam 154 "CC 117"
+/  FXParam 155 "CC 118"
+/  FXParam 156 "CC 119"
+/  FXParam 157 "CC 120"
+/  FXParam 158 "CC 121"
+/  FXParam 159 "CC 122"
+/  FXParam 160 "CC 123"
+/  FXParam 161 "CC 124"
+/  FXParam 162 "CC 125"
+/  FXParam 163 "CC 126"
+/  FXParam 164 "CC 127"
+/  FXParam 165 "CC 128"
+/  FXParam 166 "CC 129"
+/  FXParam 167 "Bypass"
+/  FXParam 168 "Wet"  
+  
+  Rotary1                        FXParam 0 "Knob 1"
+  Rotary2                        FXParam 1 "Knob 2"
+  Rotary3                        FXParam 2 "Knob 3"
+  Rotary4                       FXParam 3 "Knob 4"
+  Rotary5                        FXParam 4 "Knob 5"
+  Rotary6                        FXParam 5 "Knob 6"
+  Rotary7                        FXParam 6 "Knob 7"
+  Rotary8                        FXParam 7 "Knob 8"
+
+  ButtonUpper1                   FXParam 16 "Switch 1"
+  ButtonUpper2                   FXParam 17 "Switch 2"
+  ButtonUpper3                   FXParam 18 "Switch 3"
+  ButtonUpper4                   FXParam 19 "Switch 4"
+  ButtonUpper5                   FXParam 20 "Switch 5"
+  ButtonUpper6                   FXParam 21 "Switch 6"
+  ButtonUpper7                   FXParam 22 "Switch 7"
+  ButtonUpper8                   FXParam 23 "Switch 8"
+
+  RotaryPush1                   Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+  RotaryPush2                   Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+  RotaryPush3                   Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+  RotaryPush4                   Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+  RotaryPush5                   Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+  RotaryPush6                   Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+  RotaryPush7                   Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+  RotaryPush8                   Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+
+  Shift+Rotary1                  FXParam 8 "Knob 9"
+  Shift+Rotary2                  FXParam 9 "Knob 10"
+  Shift+Rotary3                  FXParam 10 "Knob 11"
+  Shift+Rotary4                  FXParam 11 "Knob 12"
+  Shift+Rotary5                  FXParam 12 "Knob 13"
+  Shift+Rotary6                  FXParam 13 "Knob 14"
+  Shift+Rotary7                  FXParam 14 "Knob 15"
+  Shift+Rotary8                  FXParam 15 "Knob 16"
+  
+  Shift+ButtonUpper1             FXParam 24 "Switch 9"
+  Shift+ButtonUpper2             FXParam 25 "Switch 10"
+  Shift+ButtonUpper3             FXParam 26 "Switch 11"
+  Shift+ButtonUpper4             FXParam 27 "Switch 12"
+  Shift+ButtonUpper5             FXParam 28 "Switch 13"
+  Shift+ButtonUpper6             FXParam 29 "Switch 14"
+  Shift+ButtonUpper7             FXParam 30 "Switch 15"
+  Shift+ButtonUpper8             FXParam 31 "Switch 16"
+
+  Shift+RotaryPush1             NoAction
+  Shift+RotaryPush2             NoAction
+  Shift+RotaryPush3             NoAction
+  Shift+RotaryPush4             NoAction
+  Shift+RotaryPush5             NoAction
+  Shift+RotaryPush6             NoAction
+  Shift+RotaryPush7             NoAction
+  Shift+RotaryPush8             NoAction
+
+  Control+Rotary1                 FXParam 32 "Master Input Level"
+  Control+Rotary2                 FXParam 33 "Master Output Level"
+  Control+Rotary3                 FXParam 36 "Snapshot Index"
+  Control+Rotary4                 NoAction
+  Control+Rotary5                 NoAction
+  Control+Rotary6                 NoAction
+  Control+Rotary7                 NoAction
+  Control+Rotary8                 NoAction
+                                
+  Control+ButtonUpper1           FXParam 34 "Master Bypass"
+  Control+ButtonUpper2           NoAction
+  Control+ButtonUpper3           NoAction
+  Control+ButtonUpper4           NoAction
+  Control+ButtonUpper5           NoAction
+  Control+ButtonUpper6           NoAction
+  Control+ButtonUpper7           NoAction
+  Control+ButtonUpper8           NoAction
+
+  Control+RotaryPush1           NoAction
+  Control+RotaryPush2           NoAction
+  Control+RotaryPush3           NoAction
+  Control+RotaryPush4           NoAction
+  Control+RotaryPush5           NoAction
+  Control+RotaryPush6           NoAction
+  Control+RotaryPush7           NoAction
+  Control+RotaryPush8           NoAction
+
+  Control+Shift+Rotary1          NoAction
+  Control+Shift+Rotary2          NoAction
+  Control+Shift+Rotary3          NoAction
+  Control+Shift+Rotary4          NoAction
+  Control+Shift+Rotary5          NoAction
+  Control+Shift+Rotary6          NoAction
+  Control+Shift+Rotary7          NoAction
+  Control+Shift+Rotary8          NoAction
+                                
+  Control+Shift+ButtonUpper1     NoAction
+  Control+Shift+ButtonUpper2     NoAction
+  Control+Shift+ButtonUpper3     NoAction
+  Control+Shift+ButtonUpper4     NoAction
+  Control+Shift+ButtonUpper5     NoAction
+  Control+Shift+ButtonUpper6     NoAction
+  Control+Shift+ButtonUpper7     NoAction
+  Control+Shift+ButtonUpper8     NoAction
+
+  Control+Shift+RotaryPush1     NoAction
+  Control+Shift+RotaryPush2     NoAction
+  Control+Shift+RotaryPush3     NoAction
+  Control+Shift+RotaryPush4     NoAction
+  Control+Shift+RotaryPush5     NoAction
+  Control+Shift+RotaryPush6     NoAction
+  Control+Shift+RotaryPush7     NoAction
+  Control+Shift+RotaryPush8     NoAction
+
+ZoneEnd

@@ -1,0 +1,121 @@
+Zone "VST3: Nectar 3 (iZotope, Inc.)" // EQ 1
+
+  FocusedFXNavigator
+
+  SubZones
+     "VST: Nectar 3 (iZotope, Inc.)-2" //Comp1 + Comp2 + Gate + Deesser
+     "VST: Nectar 3 (iZotope, Inc.)-3" //Delay
+     "VST: Nectar 3 (iZotope, Inc.)-4" //Reverb
+     "VST: Nectar 3 (iZotope, Inc.)-5" //Master + Saturation
+     "VST: Nectar 3 (iZotope, Inc.)-6" //Pitch + Dimension
+  SubZonesEnd
+
+  Rotary1                       FXParam 9 "EQ 1: B1 Frequency"
+  Rotary2                       FXParam 33 "EQ 1: B1 Gain"
+  Rotary3                       FXParam 57 "EQ 1: B1 Q"
+  Rotary4                       FXParam 81 "EQ 1: B1 Threshold"
+  Rotary5                       FXParam 10 "EQ 1: B2 Frequency"
+  Rotary6                       FXParam 34 "EQ 1: B2 Gain"
+  Rotary7                       FXParam 58 "EQ 1: B2 Q"
+  Rotary8                       FXParam 82 "EQ 1: B2 Threshold"
+
+  ButtonUpper1                  FXParam 105 "EQ 1: B1 Shape"  [ 0.0 0.0625 0.125 0.1875 0.25 0.3125 0.375 0.4375 0.5 0.5625 0.625 0.6875 0.75 0.8125 0.875 0.9375 1.0 ]
+  ButtonUpper2                  FXParam 129 "EQ 1: B1 Enable"  [ 0.0 1.0 ]
+  ButtonUpper3                  FXParam 153 "EQ 1: B1 Dyn Mode"  [ 0.0 1.0 ]
+  ButtonUpper4                  FXParam 177 "EQ 1: B1 is Static"  [ 0.0 1.0 ]
+  ButtonUpper5                  FXParam 106 "EQ 1: B2 Shape" [ 0.0 0.0625 0.125 0.1875 0.25 0.3125 0.375 0.4375 0.5 0.5625 0.625 0.6875 0.75 0.8125 0.875 0.9375 1.0 ]
+  ButtonUpper6                  FXParam 130 "EQ 1: B2 Enable" [ 0.0 1.0 ]
+  ButtonUpper7                  FXParam 154 "EQ 1: B2 Dyn Mode" [ 0.0 1.0 ]
+  ButtonUpper8                  FXParam 178 "EQ 1: B2 is Static" [ 0.0 1.0 ]
+
+  RotaryPush1                   Reaper "41749" //Track: Open/close UI for FX #1 on last touched track
+  RotaryPush2                   Reaper "41750" //Track: Open/close UI for FX #2 on last touched track
+  RotaryPush3                   Reaper "41751" //Track: Open/close UI for FX #3 on last touched track
+  RotaryPush4                   Reaper "41752" //Track: Open/close UI for FX #4 on last touched track
+  RotaryPush5                   Reaper "41753" //Track: Open/close UI for FX #5 on last touched track
+  RotaryPush6                   Reaper "41754" //Track: Open/close UI for FX #6 on last touched track
+  RotaryPush7                   Reaper "41755" //Track: Open/close UI for FX #7 on last touched track
+  RotaryPush8                   Reaper "41756" //Track: Open/close UI for FX #8 on last touched track
+
+  Shift+Rotary1                 FXParam 11 "EQ 1: B3 Frequency"
+  Shift+Rotary2                 FXParam 35 "EQ 1: B3 Gain"
+  Shift+Rotary3                 FXParam 59 "EQ 1: B3 Q"
+  Shift+Rotary4                 FXParam 83 "EQ 1: B3 Threshold"
+  Shift+Rotary5                 FXParam 12 "EQ 1: B4 Frequency"
+  Shift+Rotary6                 FXParam 36 "EQ 1: B4 Gain"
+  Shift+Rotary7                 FXParam 60 "EQ 1: B4 Q"
+  Shift+Rotary8                 FXParam 84 "EQ 1: B4 Threshold"
+
+  Shift+ButtonUpper1            FXParam 107 "EQ 1: B3 Shape"  [ 0.0 0.0625 0.125 0.1875 0.25 0.3125 0.375 0.4375 0.5 0.5625 0.625 0.6875 0.75 0.8125 0.875 0.9375 1.0 ]
+  Shift+ButtonUpper2            FXParam 131 "EQ 1: B3 Enable"  [ 0.0 1.0 ]
+  Shift+ButtonUpper3            FXParam 155 "EQ 1: B3 Dyn Mode"  [ 0.0 1.0 ]
+  Shift+ButtonUpper4            FXParam 179 "EQ 1: B3 is Static"  [ 0.0 1.0 ]
+  Shift+ButtonUpper5            FXParam 108 "EQ 1: B4 Shape" [ 0.0 0.0625 0.125 0.1875 0.25 0.3125 0.375 0.4375 0.5 0.5625 0.625 0.6875 0.75 0.8125 0.875 0.9375 1.0 ]
+  Shift+ButtonUpper6            FXParam 132 "EQ 1: B4 Enable" [ 0.0 1.0 ]
+  Shift+ButtonUpper7            FXParam 156 "EQ 1: B4 Dyn Mode" [ 0.0 1.0 ]
+  Shift+ButtonUpper8            FXParam 180 "EQ 1: B4 is Static" [ 0.0 1.0 ]
+
+  Shift+RotaryPush1             GoSubZone "VST3: Nectar 3 (iZotope, Inc.)"   
+  Shift+RotaryPush2             GoSubZone "VST3: Nectar 3 (iZotope, Inc.)-2" 
+  Shift+RotaryPush3             GoSubZone "VST3: Nectar 3 (iZotope, Inc.)-3" 
+  Shift+RotaryPush4             GoSubZone "VST3: Nectar 3 (iZotope, Inc.)-4" 
+  Shift+RotaryPush5             GoSubZone "VST3: Nectar 3 (iZotope, Inc.)-5" 
+  Shift+RotaryPush6             GoSubZone "VST3: Nectar 3 (iZotope, Inc.)-6" 
+  Shift+RotaryPush7             NoAction
+  Shift+RotaryPush8             NoAction
+
+  Control+Rotary1               FXParam 13 "EQ 1: B5 Frequency"
+  Control+Rotary2               FXParam 37 "EQ 1: B5 Gain"
+  Control+Rotary3               FXParam 61 "EQ 1: B5 Q"
+  Control+Rotary4               FXParam 85 "EQ 1: B5 Threshold"
+  Control+Rotary5               FXParam 14 "EQ 1: B6 Frequency"
+  Control+Rotary6               FXParam 38 "EQ 1: B6 Gain"
+  Control+Rotary7               FXParam 62 "EQ 1: B6 Q"
+  Control+Rotary8               FXParam 86 "EQ 1: B6 Threshold"
+
+  Control+ButtonUpper1          FXParam 109 "EQ 1: B5 Shape"  [ 0.0 0.0625 0.125 0.1875 0.25 0.3125 0.375 0.4375 0.5 0.5625 0.625 0.6875 0.75 0.8125 0.875 0.9375 1.0 ]
+  Control+ButtonUpper2          FXParam 133 "EQ 1: B5 Enable"  [ 0.0 1.0 ]
+  Control+ButtonUpper3          FXParam 157 "EQ 1: B5 Dyn Mode"  [ 0.0 1.0 ]
+  Control+ButtonUpper4          FXParam 181 "EQ 1: B5 is Static"  [ 0.0 1.0 ]
+  Control+ButtonUpper5          FXParam 110 "EQ 1: B6 Shape" [ 0.0 0.0625 0.125 0.1875 0.25 0.3125 0.375 0.4375 0.5 0.5625 0.625 0.6875 0.75 0.8125 0.875 0.9375 1.0 ]
+  Control+ButtonUpper6          FXParam 134 "EQ 1: B6 Enable" [ 0.0 1.0 ]
+  Control+ButtonUpper7          FXParam 158 "EQ 1: B6 Dyn Mode" [ 0.0 1.0 ]
+  Control+ButtonUpper8          FXParam 182 "EQ 1: B6 is Static" [ 0.0 1.0 ]
+
+  Control+RotaryPush1           NoAction
+  Control+RotaryPush2           NoAction
+  Control+RotaryPush3           NoAction
+  Control+RotaryPush4           NoAction
+  Control+RotaryPush5           NoAction
+  Control+RotaryPush6           NoAction
+  Control+RotaryPush7           NoAction
+  Control+RotaryPush8           NoAction
+
+  Control+Shift+Rotary1         FXParam 15 "EQ 1: B7 Frequency"
+  Control+Shift+Rotary2         FXParam 39 "EQ 1: B7 Gain"
+  Control+Shift+Rotary3         FXParam 63 "EQ 1: B7 Q"
+  Control+Shift+Rotary4         FXParam 87 "EQ 1: B7 Threshold"
+  Control+Shift+Rotary5         FXParam 16 "EQ 1: B8 Frequency"
+  Control+Shift+Rotary6         FXParam 40 "EQ 1: B8 Gain"
+  Control+Shift+Rotary7         FXParam 64 "EQ 1: B8 Q"
+  Control+Shift+Rotary8         FXParam 88 "EQ 1: B8 Threshold"
+
+  Control+Shift+ButtonUpper1    FXParam 111 "EQ 1: B9 Shape"  [ 0.0 0.0625 0.125 0.1875 0.25 0.3125 0.375 0.4375 0.5 0.5625 0.625 0.6875 0.75 0.8125 0.875 0.9375 1.0 ]
+  Control+Shift+ButtonUpper2    FXParam 135 "EQ 1: B9 Enable"  [ 0.0 1.0 ]
+  Control+Shift+ButtonUpper3    FXParam 159 "EQ 1: B9 Dyn Mode"  [ 0.0 1.0 ]
+  Control+Shift+ButtonUpper4    FXParam 183 "EQ 1: B9 is Static"  [ 0.0 1.0 ]
+  Control+Shift+ButtonUpper5    FXParam 112 "EQ 1: B10 Shape" [ 0.0 0.0625 0.125 0.1875 0.25 0.3125 0.375 0.4375 0.5 0.5625 0.625 0.6875 0.75 0.8125 0.875 0.9375 1.0 ]
+  Control+Shift+ButtonUpper6    FXParam 136 "EQ 1: B10 Enable" [ 0.0 1.0 ]
+  Control+Shift+ButtonUpper7    FXParam 160 "EQ 1: B10 Dyn Mode" [ 0.0 1.0 ]
+  Control+Shift+ButtonUpper8    FXParam 184 "EQ 1: B10 is Static" [ 0.0 1.0 ]
+
+  Control+Shift+RotaryPush1     NoAction
+  Control+Shift+RotaryPush2     NoAction
+  Control+Shift+RotaryPush3     NoAction
+  Control+Shift+RotaryPush4     NoAction
+  Control+Shift+RotaryPush5     NoAction
+  Control+Shift+RotaryPush6     NoAction
+  Control+Shift+RotaryPush7     NoAction
+  Control+Shift+RotaryPush8     NoAction
+
+ZoneEnd
