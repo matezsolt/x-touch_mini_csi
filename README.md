@@ -61,7 +61,7 @@
 | **Encoder** | Track 1 Volume | Track 2 Volume | Track 3 Volume | Track 4 Volume | Track 5 Volume | Track 6 Volume | Track 7 Volume | Track 8 Volume | [FocusedFXParam](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/FocusedFXParam) | - |
 | **Encoder push** | Reset 1 Volume | Reset 2 Volume | Reset 3 Volume | Reset 4 Volume | Reset 5 Volume | Reset 6 Volume | Reset 7 Volume | Reset 8 Volume | - | - |
 | **Button upper** | Track 1 Select | Track 2 Select | Track 3 Select | Track 4 Select | Track 5 Select | Track 6 Select | Track 7 Select | Track 8 Select |  | **Control [X]** |
-| **Button lower** | GoZone "Selected Track" | Close all FX windows | - | - | Toggle count-in | - | Clear All Solo | Delete marker |  | Shift [-] |
+| **Button lower** | GoZone "Selected Track" | Close all FX windows | Dim monitor | Toggle mon output | Toggle count-in | - | Clear All Solo | Delete marker |  | Shift [-] |
 | **Hold+Button lower** | - | - | - | - | - | - | - | - | - | - |
 
 ## Control+Shift+"Home" zone layout
