@@ -37,9 +37,8 @@ Zone "Buttons"
   Property+Control+ButtonLower2   NoFeedback 
   Control+ButtonLower2            GoZone "Home"
   Property+Control+ButtonLower2   NoFeedback 
-  Control+ButtonLower3            Reaper _S&M_CYCLACTION_22   // Dim monitor fx (toggle Mon fx #1)
-  Control+ButtonLower4            Reaper _S&M_CYCLACTION_23   // Change monitor output, Toggle SoundID Reference (toggle Mon fx #2)
-                                                              // and Toggle Monitor Output select to 3/4 (toggle Mon fx #4)
+  Control+ButtonLower3            Reaper _S&M_CYCLACTION_22   // Dim monitor fx (toggle -12dB Dim js)
+  Control+ButtonLower4            Reaper _S&M_CYCLACTION_23   // Select Out 3-4 (toggle Channel Mapper-Downmixer (Cockos) js)
   Control+ButtonLower5            Reaper "_SWS_AWCOUNTRECTOG" // Toggle count-in before recording
   Control+ButtonLower6            NoAction
   Control+ButtonLower7            ClearAllSolo
